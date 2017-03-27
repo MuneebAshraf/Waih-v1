@@ -224,6 +224,7 @@ header{
 
 @media only screen and (min-width: 1170px) {
   .cd-header {
+      background-color: rgba(41, 52, 67, 0.48);
     -webkit-transition: background-color 0.3s;
     -moz-transition: background-color 0.3s;
     transition: background-color 0.3s;
@@ -603,8 +604,8 @@ Hero
     margin-left: 0;
 }
 .logo{
-    width: 13%;
-    left:14px;
+    width:8%;
+    left:35px;
 }
 
 .stor{

@@ -39,17 +39,6 @@ $(document).ready(function() {
 
 /***************** Smooth Scrolling ******************/
 
-var scrolledAmount = 0;
-
-    $(document).scroll(function() {
-        var scrolledAmount = $(document).scrollTop();
-        var scroll_delta = current_scroll_top - old_scroll_top;
-
-        // do something with current_scroll_top and scroll_delta
-
-        old_scroll_top = current_scroll_top;
-    });
-background-color: rgba(41, 52, 67, 0.48);
 
 
 
