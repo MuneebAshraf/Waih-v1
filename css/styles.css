@@ -630,15 +630,17 @@ Hero
 .lille{display: none;}
 
 .podcastF{
-    background-color: rgba(79, 87, 113, 0.77);
-    padding: 2px 0 10px 0;
+    background-image: url(../img/Podcast-Bckg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 12vh 0 3.8vh 0;
 }
 
 .podcastF h2{
     color: #fff;
     font-size: 200%;
     margin: 0;
-    padding: 10px 0;
+    padding: 10px 0 8vh 0;
 }
 
 .podcastF p{
