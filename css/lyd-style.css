@@ -1,0 +1,95 @@
+.apropos{
+    background: url('../img/test.jpeg');
+    background-size: cover; 
+    background-repeat:no-repeat; 
+    padding:20px; 
+    color:#000;
+    font-family: 'Varela Round', sans-serif;
+}
+.familie{
+    background-image: url('../img/familie.jpg');
+    background-size: cover; 
+    background-repeat:no-repeat; 
+    padding:20px; 
+    color:#fff;
+    font-family: 'Varela Round', sans-serif;
+}
+.isbjerget{
+    background-image: url('../img/toppen.JPG');
+    background-size: cover; 
+    background-repeat:no-repeat; 
+    padding:20px; 
+    color:#fff;
+    font-family: 'Varela Round', sans-serif;
+}
+.religiøse{
+    background-image: url('../img/myter.jpg');
+    background-size: cover; 
+    background-repeat:no-repeat; 
+    padding:20px; 
+    color:#fff;
+    font-family: 'Varela Round', sans-serif;
+}
+.samfund{
+    background-image: url('../img/samfund.jpg');
+    background-size: cover; 
+    background-repeat:no-repeat; 
+    padding:20px; 
+    color:#fff;
+    font-family: 'Varela Round', sans-serif;
+}
+.tabu{
+    background-image: url('../img/tabu.jpg');
+    background-size: cover;
+    background-repeat:no-repeat; 
+    padding:20px; 
+    color:#fff;
+    font-family: 'Varela Round', sans-serif;
+}
+.tur-kultur{
+    background-image: url('../img/kultur.JPG');
+    background-size: cover; 
+    background-repeat:no-repeat; 
+    padding:20px; 
+    color:#000;
+    font-family: 'Varela Round', sans-serif;
+}
+
+/* ==========================================================================
+Button
+========================================================================== */
+
+.btn:link,
+.btn:visited,
+input[type=submit] {
+    display: inline-block;
+    float: right;
+    padding: 10px 30px;
+    margin-top: 20px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 5px;
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited,
+input[type=submit] {
+    background-color: #5d767c;
+    border: 1px solid #fff;
+    color: #fff;
+    margin-left: 15px;
+}
+
+.btn:hover,
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active {
+    background-color: #425458;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    border: 1px solid #ffffff;
+}

@@ -1,0 +1,294 @@
+/* 320px (iPhone) */
+@media screen and (max-width:320px) {
+}
+/* 480px (WVGA - Low End Windows Phone) */
+@media screen and (max-width:1199px) {
+	.wrapper { background: #f3f5f8; height: 640px; }
+	.iphone { display: none; }
+	.fluid-white { display: none; }
+	.wp2, .wp4, .wp5, .light-box { margin-bottom: 30px; }
+	.legals { text-align: center; margin: 0; padding: 0; }
+	.credit { text-align: center; }
+}
+/* xGA iPad */
+@media screen and (max-width:1024px) {
+	.wp3 { background-position: 50px 0; }
+	.swag { background-attachment: scroll; }
+	.subscribe { background-attachment: scroll; }
+}
+/* 1200px (Small Desktop, Netbook) */
+@media screen and (max-width:1280px) {
+	.wp3 { background-position: 50px 0; }
+}
+/* Bootstrap 990px Breakpoint to 480px */
+@media screen and (min-width:992px) and (max-width:1199px) {
+	.iphone { display: none; }
+	.fluid-white { display: none; }
+	.wrapper { background: #f3f5f8; height: 540px; }
+	.wp2, .wp4, .wp5, .light-box { margin-bottom: 30px; }
+	.legals { text-align: center; margin: 0; padding: 0; }
+	.credit { text-align: center; }
+    
+    .cd-primary-nav-trigger { display: inline-block;}
+    .cd-secondary-nav{display: none}
+    
+    .main-nav {
+        float: left;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    
+    .headline{
+    font-size: 158%;
+    }
+
+    span.text-content {
+      font-size: 240%;
+      float: left;
+      height: 300px;
+      top: 0;
+      width: 294px;
+    }
+
+}
+
+@media only screen and (min-width:481px) and (max-width: 991px) {
+    
+    .cd-primary-nav-trigger { display: inline-block;}
+    .cd-secondary-nav{display: none}
+    
+    .headline{
+        font-size: 138%;
+    }
+
+    span.text-content {
+      font-size: 400%;
+      float: left;
+      height: 300px;
+      top: 0;
+      width: 628px;
+    }
+
+    .profil img{
+        width: 100%;
+        height: auto;
+        }
+
+    .sound li{
+        width: 100%;
+    }
+    
+    .salah1 li{
+        display: inline;
+    }
+    .salah{
+        display: none;
+    }
+    footer {
+        background-color: #242830;
+        padding: 20px 0 30px;
+        height: 800px;
+    }
+    
+    .os{
+    top: 10%;
+    }
+    .mission{
+    top: 10%;
+    }   
+    
+    .pic{
+    display: block;
+    }
+
+    .pic1{
+    display: none;
+    }
+    
+    .stor-text{
+        font-size: 300%;
+    }
+    @keyframes typing {
+    from { width: 0% }
+    to { width: 50% }
+}
+    
+    .logo{
+        width: 22%;
+        margin-top: 40px;
+    }
+    
+
+
+
+}
+@media only screen and (min-width:0px) and (max-width:480px){
+    
+    .headline{
+    font-size: 128%;
+    margin-top: 50px;
+    }
+    .cd-primary-nav-trigger { display: inline-block;}
+    .cd-secondary-nav{display: none}
+    
+    .overlay-effect .img i { font-size: 50px; }
+    
+    .overlay-effect .overlay a.expand {bottom: 45%;}
+    
+    .effects .img { margin-bottom: 50px;}
+    
+    .profil img{
+        width: 100%;
+        height: auto;
+    
+    }
+    
+    input[type=range] {
+        display: none;
+        width: 70%;
+        margin-left: 45%;
+        margin-top: 25%;
+    }
+    
+    .inner img{
+        width: 340px;
+        margin-top: -190px;
+    }
+    
+    .pic{
+    display: none;
+    }
+
+    .pic1{
+    display: block;
+    }
+    
+    .pic1 img{
+    width: 100%;
+    }
+    
+    .container-p{
+        margin-left: 12%;
+	}
+    
+    .compact{
+        display: block;
+    }
+    
+    .full{
+      display: none;  
+    }
+    
+    .salah1 li{
+        display: inline;
+    }
+    .salah{
+        display: none;
+    }
+    
+    .cd-intro{
+        padding: 0;
+    }
+    
+    .hero { 
+        background:linear-gradient(rgba(160, 152, 125, 0.7), rgba(160, 152, 125, 0.7)), url('../img/hero-bgM.jpg');
+        background-repeat: no-repeat;
+        background-position: 70% 100%;
+        padding: 0 0 20px 0;
+    }
+    
+    .lille{
+        display: block;
+        color: #fff;
+        font-size: 400%;
+        padding: 18vh 0 0 0;
+        text-transform: uppercase;
+        font-family: 'Anton', sans-serif;
+        letter-spacing: 2px;
+        margin-left: 25px;
+    }
+    
+    .podcastF{
+    background-color: #AE9D75;
+    float: none;
+    }
+    
+    .podcastF p{
+        margin-top: -40px;
+    }
+    
+    .podcast.col-md-12{
+        margin-left: 60px;
+        padding: 0;
+    }
+    .col-md-6{
+        padding: 0;
+    }
+    .container{
+        padding: 0;
+    }
+    
+    .logo{
+        float: left;
+        width: 25%;
+        margin-top: 40px;
+    }
+    
+    
+    .stor{display: none;}
+    
+    .btn:link,
+    .btn:visited,
+    input[type=submit] {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 5px;
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+    
+    .live{
+        display: none;
+    }
+
+    .tid{
+        display: none;
+    }
+    .app{
+        display: none;
+    }
+    footer {
+        height: 750px;
+    }
+    .mLogo{
+        display: block;
+        width: 80%;
+        margin-top: 10%;
+        margin-bottom: 50px;
+        margin-left: 20px;
+    }
+    .os{
+        top:15%;
+    }
+    .mission{
+        top:15%;
+    }
+    
+    .os{font-size: 120%;}
+    .mission{font-size: 120%;}
+    
+}
