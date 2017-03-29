@@ -1,5 +1,11 @@
 jQuery(document).ready(function($){
 
+
+/***************** on click og hover **************/
+
+
+
+
 /***************** Waypoints ******************/
 
 $(document).ready(function() {

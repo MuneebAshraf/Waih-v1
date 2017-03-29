@@ -203,7 +203,7 @@ body.overflow-hidden {
 }
 
 header{
-  background-color: #94c3ce;
+  background-color: #4ad8f5;
   position: absolute;
   top: 0;
   left: 0;
@@ -284,7 +284,7 @@ header h1{
 }
 
 .cd-secondary-nav li a:hover, .cd-secondary-nav li a:active {
-    border-bottom: 2px solid #94c3ce;
+    border-bottom: 2px solid #4ad8f5;
 }
 .cd-secondary-nav li {
   display: inline-block;
@@ -613,6 +613,8 @@ Hero
 }
 
 .stor-text{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
     color: #fff;
     font-size: 400%;
     padding: 18vh 0 15vh 8vw;
@@ -632,7 +634,7 @@ Hero
 .podcastF{
     background-image: url(../img/Podcast-Bckg.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     padding: 12vh 0 3.8vh 0;
 }
 
@@ -642,11 +644,18 @@ Hero
     margin: 0;
     padding: 10px 0 8vh 0;
 }
-
-.podcastF p{
+.PodcastHeader{
+    padding-left: 0;
     color: #4ad8f5;
     margin: 0;
     font-size: 150%;
+}
+.senestePodcasts{
+    margin-bottom: 3em;
+}
+.mike {
+    width:70px;
+
 }
 
 
@@ -718,7 +727,7 @@ Bottom-bar
 		width:60%;
 		float: left;
 		color:#fff;
-		border-bottom:7px solid #94c3ce;
+		border-bottom:7px solid #4ad8f5;
 	}
 
 	.container-p strong{
@@ -741,7 +750,7 @@ Bottom-bar
 
 	.radioco-playButton{
 
-	  color: #7ba5bc;
+	  color: #4ad8f5;
 	  position: relative;
 	  text-align: center;
 	  position: relative;
@@ -757,7 +766,7 @@ Bottom-bar
 	  font-family: "controls";
 	  position: absolute;
 	  text-size:150%;
-      color: #7ba5bc;
+      color: #4ad8f5;
 	  position: relative;
 	  text-align: center;
 	  position: relative;
@@ -771,7 +780,7 @@ Bottom-bar
 	  font-family: "controls";
 	  position: absolute;
 	  text-size:150%;
-      color: #94c3ce;
+      color: #4ad8f5;
 	  position: relative;
 	  text-align: center;
 	  position: relative;
@@ -877,7 +886,7 @@ Subscribe
 
 .subscribe input[type=submit]:hover { 
     background: rgb(148, 195, 206); 
-    border: solid 1px #94c3ce; 
+    border: solid 1px #4ad8f5; 
     color: #fff; 
 }
 
@@ -897,6 +906,31 @@ Subscribe
 .error{
     background-color: rgba(214, 0, 0, 0.6);
 }
+
+.effects .img img { display: block; margin: 0; padding: 0; height: auto; }
+.overlay { display: block; position: absolute; z-index: 20; background: rgba(148, 195, 206, 0.8); overflow: hidden; transition: all 0.5s; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s;width: -webkit-calc(100% + 10px) !important; width: calc(100% + 10px) }
+.overlay-effect .overlay { bottom: 0; left: -25px; right: 0; width: 100%; height: 100%; opacity: 0; }
+.overlay-effect .overlay a.expand { left: 0; right: 0; bottom: 47%;  }
+.overlay-effect .img:hover .overlay { height: 100%; opacity: 1; }
+.img img { width: -webkit-calc(100% + 40px) !important; width: calc(100% + 40px) !important; -webkit-transition: opacity 0.35s, -webkit-transform 0.35s; transition: opacity 0.35s, transform 0.35s; -moz-transition: opacity 0.35s, -moz-transform 0.35s; -o-transition: opacity 0.35s, -o-transform 0.35s; }
+.designs { position: absolute; left: 0; right: 0; margin-left: auto; margin-right: auto; top: 50px; }
+
+/* ==========================================================================
+Om
+========================================================================== */
+.omOs{
+    background-image: linear-gradient(rgba(80, 80, 80, 0.84), rgba(80, 80, 80, 0.84)), url("../img/omBackground.jpg");
+    background-size: cover;
+    padding:80px;
+}
+.omOs h2{
+    color: #4ad8f5;
+}
+.omOs p{
+    color: #fff;
+}
+
+
 /* ==========================================================================
 Footer
 ========================================================================== */
@@ -905,7 +939,7 @@ footer a { color: #a1a9b0; }
 footer { 
     background-color: #242830; 
     padding: 20px 0 30px;
-    height: 500px;
+    height: 150px;
 }
 footer p { color: #fff; }
 ul.legals { list-style: none; color: #fff; line-height: 25px; }
