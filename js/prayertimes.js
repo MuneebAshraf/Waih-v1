@@ -2,7 +2,7 @@
  * Created by bachirkurdi on 01/02/17.
  */
 getToday();
-
+currentPrayer();
 
 var fajr;
 var shuruk;
@@ -10,6 +10,7 @@ var dhuhur;
 var asr;
 var maghrib;
 var ishaa;
+
 
 function getToday() {
     var today = new Date();
@@ -397,14 +398,56 @@ function getToday() {
     }
 }
 
+function currentPrayer() {
+    var time = new Date();
+    var hh = time.getHours();
+    var mm = time.getMinutes();
+
+    console.log(time.getHours())
+    if(hh < 10){
+        hh = '0' + time.getHours();
+    } else{
+        hh = time.getHours();
+    }
+
+    time = hh + ':' + mm;
+    console.log(time)
+
+    var Fajr = $(".fajr"), Shuruk = $(".shuruk"), Dhuhur = $(".dhuhur"), Asr = $(".asr"), Maghrib = $(".maghrib"), Ishaa = $(".ishaa");
+
+
+    if (ishaa <= time){
+        Fajr.removeClass("currentPrayer");
+        Ishaa.addClass("currentPrayer");
+    } else if (maghrib <= time){
+        Ishaa.removeClass("currentPrayer");
+        Maghrib.addClass("currentPrayer")
+    } else if (asr <= time){
+        Maghrib.removeClass("currentPrayer");
+        Asr.addClass("currentPrayer")
+    } else if (dhuhur <= time){
+        Asr.removeClass("currentPrayer");
+        Dhuhur.addClass("currentPrayer")
+    } else if (shuruk <= time){
+        Dhuhur.removeClass("currentPrayer");
+        Shuruk.addClass("currentPrayer")
+    } else if (fajr <= time){
+        Shuruk.removeClass("currentPrayer");
+        Ishaa.removeClass("currentPrayer");
+        Fajr.addClass("currentPrayer")
+    } else {
+        Ishaa.addClass("currentPrayer");
+    }
+
+}
 
 function append() {
     $(".salah").prepend(
-        "<li> <p>Fajr<br>"                + fajr   + "</p>" + "</li>" +
-        "<li> <p>Shuruk<br>"              + shuruk + "</p>" + "</li>" +
-        "<li> <p>Dhuhur<br>"              + dhuhur + "</p>" + "</li>" +
-        "<li> <p>Asr<br>"                 + asr    + "</p>" + "</li>" +
-        "<li> <p>Maghrib<br>"             + maghrib+ "</p>" + "</li>" +
-        "<li> <p class='isha'>Isha<br>"   + ishaa  + "</p>" + "</li>"
+        "<li> <p class='fajr'>   Fajr<br>"        + fajr   + "</p>" + "</li>" +
+        "<li> <p class='shuruk'> Shuruk<br>"    + shuruk + "</p>" + "</li>" +
+        "<li> <p class='dhuhur'> Dhuhur<br>"    + dhuhur + "</p>" + "</li>" +
+        "<li> <p class='asr'>    Asr<br>"          + asr    + "</p>" + "</li>" +
+        "<li> <p class='maghrib'>Maghrib<br>"  + maghrib+ "</p>" + "</li>" +
+        "<li> <p class='ishaa'>  Isha<br>"       + ishaa  + "</p>" + "</li>"
     )
 }
