@@ -61,10 +61,9 @@ function js_audioPlayer(location,file, name) {
                 "</div>"+
                 "</div>"+
                 "</div>");
-            $("#samfundPlayerText"+location).append(
-                "<div id='jquery_jplayer_"+location+"' class=jp-jplayer'></div>");
 
             $("#jquery_jplayer_" + location).before("<h3>"+name+"</h3>");
+            $("#samfundPlayerText"+location).append("<h3>"+name+"</h3>");
             jQuery("#jquery_jplayer_" + location).jPlayer( {
                 ready: function () {
                     jQuery(this).jPlayer("setMedia", {

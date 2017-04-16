@@ -10,7 +10,7 @@ js_audioPlayer(5,"audio/05-03-2017.mp3",  "Vært: Haisam Talat & Bamba Diop<br>E
 js_audioPlayer(4,"audio/12-03-2017.mp3", "Vært: Haisam Talat & Bamba Diop<br>Emne: De 7 gyldne råd til børneopdragelse Del2<br>Gæst: Waseem Rana");
 js_audioPlayer(3,"audio/19-03-2017.mp3", "Vært: Haisam Talat<br>Emne: Kriminelle liv VS Familie liv<br>Gæst: Raza");
 js_audioPlayer(2,"audio/26-03-2017.mp3", "Vært: Haisam Talat<br>Emne: En sjov familieting<br>Gæst: Hussam Al-Mashadani");
-js_audioPlayer(1,"audio/15-04-2017.mp3",  "Vært: Haisam Talat<br>Emne: Hjælp mine børn er på gaden<br>Gæst: Omar & Abduljalil");
+js_audioPlayer(1,"audio/15-03-2017.mp3",  "Vært: Haisam Talat<br>Emne: Hjælp mine børn er på gaden<br>Gæst: Omar & Abduljalil");
 
 
 
@@ -59,10 +59,9 @@ function js_audioPlayer(location,file, name) {
                 "</div>"+
                 "</div>"+
                 "</div>");
-            $("#familiePlayerText"+location).append(
-                "<div id='jquery_jplayer_"+location+"' class=jp-jplayer'></div>");
 
             $("#jquery_jplayer_" + location).before("<h3>"+name+"</h3>");
+            $("#familiePlayerText"+location).append("<h3>"+name+"</h3>");
             jQuery("#jquery_jplayer_" + location).jPlayer( {
                 ready: function () {
                     jQuery(this).jPlayer("setMedia", {

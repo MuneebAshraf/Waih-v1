@@ -3,19 +3,16 @@
  */
 
 
-js_audioPlayer(10, "audio/07:02-2017.mp3","Vært: Abu Karim<br>Profil: Nødhjælpsarbejder, skuespiller og meget andet<br>Gæst: Khalid Alsubeihi");
-js_audioPlayer(9,"audio/14:02-2017.mp3", "Vært: Abu Karim<br>Profil: Professionel fighter & sociale pædagog<br>Gæst: Rhassan Muhareb");
-js_audioPlayer(8,"audio/21:02-2017.mp3",  "Vært: Abu Karim<br>Profil: Tidligere topkriminel<br>Gæst: Abu Yunes");
-js_audioPlayer(7,"audio/28:02-2017.mp3",  "Vært: Abu Karim<br>Profil: Ung iværksætter<br>Gæst: Kareem Ahmed");
-js_audioPlayer(6,"audio/07-03-2017.mp3", "Vært: Abu Karim<br>Profil: Dokumentarist & forfatter<br>Gæst: Nagieb Khaja");
-js_audioPlayer(5,"audio/14-03-2017.mp3", "Vært: Abu Karim<br>Profil: Stifter af Kamelmælk Danmark<br>Gæst: Pernille Lykke Christoffersen");
-js_audioPlayer(4,"audio/21-03-2017.mp3", "Værter: Abu Karim<br>Emne: Mohammad Ali<br>Gæst: Saleh Mbamba");
-js_audioPlayer(3,"audio/28-03-2017.mp3",  "Værter: Abu Karim<br>Emne: Radio WAIH<br>Gæst:");
-js_audioPlayer(2,"audio/04-04-2017.mp3",  "Værter: Abu Karim<br>Profil: Verdenskendte nasheed-sanger<br>Gæst: Mohanad Mansour");
-js_audioPlayer(1,"audio/13-03-2017.mp3",  "Værter: Aysha Farooqui<br>Profil: Læge og medstifter af NGO<br>Gæst: Uswa Nissar Anjum");
-
-
-
+js_audioPlayer(10,"audio/07:02-2017.mp3","Vært: Abu Karim<br>Profil: Nødhjælpsarbejder, skuespiller og meget andet<br>Gæst: Khalid Alsubeihi");
+js_audioPlayer(9 ,"audio/14:02-2017.mp3", "Vært: Abu Karim<br>Profil: Professionel fighter & sociale pædagog<br>Gæst: Rhassan Muhareb");
+js_audioPlayer(8 ,"audio/21:02-2017.mp3",  "Vært: Abu Karim<br>Profil: Tidligere topkriminel<br>Gæst: Abu Yunes");
+js_audioPlayer(7 ,"audio/28:02-2017.mp3",  "Vært: Abu Karim<br>Profil: Ung iværksætter<br>Gæst: Kareem Ahmed");
+js_audioPlayer(6 ,"audio/07-03-2017.mp3", "Vært: Abu Karim<br>Profil: Dokumentarist & forfatter<br>Gæst: Nagieb Khaja");
+js_audioPlayer(5 ,"audio/14-03-2017.mp3", "Vært: Abu Karim<br>Profil: Stifter af Kamelmælk Danmark<br>Gæst: Pernille Lykke Christoffersen");
+js_audioPlayer(4 ,"audio/21-03-2017.mp3", "Værter: Abu Karim<br>Emne: Mohammad Ali<br>Gæst: Saleh Mbamba");
+js_audioPlayer(3 ,"audio/28-03-2017.mp3",  "Værter: Abu Karim<br>Emne: Radio WAIH<br>Gæst:");
+js_audioPlayer(2 ,"audio/04-04-2017.mp3",  "Værter: Abu Karim<br>Profil: Verdenskendte nasheed-sanger<br>Gæst: Mohanad Mansour");
+js_audioPlayer(1 ,"audio/13-03-2017.mp3",  "Værter: Aysha Farooqui<br>Profil: Læge og medstifter af NGO<br>Gæst: Uswa Nissar Anjum");
 
 
 function js_audioPlayer(location,file, name) {
@@ -61,10 +58,11 @@ function js_audioPlayer(location,file, name) {
                 "</div>"+
                 "</div>"+
                 "</div>");
-            $("#isbjergetPlayerText"+location).append(
-                "<div id='jquery_jplayer_"+location+"' class=jp-jplayer'></div>");
+
+            $("#isbjergetPlayerText").append(name);
 
             $("#jquery_jplayer_" + location).before("<h3>"+name+"</h3>");
+            $("#isbjergetPlayerText" + location).append("<h3>"+name+"</h3>");
             jQuery("#jquery_jplayer_" + location).jPlayer( {
                 ready: function () {
                     jQuery(this).jPlayer("setMedia", {
