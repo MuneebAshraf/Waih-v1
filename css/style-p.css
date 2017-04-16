@@ -196,7 +196,7 @@ body.overflow-hidden {
 }
 
 header{
-  background-color: #94c3ce;
+  background-color: #4ad8f5;
   position: absolute;
   top: 0;
   left: 0;
@@ -217,7 +217,7 @@ header{
 
 @media only screen and (min-width: 0) {
   .cd-header {
-    background: #94c3ce;
+    background-color: #4ad8f5;
   }
 }
 
