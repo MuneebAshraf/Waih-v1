@@ -455,22 +455,22 @@ function append() {
         "<li> <p class='ishaa'>  Isha<br>"       + ishaa  + "</p>" + "</li>"
     );
     $(".fajrMobil").append(
-        fajr
+        "<p>Fajr<br>"+fajr+"</p>"
     );
     $(".shurukMobil").append(
-        shuruk
+        "<p>Shuruk<br>"+shuruk+"</p>"
     );
     $(".dhuhurMobil").append(
-        dhuhur
+        "<p>Dhuhur<br>"+dhuhur+"</p>"
     );
     $(".asrMobil").append(
-        asr
+       "<p>Asr<br>"+asr+"</p>"
     );
     $(".maghribMobil").append(
-        maghrib
+        "<p>Maghrib<br>"+maghrib+"</p>"
     );
-    $(".ishamobil").append(
-        ishaa
+    $(".ishaMobil").append(
+        "<p>Isha<br>"+ishaa+"</p>"
     );
 
 };

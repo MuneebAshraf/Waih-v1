@@ -664,7 +664,8 @@ Hero
 }
 
 .salahMobil{
-   width: 60px;
+    text-align: center;
+    width: 60px;
     height: 60px;
     border-radius: 50%;
     background-color: #243036;
@@ -680,11 +681,38 @@ Hero
 }
 
 .fajrMobil{z-index: 0;}
+.fajrMobil p{
+    color: #fff;
+    line-height: 16px;
+}
 .shurukMobil{z-index: 10;}
+.shurukMobil p{
+    color: #fff;
+    line-height: 16px;
+    letter-spacing: -1px;
+}
 .dhuhurMobil{z-index: 20;}
+.dhuhurMobil p{
+    color: #fff;
+    line-height: 16px;
+    letter-spacing: -1px;
+}
 .asrMobil{z-index: 30;}
+.asrMobil p{
+    color: #fff;
+    line-height: 16px;
+}
 .maghribMobil{z-index: 40;}
+.maghribMobil p{
+    color: #fff;
+    line-height: 16px;
+    letter-spacing: -1px;
+}
 .ishaMobil{z-index: 50;}
+.ishaMobil p{
+    color: #fff;
+    line-height: 16px;
+}
 
 
 .fajrMobilActive{z-index: 0; bottom:490px}
