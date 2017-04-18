@@ -1,9 +1,7 @@
 jQuery(document).ready(function($){
 
 
-/***************** on click og hover **************/
-
-
+/***************** mobil salah tider **************/
 
 
 /***************** Waypoints ******************/

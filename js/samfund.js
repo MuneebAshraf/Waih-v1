@@ -1,8 +1,3 @@
-/**
- * Created by muneebashraf on 20/02/2017.
- */
-
-
 js_audioPlayer(10, "audio/02:02-2017.mp3","Vært: Elias Rama<br>Emne: Er muslimerne ved at blive medie-fobiske<br> Gæst: Omar El-Khatib");
 js_audioPlayer(9,"audio/09:02-2017.mp3","Vært: Elias Rama<br>Emen: Dansk muslim med albanske rødder<br> Gæst:Belkisa Selmani");
 js_audioPlayer(8,"audio/16:02-2017.mp3","Vært: Elias Rama<br>Emne: Bør islam reformeres?<br>Gæst: Taimullah Abu Laban");
@@ -61,6 +56,7 @@ function js_audioPlayer(location,file, name) {
                 "</div>"+
                 "</div>"+
                 "</div>");
+
 
             $("#jquery_jplayer_" + location).before("<h3>"+name+"</h3>");
             $("#samfundPlayerText"+location).append("<h3>"+name+"</h3>");
