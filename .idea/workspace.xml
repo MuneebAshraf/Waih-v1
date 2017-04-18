@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b6aeb07-2a01-4a66-9fdb-45a187aa112c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/prayertimes.js" afterPath="$PROJECT_DIR$/js/prayertimes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/scripts.js" afterPath="$PROJECT_DIR$/js/scripts.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,8 +25,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1290">
-              <caret line="86" column="39" lean-forward="false" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
+            <state relative-caret-position="945">
+              <caret line="63" column="62" lean-forward="false" selection-start-line="63" selection-start-column="62" selection-end-line="63" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -38,8 +35,8 @@
       <file leaf-file-name="prayertimes.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/prayertimes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="49" lean-forward="true" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+            <state relative-caret-position="75">
+              <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -58,8 +55,8 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10650">
-              <caret line="710" column="44" lean-forward="false" selection-start-line="710" selection-start-column="44" selection-end-line="710" selection-end-column="44" />
+            <state relative-caret-position="10575">
+              <caret line="705" column="39" lean-forward="false" selection-start-line="705" selection-start-column="39" selection-end-line="705" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -78,11 +75,20 @@
       <find>addClass</find>
       <find>checkTime();</find>
       <find>p{</find>
+      <find>currentPrayerMobileActive</find>
+      <find>toggleClass</find>
+      <find>mobil</find>
+      <find>mobile</find>
+      <find>fajr</find>
     </findStrings>
     <replaceStrings>
       <replace>addClass(&quot;currentPrayerMobileActive&quot;)</replace>
       <replace>currentPrayerMobileActive</replace>
       <replace>toggleClass</replace>
+      <replace>currentPrayerMobile</replace>
+      <replace>addClass</replace>
+      <replace>mobil</replace>
+      <replace>Mobil</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -92,8 +98,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/styles.css" />
         <option value="$PROJECT_DIR$/js/scripts.js" />
+        <option value="$PROJECT_DIR$/css/styles.css" />
         <option value="$PROJECT_DIR$/js/prayertimes.js" />
       </list>
     </option>
@@ -124,6 +130,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -152,7 +159,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -252,7 +258,11 @@
       <option name="presentableId" value="Default" />
       <updated>1492511546582</updated>
       <workItem from="1492511548752" duration="5000" />
-      <workItem from="1492513831100" duration="31000" />
+      <workItem from="1492513831100" duration="1281000" />
+      <workItem from="1492514179663" duration="1090000" />
+      <workItem from="1492514246809" duration="596000" />
+      <workItem from="1492514125886" duration="2308000" />
+      <workItem from="1492513926995" duration="51000" />
     </task>
     <task id="LOCAL-00001" summary="Salahtider på mobil WIP">
       <created>1492513042431</created>
@@ -268,17 +278,24 @@
       <option name="project" value="LOCAL" />
       <updated>1492513421163</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Salahtider på mobil WIP">
+      <created>1492513879048</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1492513879049</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7591000" />
+    <option name="totallyTimeSpent" value="12886000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="73" y="0" width="1361" height="809" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18283582" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914925" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -467,13 +484,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/isbjerget.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="64" column="77" lean-forward="true" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/UpToDate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -656,10 +666,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/isbjerget.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6">
+          <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1290">
-          <caret line="86" column="39" lean-forward="false" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
+        <state relative-caret-position="945">
+          <caret line="63" column="62" lean-forward="false" selection-start-line="63" selection-start-column="62" selection-end-line="63" selection-end-column="62" />
           <folding />
         </state>
       </provider>
@@ -672,18 +689,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/prayertimes.js">
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="49" lean-forward="true" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+        <state relative-caret-position="10575">
+          <caret line="705" column="39" lean-forward="false" selection-start-line="705" selection-start-column="39" selection-end-line="705" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
+    <entry file="file://$PROJECT_DIR$/js/prayertimes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10650">
-          <caret line="710" column="44" lean-forward="false" selection-start-line="710" selection-start-column="44" selection-end-line="710" selection-end-column="44" />
+        <state relative-caret-position="75">
+          <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
           <folding />
         </state>
       </provider>

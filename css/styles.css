@@ -664,12 +664,12 @@ Hero
 }
 
 .salahMobil{
+    border:2px solid rgba(255, 255, 255, 0);
     text-align: center;
     width: 60px;
     height: 60px;
     border-radius: 50%;
     background-color: #243036;
-    border-color: transparent;
     position: fixed;
     bottom: 75px;
     right: 10px;
@@ -707,16 +707,12 @@ Hero
 .ishaMobil p{
     line-height: 16px;
 }
-.currentPrayerMobileActive{
+.currentPrayerMobil{
     border:2px solid rgba(255, 255, 255, 0);
     color: #fff !important;
     animation: border 1s linear;
-    animation-delay: 1s;
+    animation-delay: 0.8s;
     animation-fill-mode: forwards;
-}
-.currentPrayerMobile{
-    color: #fff !important;
-    border:2px solid rgba(255, 255, 255, 0);
 }
 
 @keyframes border {

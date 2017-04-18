@@ -3,8 +3,7 @@
  */
 checkDate();
 currentPrayer();
-var checkTimeLoop = setInterval(currentPrayer, 10000);
-var checkTimeLoopMobile = setInterval(currentPrayer, 10000);
+var checkTimeLoop = setInterval(currentPrayer, 5000);
 
 var fajr;
 var shuruk;
@@ -12,10 +11,11 @@ var dhuhur;
 var asr;
 var maghrib;
 var ishaa;
-
+var nottrue=false;
+var checkTimeLoopMobil;
 
 $(document).on('click','.salahButton',function () {
-    currentPrayerMobile();
+    loop();
     $(".fajrMobil").toggleClass("fajrMobilActive");
     $(".shurukMobil").toggleClass("shurukMobilActive");
     $(".dhuhurMobil").toggleClass("dhuhurMobilActive");
@@ -24,8 +24,21 @@ $(document).on('click','.salahButton',function () {
     $(".ishaMobil").toggleClass("ishaMobilActive");
 });
 
+function loop() {
+    currentPrayerMobil();
+    if(!nottrue){
+        checkTimeLoopMobil = setInterval(currentPrayerMobil, 5000);
+    }
+    if(nottrue){
+        clearInterval(checkTimeLoopMobil);
+        $(".salahMobil").removeClass('currentPrayerMobil');
+        nottrue = false;
+    } else {
+        nottrue = true;
+    }
+}
 
-function currentPrayerMobile() {
+function currentPrayerMobil() {
     var time = new Date();
     var hh = time.getHours();
     var mm = time.getMinutes();
@@ -52,25 +65,25 @@ function currentPrayerMobile() {
         IshaaMobil   =$(".ishaMobil");
 
     if (ishaa <= time){
-        MaghribMobil.removeClass("currentPrayerMobile");
-        IshaaMobil.toggleClass("currentPrayerMobileActive")
+        MaghribMobil.removeClass("currentPrayerMobil");
+        IshaaMobil.addClass("currentPrayerMobil")
     } else if (maghrib <= time){
-        AsrMobil.removeClass("currentPrayerMobile");
-        MaghribMobil.toggleClass("currentPrayerMobileActive")
+        AsrMobil.removeClass("currentPrayerMobil");
+        MaghribMobil.addClass("currentPrayerMobil")
     } else if (asr <= time){
-        DhuhurMobil.removeClass("currentPrayerMobile");
-        AsrMobil.toggleClass("currentPrayerMobileActive")
+        DhuhurMobil.removeClass("currentPrayerMobil");
+        AsrMobil.addClass("currentPrayerMobil")
     } else if (dhuhur <= time){
-        ShurukMobil.removeClass("currentPrayerMobile");
-        DhuhurMobil.toggleClass("currentPrayerMobileActive")
+        ShurukMobil.removeClass("currentPrayerMobil");
+        DhuhurMobil.addClass("currentPrayerMobil")
     } else if (shuruk <= time){
-        FajrMobil.removeClass("currentPrayerMobile");
-        ShurukMobil.toggleClass("currentPrayerMobileActive")
+        FajrMobil.removeClass("currentPrayerMobil");
+        ShurukMobil.addClass("currentPrayerMobil")
     } else if (fajr <= time){
-        IshaaMobil.removeClass("currentPrayerMobile");
-        FajrMobil.toggleClass("currentPrayerMobileActive")
+        IshaaMobil.removeClass("currentPrayerMobil");
+        FajrMobil.addClass("currentPrayerMobil")
     } else {
-        IshaaMobil.toggleClass("currentPrayerMobileActive");
+        IshaaMobil.addClass("currentPrayerMobil");
     }
 }
 
@@ -92,6 +105,7 @@ function currentPrayer() {
     }
 
     time = hh + ':' + mm;
+
     var Fajr    = $(".fajr")   ,
         Shuruk  = $(".shuruk") ,
         Dhuhur  = $(".dhuhur") ,
