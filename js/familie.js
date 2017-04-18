@@ -1,8 +1,3 @@
-/**
- * Created by muneebashraf on 20/02/2017.
- */
-
-
 js_audioPlayer(8, "audio/05:02-2017.mp3","Vært: Haisam Talat<br>Emne: Familien i et sociologisk perspektiv<br>Gæst: Sociolog, Ahmad Durani");
 js_audioPlayer(7,"audio/19:02-2017.mp3", "Værter: Haisam Talat & Bamba Diop<br>Emne: Den alternative familie fra gaden<br>Gæst: Abdel Jalil Lundberg");
 js_audioPlayer(6,"audio/26:02-2017.mp3",  "Vært: Haisam Talat<br>Emne: En sjov familieting<br>Gæst: Abdullah Gh.");
@@ -10,7 +5,7 @@ js_audioPlayer(5,"audio/05-03-2017.mp3",  "Vært: Haisam Talat & Bamba Diop<br>E
 js_audioPlayer(4,"audio/12-03-2017.mp3", "Vært: Haisam Talat & Bamba Diop<br>Emne: De 7 gyldne råd til børneopdragelse Del2<br>Gæst: Waseem Rana");
 js_audioPlayer(3,"audio/19-03-2017.mp3", "Vært: Haisam Talat<br>Emne: Kriminelle liv VS Familie liv<br>Gæst: Raza");
 js_audioPlayer(2,"audio/26-03-2017.mp3", "Vært: Haisam Talat<br>Emne: En sjov familieting<br>Gæst: Hussam Al-Mashadani");
-js_audioPlayer(1,"audio/15-03-2017.mp3",  "Vært: Haisam Talat<br>Emne: Hjælp mine børn er på gaden<br>Gæst: Omar & Abduljalil");
+js_audioPlayer(1,"audio/09-04-2017.mp3",  "Vært: Haisam Talat<br>Emne: Hjælp mine børn er på gaden<br>Gæst: Omar Achikhane & Abduljalil Lundberg");
 
 
 

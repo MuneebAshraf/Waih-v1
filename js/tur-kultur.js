@@ -1,7 +1,3 @@
-/**
- * Created by muneebashraf on 20/02/2017.
- */
-
 
 js_audioPlayer(8,"audio/08:02-2017.mp3","Vært: Aysha Farooqui<br>Emne: Kulturens rolle hos danske muslimer<br>Gæst: Kaoutar Elhamss");
 js_audioPlayer(7,"audio/01:03-2017.mp3","Vært: Johannes<br>Emne: Fordomme og diskrimination<br>Gæst: Alisher Ceran");
@@ -9,7 +5,7 @@ js_audioPlayer(6,"audio/15-03-2017.mp3", "Vært: Johannes<br>Emne: Hadsforbrydel
 js_audioPlayer(5,"audio/22-03-2017.mp3",  "Vært: Johannes<br>Emne: Danske muslimer med pakistanske rødder<br>Gæst: Arsal Tahseen");
 js_audioPlayer(4,"audio/29-03-2017.mp3", "Vært: Johannes<br>Emne: Danske muslimer med somaliske rødder<br>Gæst: Adam & Abdighani");
 js_audioPlayer(3,"audio/05-04-2017.mp3", "Vært: Johannes<br>Emne: Danske muslimer med jyske rødder<br>Gæst: Dean Abdullah");
-js_audioPlayer(2,"audio/En tur med kultr.mp3", "Test7");
+js_audioPlayer(2,"audio/12-04-2017.mp3", "Vært: Johannes<br>Emne: Danske muslimer med albanske rødder<br>Gæst: Lavdrim Elmazi");
 js_audioPlayer(1,"audio/En tur med kultu.mp3",  "Test8");
 
 
