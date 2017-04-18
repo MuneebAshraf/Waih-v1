@@ -178,7 +178,7 @@ Global Styles
 ========================================================================== */
 a { color: #353535; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
 a:hover, a:focus { color: #3dc9b3; text-decoration: none; }
-p { color: #8c9398; word-spacing: 1px; line-height: 25px; font-size: 14px; }
+p { word-spacing: 1px; line-height: 25px; font-size: 14px; }
 h2 { font-size: 35px; color: #353535; text-transform: uppercase; font-weight: bold; }
 h2::after { content: " "; display: block; }
 .section-padding { padding: 90px 0 100px }
@@ -652,10 +652,10 @@ Hero
     border-radius: 50%;
     background-color: #243036;
     border-color: transparent;
-    position: absolute;
+    position: fixed;
     bottom: 75px;
     right: 10px;
-    z-index: 60;
+    z-index: 7;
 }
 
 .salahButton img{
@@ -670,7 +670,7 @@ Hero
     border-radius: 50%;
     background-color: #243036;
     border-color: transparent;
-    position: absolute;
+    position: fixed;
     bottom: 75px;
     right: 10px;
     -webkit-transition: all 0.8s ease;
@@ -680,47 +680,55 @@ Hero
     transition: all 0.8s ease;
 }
 
-.fajrMobil{z-index: 0;}
+.fajrMobil{z-index: 1;  color: #ababab;}
 .fajrMobil p{
-    color: #fff;
     line-height: 16px;
 }
-.shurukMobil{z-index: 10;}
+.shurukMobil{z-index: 2; color: #ababab;}
 .shurukMobil p{
-    color: #fff;
     line-height: 16px;
     letter-spacing: -1px;
 }
-.dhuhurMobil{z-index: 20;}
+.dhuhurMobil{z-index: 3; color: #ababab;}
 .dhuhurMobil p{
-    color: #fff;
     line-height: 16px;
     letter-spacing: -1px;
 }
-.asrMobil{z-index: 30;}
+.asrMobil{z-index: 4; color: #ababab;}
 .asrMobil p{
-    color: #fff;
     line-height: 16px;
 }
-.maghribMobil{z-index: 40;}
+.maghribMobil{z-index: 5; color: #ababab;}
 .maghribMobil p{
-    color: #fff;
     line-height: 16px;
     letter-spacing: -1px;
 }
-.ishaMobil{z-index: 50;}
+.ishaMobil{z-index: 6; color: #ababab;}
 .ishaMobil p{
-    color: #fff;
     line-height: 16px;
 }
+.currentPrayerMobileActive{
+    border:2px solid rgba(255, 255, 255, 0);
+    color: #fff !important;
+    animation: border 1s linear;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+.currentPrayerMobile{
+    color: #fff !important;
+    border:2px solid rgba(255, 255, 255, 0);
+}
 
-
-.fajrMobilActive{z-index: 0; bottom:490px}
-.shurukMobilActive{z-index: 10;bottom:420px}
-.dhuhurMobilActive{z-index: 20;bottom:350px}
-.asrMobilActive{z-index: 30;bottom:280px}
-.maghribMobilActive{z-index: 40;bottom:210px}
-.ishaMobilActive{z-index: 50;bottom:140px}
+@keyframes border {
+    0% { border:2px solid rgba(255, 255, 255, 0); }
+    100% { border:2px solid #fff; color: #fff !important; }
+}
+.fajrMobilActive{ bottom:490px}
+.shurukMobilActive{bottom:420px}
+.dhuhurMobilActive{bottom:350px}
+.asrMobilActive{bottom:280px}
+.maghribMobilActive{bottom:210px}
+.ishaMobilActive{bottom:140px}
 
 
 /* ==========================================================================

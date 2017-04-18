@@ -4,7 +4,7 @@
 checkDate();
 currentPrayer();
 var checkTimeLoop = setInterval(currentPrayer, 10000);
-
+var checkTimeLoopMobile = setInterval(currentPrayer, 10000);
 
 var fajr;
 var shuruk;
@@ -13,6 +13,146 @@ var asr;
 var maghrib;
 var ishaa;
 
+
+$(document).on('click','.salahButton',function () {
+    currentPrayerMobile();
+    $(".fajrMobil").toggleClass("fajrMobilActive");
+    $(".shurukMobil").toggleClass("shurukMobilActive");
+    $(".dhuhurMobil").toggleClass("dhuhurMobilActive");
+    $(".asrMobil").toggleClass("asrMobilActive");
+    $(".maghribMobil").toggleClass("maghribMobilActive");
+    $(".ishaMobil").toggleClass("ishaMobilActive");
+});
+
+
+function currentPrayerMobile() {
+    var time = new Date();
+    var hh = time.getHours();
+    var mm = time.getMinutes();
+
+    if(hh < 10){
+        hh = '0' + time.getHours();
+    } else{
+        hh = time.getHours();
+    }
+
+    if(mm < 10){
+        mm = '0' + time.getMinutes();
+    } else{
+        mm = time.getMinutes();
+    }
+
+    time = hh + ':' + mm;
+
+    var FajrMobil    =$(".fajrMobil"),
+        ShurukMobil  =$(".shurukMobil"),
+        DhuhurMobil  =$(".dhuhurMobil"),
+        AsrMobil     =$(".asrMobil"),
+        MaghribMobil =$(".maghribMobil"),
+        IshaaMobil   =$(".ishaMobil");
+
+    if (ishaa <= time){
+        MaghribMobil.removeClass("currentPrayerMobile");
+        IshaaMobil.toggleClass("currentPrayerMobileActive")
+    } else if (maghrib <= time){
+        AsrMobil.removeClass("currentPrayerMobile");
+        MaghribMobil.toggleClass("currentPrayerMobileActive")
+    } else if (asr <= time){
+        DhuhurMobil.removeClass("currentPrayerMobile");
+        AsrMobil.toggleClass("currentPrayerMobileActive")
+    } else if (dhuhur <= time){
+        ShurukMobil.removeClass("currentPrayerMobile");
+        DhuhurMobil.toggleClass("currentPrayerMobileActive")
+    } else if (shuruk <= time){
+        FajrMobil.removeClass("currentPrayerMobile");
+        ShurukMobil.toggleClass("currentPrayerMobileActive")
+    } else if (fajr <= time){
+        IshaaMobil.removeClass("currentPrayerMobile");
+        FajrMobil.toggleClass("currentPrayerMobileActive")
+    } else {
+        IshaaMobil.toggleClass("currentPrayerMobileActive");
+    }
+}
+
+function currentPrayer() {
+    var time = new Date();
+    var hh = time.getHours();
+    var mm = time.getMinutes();
+
+    if(hh < 10){
+        hh = '0' + time.getHours();
+    } else{
+        hh = time.getHours();
+    }
+
+    if(mm < 10){
+        mm = '0' + time.getMinutes();
+    } else{
+        mm = time.getMinutes();
+    }
+
+    time = hh + ':' + mm;
+    var Fajr    = $(".fajr")   ,
+        Shuruk  = $(".shuruk") ,
+        Dhuhur  = $(".dhuhur") ,
+        Asr     = $(".asr")    ,
+        Maghrib = $(".maghrib"),
+        Ishaa   = $(".ishaa")
+
+
+    if (ishaa <= time){
+        Maghrib.removeClass("currentPrayer");
+        Ishaa.addClass("currentPrayer");
+    } else if (maghrib <= time){
+        Asr.removeClass("currentPrayer");
+        Maghrib.addClass("currentPrayer")
+    } else if (asr <= time){
+        Dhuhur.removeClass("currentPrayer");
+        Asr.addClass("currentPrayer")
+    } else if (dhuhur <= time){
+        Shuruk.removeClass("currentPrayer");
+        Dhuhur.addClass("currentPrayer")
+    } else if (shuruk <= time){
+        Fajr.removeClass("currentPrayer");
+        Shuruk.addClass("currentPrayer")
+    } else if (fajr <= time){
+        Ishaa.removeClass("currentPrayer");
+        Fajr.addClass("currentPrayer")
+    } else {
+        Ishaa.addClass("currentPrayer");
+    }
+}
+
+
+function append() {
+    $(".salah").prepend(
+        "<li> <p class='fajr'>   Fajr<br>"        + fajr   + "</p>" + "</li>" +
+        "<li> <p class='shuruk'> Shuruk<br>"    + shuruk + "</p>" + "</li>" +
+        "<li> <p class='dhuhur'> Dhuhur<br>"    + dhuhur + "</p>" + "</li>" +
+        "<li> <p class='asr'>    Asr<br>"          + asr    + "</p>" + "</li>" +
+        "<li> <p class='maghrib'>Maghrib<br>"  + maghrib+ "</p>" + "</li>" +
+        "<li> <p class='ishaa'>  Isha<br>"       + ishaa  + "</p>" + "</li>"
+    );
+    $(".fajrMobil").append(
+        "<p>Fajr<br>"+fajr+"</p>"
+    );
+    $(".shurukMobil").append(
+        "<p>Shuruk<br>"+shuruk+"</p>"
+    );
+    $(".dhuhurMobil").append(
+        "<p>Dhuhur<br>"+dhuhur+"</p>"
+    );
+    $(".asrMobil").append(
+        "<p>Asr<br>"+asr+"</p>"
+    );
+    $(".maghribMobil").append(
+        "<p>Maghrib<br>"+maghrib+"</p>"
+    );
+    $(".ishaMobil").append(
+        "<p>Isha<br>"+ishaa+"</p>"
+    );
+
+};
 
 function checkDate() {
     var today = new Date();
@@ -400,77 +540,3 @@ function checkDate() {
     }
 }
 
-function currentPrayer() {
-    var time = new Date();
-    var hh = time.getHours();
-    var mm = time.getMinutes();
-
-    if(hh < 10){
-        hh = '0' + time.getHours();
-    } else{
-        hh = time.getHours();
-    }
-
-    if(mm < 10){
-        mm = '0' + time.getMinutes();
-    } else{
-        mm = time.getMinutes();
-    }
-
-    time = hh + ':' + mm;
-
-    var Fajr = $(".fajr"), Shuruk = $(".shuruk"), Dhuhur = $(".dhuhur"), Asr = $(".asr"), Maghrib = $(".maghrib"), Ishaa = $(".ishaa");
-
-
-    if (ishaa <= time){
-        Maghrib.removeClass("currentPrayer");
-        Ishaa.addClass("currentPrayer");
-    } else if (maghrib <= time){
-        Asr.removeClass("currentPrayer");
-        Maghrib.addClass("currentPrayer")
-    } else if (asr <= time){
-        Dhuhur.removeClass("currentPrayer");
-        Asr.addClass("currentPrayer")
-    } else if (dhuhur <= time){
-        Shuruk.removeClass("currentPrayer");
-        Dhuhur.addClass("currentPrayer")
-    } else if (shuruk <= time){
-        Fajr.removeClass("currentPrayer");
-        Shuruk.addClass("currentPrayer")
-    } else if (fajr <= time){
-        Ishaa.removeClass("currentPrayer");
-        Fajr.addClass("currentPrayer")
-    } else {
-        Ishaa.addClass("currentPrayer");
-    }
-}
-
-function append() {
-    $(".salah").prepend(
-        "<li> <p class='fajr'>   Fajr<br>"        + fajr   + "</p>" + "</li>" +
-        "<li> <p class='shuruk'> Shuruk<br>"    + shuruk + "</p>" + "</li>" +
-        "<li> <p class='dhuhur'> Dhuhur<br>"    + dhuhur + "</p>" + "</li>" +
-        "<li> <p class='asr'>    Asr<br>"          + asr    + "</p>" + "</li>" +
-        "<li> <p class='maghrib'>Maghrib<br>"  + maghrib+ "</p>" + "</li>" +
-        "<li> <p class='ishaa'>  Isha<br>"       + ishaa  + "</p>" + "</li>"
-    );
-    $(".fajrMobil").append(
-        "<p>Fajr<br>"+fajr+"</p>"
-    );
-    $(".shurukMobil").append(
-        "<p>Shuruk<br>"+shuruk+"</p>"
-    );
-    $(".dhuhurMobil").append(
-        "<p>Dhuhur<br>"+dhuhur+"</p>"
-    );
-    $(".asrMobil").append(
-       "<p>Asr<br>"+asr+"</p>"
-    );
-    $(".maghribMobil").append(
-        "<p>Maghrib<br>"+maghrib+"</p>"
-    );
-    $(".ishaMobil").append(
-        "<p>Isha<br>"+ishaa+"</p>"
-    );
-
-};

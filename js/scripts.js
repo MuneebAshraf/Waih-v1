@@ -1,21 +1,6 @@
 jQuery(document).ready(function($){
 
 
-/***************** mobil salah tider **************/
-
-$(document).on('click','.salahButton',function () {
-
-	$(".fajrMobil").toggleClass("fajrMobilActive");
-	$(".shurukMobil").toggleClass("shurukMobilActive");
-	$(".dhuhurMobil").toggleClass("dhuhurMobilActive");
-	$(".asrMobil").toggleClass("asrMobilActive");
-	$(".maghribMobil").toggleClass("maghribMobilActive");
-	$(".ishaMobil").toggleClass("ishaMobilActive");
-})
-
-
-
-
 /***************** Waypoints ******************/
 
 $(document).ready(function() {
