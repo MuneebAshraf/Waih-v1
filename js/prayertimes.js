@@ -1,8 +1,10 @@
 /**
  * Created by bachirkurdi on 01/02/17.
  */
-getToday();
+checkDate();
 currentPrayer();
+var checkTimeLoop = setInterval(currentPrayer, 10000);
+
 
 var fajr;
 var shuruk;
@@ -12,7 +14,7 @@ var maghrib;
 var ishaa;
 
 
-function getToday() {
+function checkDate() {
     var today = new Date();
     var dd = today.getDate();
     var mm = today.getMonth()+1; //January is 0!
@@ -403,42 +405,45 @@ function currentPrayer() {
     var hh = time.getHours();
     var mm = time.getMinutes();
 
-    console.log(time.getHours())
     if(hh < 10){
         hh = '0' + time.getHours();
     } else{
         hh = time.getHours();
     }
 
+    if(mm < 10){
+        mm = '0' + time.getMinutes();
+    } else{
+        mm = time.getMinutes();
+    }
+
     time = hh + ':' + mm;
-    console.log(time)
+
 
     var Fajr = $(".fajr"), Shuruk = $(".shuruk"), Dhuhur = $(".dhuhur"), Asr = $(".asr"), Maghrib = $(".maghrib"), Ishaa = $(".ishaa");
 
 
     if (ishaa <= time){
-        Fajr.removeClass("currentPrayer");
+        Maghrib.removeClass("currentPrayer");
         Ishaa.addClass("currentPrayer");
     } else if (maghrib <= time){
-        Ishaa.removeClass("currentPrayer");
+        Asr.removeClass("currentPrayer");
         Maghrib.addClass("currentPrayer")
     } else if (asr <= time){
-        Maghrib.removeClass("currentPrayer");
+        Dhuhur.removeClass("currentPrayer");
         Asr.addClass("currentPrayer")
     } else if (dhuhur <= time){
-        Asr.removeClass("currentPrayer");
+        Shuruk.removeClass("currentPrayer");
         Dhuhur.addClass("currentPrayer")
     } else if (shuruk <= time){
-        Dhuhur.removeClass("currentPrayer");
+        Fajr.removeClass("currentPrayer");
         Shuruk.addClass("currentPrayer")
     } else if (fajr <= time){
-        Shuruk.removeClass("currentPrayer");
         Ishaa.removeClass("currentPrayer");
         Fajr.addClass("currentPrayer")
     } else {
         Ishaa.addClass("currentPrayer");
     }
-
 }
 
 function append() {

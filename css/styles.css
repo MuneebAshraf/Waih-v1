@@ -457,6 +457,11 @@ Navigation
     width:58px;
     text-align: center;
     margin: 11px 5px 0;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -ms-transition: all 2s;
+    -o-transition: all 2s;
+    transition: all 2s;
 }
 
 .currentPrayer{
