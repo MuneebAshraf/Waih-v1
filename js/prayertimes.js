@@ -419,7 +419,6 @@ function currentPrayer() {
 
     time = hh + ':' + mm;
 
-
     var Fajr = $(".fajr"), Shuruk = $(".shuruk"), Dhuhur = $(".dhuhur"), Asr = $(".asr"), Maghrib = $(".maghrib"), Ishaa = $(".ishaa");
 
 
