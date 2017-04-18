@@ -646,6 +646,7 @@ Hero
 .lille{display: none;}
 
 .salahButton{
+    outline:0;
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -671,6 +672,11 @@ Hero
     position: absolute;
     bottom: 75px;
     right: 10px;
+    -webkit-transition: all 0.8s ease;
+    -moz-transition: all 0.8s ease;
+    -ms-transition: all 0.8s ease;
+    -o-transition: all 0.8s ease;
+    transition: all 0.8s ease;
 }
 
 .fajrMobil{z-index: 0;}
@@ -679,6 +685,14 @@ Hero
 .asrMobil{z-index: 30;}
 .maghribMobil{z-index: 40;}
 .ishaMobil{z-index: 50;}
+
+
+.fajrMobilActive{z-index: 0; bottom:490px}
+.shurukMobilActive{z-index: 10;bottom:420px}
+.dhuhurMobilActive{z-index: 20;bottom:350px}
+.asrMobilActive{z-index: 30;bottom:280px}
+.maghribMobilActive{z-index: 40;bottom:210px}
+.ishaMobilActive{z-index: 50;bottom:140px}
 
 
 /* ==========================================================================
