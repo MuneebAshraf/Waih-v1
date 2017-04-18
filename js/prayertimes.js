@@ -453,5 +453,24 @@ function append() {
         "<li> <p class='asr'>    Asr<br>"          + asr    + "</p>" + "</li>" +
         "<li> <p class='maghrib'>Maghrib<br>"  + maghrib+ "</p>" + "</li>" +
         "<li> <p class='ishaa'>  Isha<br>"       + ishaa  + "</p>" + "</li>"
-    )
-}
+    );
+    $(".fajrMobil").append(
+        fajr
+    );
+    $(".shurukMobil").append(
+        shuruk
+    );
+    $(".dhuhurMobil").append(
+        dhuhur
+    );
+    $(".asrMobil").append(
+        asr
+    );
+    $(".maghribMobil").append(
+        maghrib
+    );
+    $(".ishamobil").append(
+        ishaa
+    );
+
+};
