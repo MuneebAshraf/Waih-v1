@@ -6,7 +6,7 @@ js_audioPlayer(5,"audio/22-03-2017.mp3",  "Vært: Johannes<br>Emne: Danske musli
 js_audioPlayer(4,"audio/29-03-2017.mp3", "Vært: Johannes<br>Emne: Danske muslimer med somaliske rødder<br>Gæst: Adam & Abdighani");
 js_audioPlayer(3,"audio/05-04-2017.mp3", "Vært: Johannes<br>Emne: Danske muslimer med jyske rødder<br>Gæst: Dean Abdullah");
 js_audioPlayer(2,"audio/12-04-2017.mp3", "Vært: Johannes<br>Emne: Danske muslimer med albanske rødder<br>Gæst: Lavdrim Elmazi");
-js_audioPlayer(1,"audio/En tur med kultu.mp3",  "Test8");
+js_audioPlayer(1,"audio/19-04-2017.mp3", "Vært: Johannes<br>Emne: Danske muslimer med tyrkiske rødder<br>Gæst: Burhan Bayhan");
 
 
 

@@ -1,6 +1,5 @@
 jQuery(document).ready(function($){
 
-
 /***************** Waypoints ******************/
 
 $(document).ready(function() {

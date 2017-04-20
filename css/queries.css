@@ -60,6 +60,8 @@
     .salah{
         display: none;
     }
+    .salahButton{display: block;}
+    .salahMobil{display: block;}
     
     .main-nav {
         float: left;
@@ -178,7 +180,8 @@
     font-size: 350%;
     }
 
-
+    .salahButton{display: block;}
+    .salahMobil{display: block;}
 }
 @media only screen and (min-width:0px) and (max-width:480px){
     
@@ -356,6 +359,9 @@
     .os{font-size: 120%;}
     .mission{font-size: 120%;}
     
+
+    .salahButton{display: block;}
+    .salahMobil{display: block;}
     
 }
     

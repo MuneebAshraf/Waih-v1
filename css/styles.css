@@ -646,6 +646,7 @@ Hero
 .lille{display: none;}
 
 .salahButton{
+    display: none;
     outline:0;
     width: 60px;
     height: 60px;
@@ -655,7 +656,7 @@ Hero
     position: fixed;
     bottom: 75px;
     right: 10px;
-    z-index: 7;
+    z-index: 8;
 }
 
 .salahButton img{
@@ -666,6 +667,7 @@ Hero
 .salahMobil{
     border:2px solid rgba(255, 255, 255, 0);
     text-align: center;
+    display: none;
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -680,30 +682,30 @@ Hero
     transition: all 0.8s ease;
 }
 
-.fajrMobil{z-index: 1;  color: #ababab;}
+.fajrMobil{z-index: 2;  color: #ababab;}
 .fajrMobil p{
     line-height: 16px;
 }
-.shurukMobil{z-index: 2; color: #ababab;}
+.shurukMobil{z-index: 3; color: #ababab;}
 .shurukMobil p{
     line-height: 16px;
     letter-spacing: -1px;
 }
-.dhuhurMobil{z-index: 3; color: #ababab;}
+.dhuhurMobil{z-index: 4; color: #ababab;}
 .dhuhurMobil p{
     line-height: 16px;
     letter-spacing: -1px;
 }
-.asrMobil{z-index: 4; color: #ababab;}
+.asrMobil{z-index: 5; color: #ababab;}
 .asrMobil p{
     line-height: 16px;
 }
-.maghribMobil{z-index: 5; color: #ababab;}
+.maghribMobil{z-index: 6; color: #ababab;}
 .maghribMobil p{
     line-height: 16px;
     letter-spacing: -1px;
 }
-.ishaMobil{z-index: 6; color: #ababab;}
+.ishaMobil{z-index: 7; color: #ababab;}
 .ishaMobil p{
     line-height: 16px;
 }
@@ -725,6 +727,8 @@ Hero
 .asrMobilActive{bottom:280px}
 .maghribMobilActive{bottom:210px}
 .ishaMobilActive{bottom:140px}
+
+.salahSkjul{display: none;}
 
 
 /* ==========================================================================
