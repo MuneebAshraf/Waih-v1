@@ -10,10 +10,12 @@
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/ionicons.min.css">
     <link href="css/flexslider.css" rel="stylesheet" >
+    <link rel="stylesheet" type="text/css" href="css/plyr.css">
     <link href="css/style-s.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
+
     <link href="css/queries.css" rel="stylesheet">
     
     <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
@@ -117,12 +119,11 @@
                 </ul>
             </div>
             <h1 style="text-align: center">Up to date</h1>
-            <div class="darkOverlay"></div>
             <div class="program-upto">
                 <img src="img/myter.jpg">
-                <div class="upToText">Hashtag mig her, hashtag mig der. Up To Date er programmet, hvor vi vil snakke om de emner som er oppe på de sociale medier. Vi vil interagere med jer via dem, få jeres vinkel med og åbne op for en spændende debat.
-                    Følg med hver mandag kl 17.00 på www.waih.dk, app eller når som helst via podcast. Programmet genudsendes mandag kl 20.00 og tirsdag kl 07.30.</div>
-
+                <div class="upToText">Hashtag mig her, hashtag mig der. Up To Date er programmet, hvor vi vil snakke om de emner som er oppe på de sociale medier. Vi vil interagere med jer via dem, få jeres vinkel med og åbne op for en spændende debat.Følg med hver mandag kl 17.00 på www.waih.dk, app eller når som helst via podcast. Programmet genudsendes mandag kl 20.00 og tirsdag kl 07.30.</div>
+                <div class="seperator"></div>
+                <div class="podcastsPlayer"></div>
             </div>
 
         </div>
@@ -157,11 +158,14 @@
           fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));</script> 
     <script src="js/jquery-2.1.1.js"></script>
+    <script type="text/javascript" src="js/plyr.js"></script>
+    <script type="text/javascript" src="js/rangetouch.js"></script>
     <script src="js/waypoints.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/modernizr.js"></script>
-    <script src="js/programs.js"></script>
     <script src="js/scripts.js"></script>
+    <script src="js/programs.js"></script>
+    <script> plyr.setup();</script>
 
     <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

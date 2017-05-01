@@ -643,9 +643,8 @@ poadcasts
 }
 
 .program-upto{
-    background-color: black;
+    background-color: #444957;
     width:80vw;
-    height:600px;
     margin:0 auto;
     padding: 35px;
 }
@@ -655,11 +654,23 @@ poadcasts
 }
 
 .upToText{
-    margin-left: 25px;
+    margin-left: 50px;
     float: left;
     width:35vw;
+    color: mintcream;
+}
+.seperator{
+    width:100%;
+    border-bottom: 2px solid #4ad8f5;
+    clear: both;
 }
 
+.playerContainer{
+    width:45%;
+    display: inline-block;
+    margin-right: 35px;
+
+}
 .upto {
     background: url("../img/myter.jpg") ;
 }
@@ -682,12 +693,15 @@ poadcasts
     background: url("../img/familie.jpg");
 
 }
-.darkOverlay{
-    width:100%;
-    height:100%;
-    background-color: rgba(0,0,0,0.59);
-}
 
+.plyr--audio .plyr__controls {
+    background: #1c232c;
+    border: 1px solid #4ad8f5;
+    color: #fff;
+}
+.plyr--audio .plyr__progress--buffer, .plyr--audio .plyr__volume--display {
+    background: rgb(68, 73, 87);
+}
 
 /* ==========================================================================
 Footer
