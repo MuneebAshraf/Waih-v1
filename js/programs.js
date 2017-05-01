@@ -54,6 +54,7 @@ document.onkeydown = function (evt) {
 
 
 function podcastsExists() {
+    window.location.hash = show;
     jQuery.ajax({
         url: show+".html",
         success: function(result) {

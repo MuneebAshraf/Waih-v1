@@ -12,7 +12,7 @@
     js_audioPlayer(2,"audio/10-04-2017.mp3",  "Vært: Johannes<br>Gæster: Engin Bozkir & Elias Rama<br>Dato: 10/04-2017");
     js_audioPlayer(1,"audio/17-04-2017.mp3",  "Vært: Johannes<br>Gæster: Omar El-khatib & Abu Yunes<br>Dato: 17/04-2017");
 
-function js_audioPlayer(location,file, name) {
+  function js_audioPlayer(location,file, name) {
 
     $.ajax({
         url:file,
@@ -73,8 +73,8 @@ function js_audioPlayer(location,file, name) {
                 keyEnabled: true,
                 remainingDuration: true,
                 toggleDuration: true,
-                preload:"none",
-                solution:"flash, html",
+                preload:"meta",
+                solution:"html, flash",
                 supplied: "mp3"
             });
             //listener for playing the file
@@ -141,5 +141,3 @@ $("#jquery_jplayer_" + location).bind($.jPlayer.event.ended, function(event) {
         }
     });
 }
-
-

@@ -592,7 +592,7 @@ Hero
 Overskrift
 ========================================================================== */
 .headline{
-    padding: 100px 0 30px 0;
+    padding: 70px 0 10px 0;
 }
 
 .headline h1{
@@ -610,150 +610,67 @@ poadcasts
     margin: 0;
 }
 
-.background-overlay{
-    display: none;
-    position: absolute;
-    height: 250.8vh;
-    width: 100%;
-    background-color: rgba(0,0,0,0.66);
-    z-index: 21;
-}
-
-.pop-up{
-    top:100px;
-    opacity:0;
-    position: relative;
-    margin:140px auto;
-    width:80vw;
-    height:212.5vh;
-    background: #141c27;
-    z-index:22;
-}
-.background-picture{
-    background: linear-gradient(rgba(15, 15, 15, 0.81), rgba(15, 15, 15, 0.81)), url(../img/myter.jpg) no-repeat;
-    background-position-y: 25%;
-    background-size: cover;
-    height:165px;
+.programsMini {
     width:100%;
+    border-top:2px solid #95989a;
+    border-bottom:2px solid #95989a;
 }
-.background-picture h1{
-    margin: 108.5px 0 0 20px;
-    text-shadow: 10px -4px 5px rgb(0, 0, 0);
-    float:left;
-}
-.pop-up p{
-    clear: both;
-    margin:10px 15px 0 15px;
-}
-.border{
-    margin: 30px auto;
-    width:80%;
-    border-bottom:1px solid #4AD8F5;
-}
-
-.podcast-box{
-    float: left;
-    margin-bottom: 30px;
-}
-.podcast-content{
-    border:2px solid #4AD8F5;
-    height:50vh;
-}
-
-.ydreBox{
-    width: 33.333333%;
-    float: left;
-    padding: 0;
-    overflow: hidden;
-}
-.programBox{
-    height: 550px;
-    background-color: #4AD8F5;
-    padding: 0;
-    overflow: hidden;
-}
-
-.programBox p,
-.programBox h2{
-    margin: 10px 20px;
-    color: #424D5D;
-}
-
-.programBox h2{
-    font-size: 150%;
-}
-
-.farve{
-    background-color: #28374B;
-}
-.farve h2,
-.farve p{
-    color:#B1B1B1
-}
-
-.programBillede{
-    padding-left: 0;
-}
-
-.programBillede img{
-    width: 100%;
-}
-
-
-
-.effects { padding-left: 15px; }
-.effects .img { position: relative; margin-bottom: 50px; position: relative; z-index: 1; overflow: hidden; }
-.effects .img:nth-child(n) { margin-right: 5px; }
-.effects .img:first-child { margin-left: -15px; }
-.effects .img:last-child { margin-right: 0; }
-.effects 
-
-.programBillede img{ 
-    display: block; 
+.programsMini ul{
     margin:0;
-    padding: 0; 
-    height: auto; 
+    padding:0;
+    text-align: center;
+    list-style-type: none;
 }
+.programsMini li{
+    margin: 5px 3%;
+    list-style: none;
+    display: inline-block;
 
-
-.overlay { display: block; position: absolute; z-index: 20; overflow: hidden; transition: all 0.5s; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; }
-a.close-overlay { display: block; position: absolute; top: 0; right: 0; z-index: 100; width: 45px; height: 45px; font-size: 20px; font-weight: 700; color: #fff; line-height: 45px; text-align: center; background-color: #000; cursor: pointer; }
-a.close-overlay.hidden { display: none; }
-a.expand { display: block; position: absolute; z-index: 100; text-align: center; color: #fff; font-weight: 600; font-size: 24px; text-transform: uppercase; line-height: 30px; }
-
-.tabu{
-    background: rgba(255, 89, 89, 0.6);
 }
-.samfunds{
-    background: rgba(131, 131, 131, 0.6);
+.programsMini div{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position-x: 50%;
 }
-
+.upto {
+    background: url("../img/myter.jpg") ;
+}
 .toppen{
-    background: rgba(255, 177, 0, 0.56)
+    background: url("../img/toppen.JPG");
 }
-
 .kultur{
-    background: rgba(0, 0, 0, 0.6);
+    background: url("../img/kultur.jpg");
 }
-.myter{
-    background: rgba(92, 42, 0, 0.6);
+.samfund{
+    background: url("../img/samfund.jpg");
 }
-
-.familie{
-    background: rgba(42, 137, 64, 0.54)
-}
-
 .apropos{
-    background: rgba(32, 180, 255, 0.47)
+    background: url("../img/test.jpeg");
+}
+.tabu{
+    background: url("../img/tabu.jpg");
+}
+.familie{
+    background: url("../img/familie.jpg");
+
+}
+.darkOverlay{
+    width:100%;
+    height:100%;
+    background-color: rgba(0,0,0,0.59);
+}
+.program-upto{
+    background-color: black;
+    width:80vw;
+    height:80vh;
+    margin:0 auto;
 }
 
-.overlay-effect .img i { font-size: 30px; }
-.overlay-effect .overlay { bottom: 0; left: 0; right: 0; width: 100%; height: 100%; opacity: 1; }
-.overlay-effect .overlay a.expand { left: 0; right: 0; bottom: 47%; margin: 0 auto -30px auto; }
-.overlay-effect .img.hover .overlay { height: 100%; opacity: 0; }
-.img img { width: -webkit-calc(100% + 40px) !important; width: calc(100% + 40px) !important; -webkit-transition: opacity 0.35s, -webkit-transform 0.35s; transition: opacity 0.35s, transform 0.35s; -moz-transition: opacity 0.35s, -moz-transform 0.35s; -o-transition: opacity 0.35s, -o-transform 0.35s; -webkit-transform: translate3d(-40px, 0, 0); transform: translate3d(-40px, 0, 0); -ms-transform: translate3d(-40px, 0, 0); }
-.img:hover img { -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); -ms-transform: translate3d(-40px, 0, 0); }
-.designs { position: absolute; left: 0; right: 0; margin-left: auto; margin-right: auto; top: 50px; }
+
 
 /* ==========================================================================
 Footer
