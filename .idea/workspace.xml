@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b6aeb07-2a01-4a66-9fdb-45a187aa112c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/plyr.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/plyr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/rangetouch.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style-s.css" afterPath="$PROJECT_DIR$/css/style-s.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/programs.js" afterPath="$PROJECT_DIR$/js/programs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/player/player.html" afterPath="$PROJECT_DIR$/player/player.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/programs.html" afterPath="$PROJECT_DIR$/programs.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -27,35 +23,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UpToDate-lyd.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UpToDate-lyd.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-              <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="latestPodcast.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/latestPodcast.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="154" column="200" lean-forward="false" selection-start-line="154" selection-start-column="200" selection-end-line="154" selection-end-column="200" />
-              <folding>
-                <element signature="e#0#49#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="programs.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/programs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="121" column="12" lean-forward="false" selection-start-line="121" selection-start-column="12" selection-end-line="121" selection-end-column="12" />
+            <state relative-caret-position="81">
+              <caret line="111" column="53" lean-forward="true" selection-start-line="111" selection-start-column="53" selection-end-line="111" selection-end-column="53" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -66,8 +38,8 @@
       <file leaf-file-name="style-s.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style-s.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="670" column="20" lean-forward="false" selection-start-line="670" selection-start-column="20" selection-end-line="670" selection-end-column="20" />
+            <state relative-caret-position="126">
+              <caret line="563" column="20" lean-forward="true" selection-start-line="563" selection-start-column="20" selection-end-line="563" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -76,31 +48,8 @@
       <file leaf-file-name="programs.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/programs.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="5" column="50" lean-forward="true" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UpToDate.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/UpToDate.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="13" selection-end-column="0" />
-              <folding>
-                <marker date="1492990259000" expanded="true" signature="2725:2731" ph=" " />
-                <marker date="1492990259000" expanded="true" signature="2817:2823" ph=" " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.jplayer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/player/js/jplayer/jquery.jplayer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+            <state relative-caret-position="293">
+              <caret line="50" column="21" lean-forward="false" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -111,19 +60,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>jp</find>
-      <find>time</find>
-      <find>&lt;/div&gt;</find>
-      <find>$(&quot;.latestPodcasts2&quot;)</find>
-      <find>secondhalf</find>
       <find>&gt;&quot;+&quot;&lt;a href='#' onclick='MM</find>
       <find>;</find>
       <find>onclick='</find>
@@ -146,9 +90,14 @@
       <find>&quot;</find>
       <find>podva</find>
       <find>3498db</find>
-      <find>darkover</find>
-      <find>js_audioPlayer</find>
       <find>.mp3</find>
+      <find>preload</find>
+      <find>darkover</find>
+      <find>.program-upto</find>
+      <find>js_audioPlayer</find>
+      <find>pointer</find>
+      <find>1s</find>
+      <find>toppen</find>
     </findStrings>
     <replaceStrings>
       <replace>addClass(&quot;currentPrayerMobileActive&quot;)</replace>
@@ -175,6 +124,7 @@
       <replace>'</replace>
       <replace>4ad8f5</replace>
       <replace>addPodcasts</replace>
+      <replace>0.5s</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -201,8 +151,10 @@
         <option value="$PROJECT_DIR$/../../../lyd-style.css" />
         <option value="$PROJECT_DIR$/player/player.html" />
         <option value="$PROJECT_DIR$/css/plyr.css" />
-        <option value="$PROJECT_DIR$/programs.html" />
+        <option value="$PROJECT_DIR$/js/isbjerget.js" />
         <option value="$PROJECT_DIR$/css/style-s.css" />
+        <option value="$PROJECT_DIR$/css/Effects.css" />
+        <option value="$PROJECT_DIR$/programs.html" />
         <option value="$PROJECT_DIR$/js/programs.js" />
       </list>
     </option>
@@ -459,7 +411,7 @@
       <workItem from="1493323049688" duration="6496000" />
       <workItem from="1493513903322" duration="384000" />
       <workItem from="1493633918546" duration="106000" />
-      <workItem from="1493651792240" duration="7426000" />
+      <workItem from="1493651792240" duration="16314000" />
     </task>
     <task id="LOCAL-00001" summary="Salahtider på mobil WIP">
       <created>1492513042431</created>
@@ -510,11 +462,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493658366183</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Up to date WIP">
+      <created>1493662932029</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1493662932029</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75422000" />
+    <option name="totallyTimeSpent" value="84310000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="98" y="0" width="1326" height="786" extended-state="0" />
@@ -550,7 +509,8 @@
     <MESSAGE value="Salahtider på mobil:&#10;tid opdateres live hvis en ny tid går ind mens den er åben.&#10;Border forsvinder når tiderne minimeres og kommer igen når man trykker igen" />
     <MESSAGE value="Programside:&#10;Har tilføjet funktion og effekt når man klikker på shows(pt kun uptodate og isbjerget) og funktion der loader titel og programintrotekst når der klikkes på forskellige og tilføjet funktion der henter players fra de respektive sider. tilføjet funktion der kører det shows javascript så den kan indsætte podcasts svarende til hvor mange podcasts der findes på den respektive side.&#10; desuden kan man trykke escape for at fjerne popuppen :P" />
     <MESSAGE value="Miniorogrammerne passer er i gang med at lave indholdsboksen der skal være under titlen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Miniorogrammerne passer er i gang med at lave indholdsboksen der skal være under titlen" />
+    <MESSAGE value="Up to date WIP" />
+    <option name="LAST_COMMIT_MESSAGE" value="Up to date WIP" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -565,11 +525,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/img/Podcast-Bckg.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/apropos.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -710,13 +665,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/isbjerget.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
-          <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -775,26 +723,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/prayertimes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="62" lean-forward="false" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/player/js/jplayer/jquery.jplayer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/player/js/jplayer/jquery.jplayer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -807,27 +739,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UpToDate-lyd.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/player/js/rangetouch.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/plyr.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3480">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -841,16 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/latestPodcast.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="154" column="200" lean-forward="false" selection-start-line="154" selection-start-column="200" selection-end-line="154" selection-end-column="200" />
-          <folding>
-            <element signature="e#0#49#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/plyr.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="776">
@@ -859,21 +763,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/programs.html">
+    <entry file="file://$PROJECT_DIR$/js/plyr.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="121" column="12" lean-forward="false" selection-start-line="121" selection-start-column="12" selection-end-line="121" selection-end-column="12" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style-s.css">
+    <entry file="file://$PROJECT_DIR$/UpToDate-lyd.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="670" column="20" lean-forward="false" selection-start-line="670" selection-start-column="20" selection-end-line="670" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="165">
+          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -888,10 +792,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/latestPodcast.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1731">
+          <caret line="154" column="200" lean-forward="false" selection-start-line="154" selection-start-column="200" selection-end-line="154" selection-end-column="200" />
+          <folding>
+            <element signature="e#0#49#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/prayertimes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/player/js/jplayer/jquery.jplayer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/Effects.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2385">
+          <caret line="159" column="1" lean-forward="true" selection-start-line="159" selection-start-column="1" selection-end-line="159" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="111" column="53" lean-forward="true" selection-start-line="111" selection-start-column="53" selection-end-line="111" selection-end-column="53" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style-s.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="563" column="20" lean-forward="true" selection-start-line="563" selection-start-column="20" selection-end-line="563" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/isbjerget.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="48" lean-forward="false" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+          <folding>
+            <marker date="1492681090000" expanded="true" signature="2817:2823" ph=" " />
+            <marker date="1492681090000" expanded="true" signature="2909:2915" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/programs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="5" column="50" lean-forward="true" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+        <state relative-caret-position="293">
+          <caret line="50" column="21" lean-forward="false" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
           <folding />
         </state>
       </provider>

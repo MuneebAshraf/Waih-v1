@@ -566,8 +566,6 @@ Navigation
 }
 
 
-
-
 /* ==========================================================================
 Hero
 ========================================================================== */
@@ -623,6 +621,7 @@ poadcasts
     list-style-type: none;
 }
 .programsMini li{
+    cursor: pointer;
     margin: 1px 3%;
     list-style: none;
     display: inline-block;
@@ -632,6 +631,9 @@ poadcasts
     margin-bottom:5px;
     font-size: 115%;
 }
+.active{
+    border:2px solid #4ad8f5!important;
+}
 .programsMini div{
     width:100px;
     height:100px;
@@ -640,19 +642,50 @@ poadcasts
     background-repeat: no-repeat;
     display: inline-block;
     background-position-x: 50%;
+    border:2px solid #1c232c;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 .program-upto{
+    position: relative;
+    display: block;
+    left:0;
     background-color: #444957;
     width:80vw;
-    margin:0 auto;
+    margin:0 auto 30px auto ;
     padding: 35px;
+
 }
 .program-upto img{
     width: 40%;
     float: left;
 }
 
+.program-isbjerg{
+    position: relative;
+    display: none;
+    left:1500px;
+    background-color: #444957;
+    width:80vw;
+    margin:0 auto 30px auto ;
+    padding: 35px;
+
+}
+.program-isbjerg img{
+    width: 40%;
+    float: left;
+}
+
+.isbjergText {
+    margin-left: 50px;
+    float: left;
+    width: 35vw;
+    color: mintcream;
+}
 .upToText{
     margin-left: 50px;
     float: left;
@@ -669,12 +702,14 @@ poadcasts
     width:45%;
     display: inline-block;
     margin-right: 35px;
-
+}
+.playerContainer p{
+    color: mintcream;
 }
 .upto {
     background: url("../img/myter.jpg") ;
 }
-.toppen{
+.isbjerg{
     background: url("../img/toppen.JPG");
 }
 .kultur{
