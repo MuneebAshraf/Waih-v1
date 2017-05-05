@@ -650,31 +650,42 @@ poadcasts
     transition: all 0.5s ease;
 }
 
-.program-upto{
-    position: relative;
+.programmer{
     display: block;
-    left:0;
+    height:auto;
+    float: left;
+    width: 80%;
+    margin: 0 10%;
+}
+.program-upto{
     background-color: #444957;
+    position: absolute;
     width:80vw;
     margin:0 auto 30px auto ;
     padding: 35px;
+    z-index: 1;
 
 }
 .program-upto img{
     width: 40%;
     float: left;
 }
+.upToText{
+    margin-left: 50px;
+    float: left;
+    width:35vw;
+    color: mintcream;
+}
 
 .program-isbjerg{
-    position: relative;
-    display: none;
-    left:1500px;
     background-color: #444957;
-    width:80vw;
+    position: absolute;
     margin:0 auto 30px auto ;
     padding: 35px;
-
+    width:80vw;
+    z-index:0;
 }
+
 .program-isbjerg img{
     width: 40%;
     float: left;
@@ -686,12 +697,27 @@ poadcasts
     width: 35vw;
     color: mintcream;
 }
-.upToText{
+.program-kultur{
+    background-color: #444957;
+    position: absolute;
+    margin:0 auto 30px auto ;
+    padding: 35px;
+    width:80vw;
+    z-index:0;
+}
+
+.program-kultur img{
+    width: 40%;
+    float: left;
+}
+
+.kulturText {
     margin-left: 50px;
     float: left;
-    width:35vw;
+    width: 35vw;
     color: mintcream;
 }
+
 .seperator{
     width:100%;
     border-bottom: 2px solid #4ad8f5;
@@ -702,6 +728,7 @@ poadcasts
     width:45%;
     display: inline-block;
     margin-right: 35px;
+
 }
 .playerContainer p{
     color: mintcream;
@@ -741,12 +768,14 @@ poadcasts
 /* ==========================================================================
 Footer
 ========================================================================== */
-
+.footer{
+    margin-top: 100px;
+}
 footer a { color: #a1a9b0; }
-footer { 
-    background-color: #242830; 
+footer {
+    background-color: #242830;
     padding: 40px 0 30px;
-    height: 500px;
+    height: 400px;
 }
 footer h2{
     color: #fff;

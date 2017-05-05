@@ -1,4 +1,8 @@
 
+kultur()
+function kultur() {
+    
+
 js_audioPlayer(9,"audio/08:02-2017.mp3", "Vært: Aysha Farooqui<br>Emne: Kulturens rolle hos danske muslimer<br>Gæst: Kaoutar Elhamss");
 js_audioPlayer(8,"audio/01:03-2017.mp3", "Vært: Johannes<br>Emne: Fordomme og diskrimination<br>Gæst: Alisher Ceran");
 js_audioPlayer(7,"audio/15-03-2017.mp3", "Vært: Johannes<br>Emne: Hadsforbrydelser imod muslimer<br>Gæst: Farouk Hassouni");
@@ -8,6 +12,7 @@ js_audioPlayer(4,"audio/05-04-2017.mp3", "Vært: Johannes<br>Emne: Danske muslim
 js_audioPlayer(3,"audio/12-04-2017.mp3", "Vært: Johannes<br>Emne: Danske muslimer med albanske rødder<br>Gæst: Lavdrim Elmazi");
 js_audioPlayer(2,"audio/19-04-2017.mp3", "Vært: Johannes<br>Emne: Danske muslimer med tyrkiske rødder<br>Gæst: Burhan Bayhan");
 js_audioPlayer(1,"audio/26-04-2017.mp3", "<br>Vært: Johannes<br>Emne: Recap af En tur med kultur<br>");
+}
 
 
 

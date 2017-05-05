@@ -1,14 +1,21 @@
-js_audioPlayer(11,"audio/04:02-2017.mp3","Vært: Elias Rama<br>Emne: Racismen og dens udfald<br>Gæst: Suhayb Ibrahim");
-js_audioPlayer(10,"audio/11:02-2017.mp3", "Vært: Elias Rama<br>Emne: Hvordan finder jeg den rette partner?<br>Gæst: Tahir Mirza");
-js_audioPlayer(9,"audio/18:02-2017.mp3",  "Vært: Elias Rama<br>Emne: At være muslim i det offentlige rum<br>Gæst: Khalid Al Subeihi");
-js_audioPlayer(8,"audio/25:02-2017.mp3",  "Vært: Elias Rama<br>Emne: Troen på gud<br>Gæst: Ismail I. Mohamed");
-js_audioPlayer(7,"audio/04-03-2017.mp3", "Vært: Elias Rama<br>Emne: Social kontrol<br>Gæst: Mariam Mawla");
-js_audioPlayer(6,"audio/11-03-2017.mp3", "Vært: Zainab Nasrati og Elias Rama<br>Emne: Danske muslimers eksponering i danske medier<br>Gæst: Bent Dahl Jensen");
-js_audioPlayer(5,"audio/18-03-2017.mp3", "Værter: Aysha Farooqui og Elias Rama<br>Emne: Mobbere, cuttere og selvværds udfordringer<br>Gæster: Sabrine Benmoumou og Ladan");
-js_audioPlayer(4,"audio/25-03-2017.mp3",  "Vært: Elias Rama<br>Emne: Tabuer som vedrøre konvertitter<br>Gæst: Niels Mikkelsen");
-js_audioPlayer(3,"audio/01-04-2017.mp3",  "Vært: Elias Rama<br>Emne: Fodbold kulturen<br>Gæst: Jihad Talat");
-js_audioPlayer(2,"audio/08-04-2017.mp3",  "Vært: Elias Rama<br>Emne: Er psykologisk hjælp et tabu?<br>Gæst: Ahmad Massood");
-js_audioPlayer(1,"audio/15-04-2017.mp3",  "Vært: Elias Rama<br>Emne: Er mere pres lig med bedre resultater?<br>Gæster: Yassine Macine & Aysha Farooqui");
+
+tabu()
+function tabu() {
+
+js_audioPlayer(13,"audio/04:02-2017.mp3","Vært: Elias Rama<br>Emne: Racismen og dens udfald<br>Gæst: Suhayb Ibrahim");
+js_audioPlayer(12,"audio/11:02-2017.mp3", "Vært: Elias Rama<br>Emne: Hvordan finder jeg den rette partner?<br>Gæst: Tahir Mirza");
+js_audioPlayer(11,"audio/18:02-2017.mp3",  "Vært: Elias Rama<br>Emne: At være muslim i det offentlige rum<br>Gæst: Khalid Al Subeihi");
+js_audioPlayer(10,"audio/25:02-2017.mp3",  "Vært: Elias Rama<br>Emne: Troen på gud<br>Gæst: Ismail I. Mohamed");
+js_audioPlayer(9,"audio/04-03-2017.mp3", "Vært: Elias Rama<br>Emne: Social kontrol<br>Gæst: Mariam Mawla");
+js_audioPlayer(8,"audio/11-03-2017.mp3", "Vært: Zainab Nasrati og Elias Rama<br>Emne: Danske muslimers eksponering i danske medier<br>Gæst: Bent Dahl Jensen");
+js_audioPlayer(7,"audio/18-03-2017.mp3", "Værter: Aysha Farooqui og Elias Rama<br>Emne: Mobbere, cuttere og selvværds udfordringer<br>Gæster: Sabrine Benmoumou og Ladan");
+js_audioPlayer(6,"audio/25-03-2017.mp3",  "Vært: Elias Rama<br>Emne: Tabuer som vedrøre konvertitter<br>Gæst: Niels Mikkelsen");
+js_audioPlayer(5,"audio/01-04-2017.mp3",  "Vært: Elias Rama<br>Emne: Fodbold kulturen<br>Gæst: Jihad Talat");
+js_audioPlayer(4,"audio/08-04-2017.mp3",  "Vært: Elias Rama<br>Emne: Er psykologisk hjælp et tabu?<br>Gæst: Ahmad Massood");
+js_audioPlayer(1,"audio/29-04-2017.mp3",  "Vært: Zainab Nasrati<br>Emne: Tabuen omkring psykiatrien<br>Gæst: Salma Bel");
+js_audioPlayer(3,"audio/15-04-2017.mp3",  "Vært: Elias Rama<br>Emne: Er mere pres lig med bedre resultater?<br>Gæster: Yassine Macine & Aysha Farooqui");
+js_audioPlayer(2,"audio/22-04-2017.mp3",  "Vært: Aysha Farouqui<br>Emne: Vold i hjemmet & danske krisecentre<br>Gæster: Kirsten Urhøj og Safiya Abu Laban");
+}
 
 
 

@@ -1,17 +1,26 @@
-js_audioPlayer(10,"audio/03:02-2017.mp3","Vært: Zainab Nasrati<br>Emne: Empati<br>Gæst: Ali Nicolaisen");
-js_audioPlayer(9,"audio/10:02-2017.mp3", "Vært: Lubna Ahmed<br>Emne: Tonen i den offentlige debat<br>Gæst: Digter og debattør, Özcan Ajrulovski");
-js_audioPlayer(8,"audio/17:02-2017.mp3",  "Vært:Zainab Nasrati<br>Emne: Mindfulnessog den muslimske bøn <br>Gæst: Sprogpsykolog og mentor Hamida Naji");
-js_audioPlayer(7,"audio/24:02-2017.mp3",  "Vært: Aysha Farooqui<br>Emne: Uddannelsespres <br>Gæst: Jeannett Skov");
-js_audioPlayer(6,"audio/03-03-201.mp3", "Vært: Zainab Nasrati<br>Emne: Drømme for Danmark...<br>Gæster: Caroline Ousager & Osama Samsam ");
-js_audioPlayer(5,"audio/10-03-2017.mp3", "Værter: Aysha Farooqui og Elias Rama<br>Emne: Nike's hijab, inklusion eller kapitalisering?<br>Gæster: Zarife Øzcan, Karima Doui og Laila Kristensen Rashid");
-js_audioPlayer(4,"audio/17-03-2017.mp3", "Vært: Elias Rama<br>Emne: Old School vs. New School<br>Gæste: Imran Shah");
-js_audioPlayer(3,"audio/24-03-2017.mp3",  "Vært: Zainab Nasrati<br>Emne: Studiets ruter<br>Gæste: Samya Adnan & Mikkel Zacho Storm");
-js_audioPlayer(2,"audio/31-03-2017.mp3",  "Vært: Aysha Farooqui<br>Emne: Kropsidealer, skønhed og selvtillid blandt danske unge<br>Gæster:  Amina Djondjorova & Arshia Arshad");
-js_audioPlayer(1,"audio/14-04-2017.mp3",  "Vært: Aysha Farooqui<br>Emne: Mediernes muslim, SKAM og brdr. Prices halalkød<br>Gæster: Elias Rama og Sara H ");
+
+
+apropos()
+function apropos() {
+    
+addPodcasts("03:02-2017.mp3","Vært: Zainab Nasrati<br>Emne: Empati<br>Gæst: Ali Nicolaisen");
+addPodcasts("10:02-2017.mp3", "Vært: Lubna Ahmed<br>Emne: Tonen i den offentlige debat<br>Gæst: Digter og debattør, Özcan Ajrulovski");
+addPodcasts("17:02-2017.mp3",  "Vært:Zainab Nasrati<br>Emne: Mindfulnessog den muslimske bøn <br>Gæst: Sprogpsykolog og mentor Hamida Naji");
+addPodcasts("24:02-2017.mp3",  "Vært: Aysha Farooqui<br>Emne: Uddannelsespres <br>Gæst: Jeannett Skov");
+addPodcasts("03-03-201.mp3", "Vært: Zainab Nasrati<br>Emne: Drømme for Danmark...<br>Gæster: Caroline Ousager & Osama Samsam ");
+addPodcasts("10-03-2017.mp3", "Værter: Aysha Farooqui og Elias Rama<br>Emne: Nike's hijab, inklusion eller kapitalisering?<br>Gæster: Zarife Øzcan, Karima Doui og Laila Kristensen Rashid");
+addPodcasts("17-03-2017.mp3", "Vært: Elias Rama<br>Emne: Old School vs. New School<br>Gæste: Imran Shah");
+addPodcasts("24-03-2017.mp3",  "Vært: Zainab Nasrati<br>Emne: Studiets ruter<br>Gæste: Samya Adnan & Mikkel Zacho Storm");
+addPodcasts("31-03-2017.mp3",  "Vært: Aysha Farooqui<br>Emne: Kropsidealer, skønhed og selvtillid blandt danske unge<br>Gæster:  Amina Djondjorova & Arshia Arshad");
+addPodcasts("14-04-2017.mp3",  "Vært: Aysha Farooqui<br>Emne: Mediernes muslim, SKAM og brdr. Prices halalkød<br>Gæster: Elias Rama og Sara H ");
+addPodcasts("21-04-2017.mp3",  "Vært: Elias Rama<br>Emne: fitnesskultur & dens sociale følger <br>Gæster:  Zaid Nasrati ");
+addPodcasts("28-04-2017.mp3",  "Vært: Zainab Nasrati<br>Emne: Somalisk sundhedsforbund<br>Gæster:  Hafsa Halane & Adar Mohamed Hassan");
+addPodcasts("05-05-2017.mp3",  "Vært: Zainab Nasrati<br>Emne: En kulturrig brudestylist<br>Gæster:  Iman Rose");
+}
 
 
 
-function js_audioPlayer(location,file, name) {
+function addPodcasts(file, name) {
 
     $.ajax({
         url:file,
