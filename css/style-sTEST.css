@@ -697,7 +697,7 @@ poadcasts
     width: 35vw;
     color: mintcream;
 }
-.program-kultur{
+.program-turKultur{
     background-color: #444957;
     position: absolute;
     margin:0 auto 30px auto ;
@@ -748,8 +748,8 @@ poadcasts
 .apropos{
     background: url("../img/test.jpeg");
 }
-.tabu{
-    background: url("../img/tabu.jpg");
+.aktivister{
+    background: url("../img/Aktivister.jpg");
 }
 .familie{
     background: url("../img/familie.jpg");

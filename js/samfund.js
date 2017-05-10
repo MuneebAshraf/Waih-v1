@@ -1,7 +1,10 @@
+<<<<<<< Updated upstream
 
 samfund()
 function samfund() {
 
+=======
+>>>>>>> Stashed changes
 js_audioPlayer(14, "audio/02:02-2017.mp3","Vært: Elias Rama<br>Emne: Er muslimerne ved at blive medie-fobiske<br> Gæst: Omar El-Khatib");
 js_audioPlayer(13,"audio/09:02-2017.mp3","Vært: Elias Rama<br>Emen: Dansk muslim med albanske rødder<br> Gæst:Belkisa Selmani");
 js_audioPlayer(12,"audio/16:02-2017.mp3","Vært: Elias Rama<br>Emne: Bør islam reformeres?<br>Gæst: Taimullah Abu Laban");
@@ -16,7 +19,10 @@ js_audioPlayer(4,"audio/13-04-2017.mp3",  "Vært: Elias Rama<br>Emne: Er Islam e
 js_audioPlayer(3,"audio/20-04-2017.mp3",  "Vært: Lamies Nassri<br>Emne: Stereotyper, repræsentation og tilhørsforhold.<br>Gæster: Amani Hassani,  Salma Elharjani & Fatima Awad");
 js_audioPlayer(2,"audio/27-04-2017.mp3",  "Vært: Lamies Nassri<br>Emne: Uddannelsesjunglen - do's and dont's<br>Gæster: Naual Kharbouch, Omar Salame & Mona El Hichou");
 js_audioPlayer(1,"audio/04-05-2017.mp3",  "Vært: Elias Rama<br>Emne: Aktivering, ringer det nogle klokker?<br>Gæster: Qasam N. Ahmad");
+<<<<<<< Updated upstream
 }
+=======
+>>>>>>> Stashed changes
 
 
 

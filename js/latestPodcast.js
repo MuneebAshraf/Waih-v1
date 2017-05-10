@@ -40,31 +40,31 @@ function latestPodcasts() {
     var dayOftheWeek =  new Date().getDay();
 
     switch (dayOftheWeek) {
-        case 1: if(time >= '18:30'){
+        case 1: if(time >= '19:10'){
             monday()
         } else {sunday()}
             break;
-        case 2: if(time >= '18:30'){
+        case 2: if(time >= '19:10'){
             tuesday()
         } else {monday()}
             break;
-        case 3: if(time >= '18:30'){
+        case 3: if(time >= '19:10'){
             wednesday()
         } else {tuesday()}
             break;
-        case 4: if(time >= '18:30'){
+        case 4: if(time >= '19:10'){
             thursday()
         } else {wednesday()}
             break;
-        case 5: if(time >= '18:30'){
+        case 5: if(time >= '19:10'){
             friday()
         } else {thursday()}
             break;
-        case 6: if(time >= '18:30'){
+        case 6: if(time >= '19:10'){
             saturday()
         } else {friday()}
             break;
-        case 0: if(time >= '18:30'){
+        case 0: if(time >= '19:10'){
             sunday()
         } else {saturday()}
             break;

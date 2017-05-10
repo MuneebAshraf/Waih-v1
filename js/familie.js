@@ -1,19 +1,14 @@
-
-
-familie()
-function familie() {
-
-js_audioPlayer(10, "audio/05:02-2017.mp3","Vært: Haisam Talat<br>Emne: Familien i et sociologisk perspektiv<br>Gæst: Sociolog, Ahmad Durani");
-js_audioPlayer(9,"audio/19:02-2017.mp3", "Værter: Haisam Talat & Bamba Diop<br>Emne: Den alternative familie fra gaden<br>Gæst: Abdel Jalil Lundberg");
-js_audioPlayer(8,"audio/26:02-2017.mp3",  "Vært: Haisam Talat<br>Emne: En sjov familieting<br>Gæst: Abdullah Gh.");
-js_audioPlayer(7,"audio/05-03-2017.mp3",  "Vært: Haisam Talat & Bamba Diop<br>Emne: 'De 7 gyldne råd til børneopdragelse'<br>Gæst: Waseem Rana");
-js_audioPlayer(6,"audio/12-03-2017.mp3", "Vært: Haisam Talat & Bamba Diop<br>Emne: De 7 gyldne råd til børneopdragelse Del2<br>Gæst: Waseem Rana");
-js_audioPlayer(5,"audio/19-03-2017.mp3", "Vært: Haisam Talat<br>Emne: Kriminelle liv VS Familie liv<br>Gæst: Raza");
-js_audioPlayer(4,"audio/26-03-2017.mp3", "Vært: Haisam Talat<br>Emne: En sjov familieting<br>Gæst: Hussam Al-Mashadani");
-js_audioPlayer(3,"audio/09-04-2017.mp3",  "Vært: Haisam Talat<br>Emne: Hjælp mine børn er på gaden<br>Gæst: Omar Achikhane & Abduljalil Lundberg");
-js_audioPlayer(2,"audio/23-04-2017.mp3",  "Vært: Haisam Talat<br>Emne: Misbrug i hjemmet<br>Gæst: Erik Hansen");
-js_audioPlayer(1,"audio/30-04-2017.mp3",  "Vært: Haisam Talat<br>Emne: En sjov familie ting, ægteskabsprocessen<br>Gæst: Tahir Mirza");
-}
+js_audioPlayer(11, "audio/05:02-2017.mp3","Vært: Haisam Talat<br>Emne: Familien i et sociologisk perspektiv<br>Gæst: Sociolog, Ahmad Durani");
+js_audioPlayer(10,"audio/19:02-2017.mp3", "Værter: Haisam Talat & Bamba Diop<br>Emne: Den alternative familie fra gaden<br>Gæst: Abdel- Jaleel Lundberg Darku");
+js_audioPlayer(9,"audio/26:02-2017.mp3",  "Vært: Haisam Talat<br>Emne: En sjov familieting<br>Gæst: Abdullah Gh.");
+js_audioPlayer(8,"audio/05-03-2017.mp3",  "Vært: Haisam Talat & Bamba Diop<br>Emne: 'De 7 gyldne råd til børneopdragelse'<br>Gæst: Waseem Rana");
+js_audioPlayer(7,"audio/12-03-2017.mp3", "Vært: Haisam Talat & Bamba Diop<br>Emne: De 7 gyldne råd til børneopdragelse Del2<br>Gæst: Waseem Rana");
+js_audioPlayer(6,"audio/19-03-2017.mp3", "Vært: Haisam Talat<br>Emne: Kriminelle liv VS Familie liv<br>Gæst: Raza");
+js_audioPlayer(5,"audio/26-03-2017.mp3", "Vært: Haisam Talat<br>Emne: En sjov familieting<br>Gæst: Hussam Al-Mashadani");
+js_audioPlayer(4,"audio/09-04-2017.mp3",  "Vært: Haisam Talat<br>Emne: Hjælp mine børn er på gaden<br>Gæst: Omar Achikhane & Abdel- Jaleel Lundberg Darku");
+js_audioPlayer(3,"audio/23-04-2017.mp3",  "Vært: Haisam Talat<br>Emne: Misbrug i hjemmet<br>Gæst: Erik Hansen");
+js_audioPlayer(2,"audio/30-04-2017.mp3",  "Vært: Haisam Talat<br>Emne: En sjov familie ting, ægteskabsprocessen<br>Gæst: Tahir Mirza");
+js_audioPlayer(1,"audio/07-05-2017.mp3",  "Vært: Haisam Talat<br>Emne: Det der samler familien<br>Gæst: Abdel- Jaleel Lundberg Darku");
 
 
 
