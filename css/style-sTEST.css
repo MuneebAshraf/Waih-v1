@@ -583,7 +583,7 @@ Hero
 .hero h1 span { color: #a1a9b0; display: inline-block; }
 .hero p { letter-spacing: 1px; }
 .learn-more-btn { background: rgb(148, 195, 206); padding: 20px 40px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; color: #fff; text-transform: uppercase; letter-spacing: 1px; display: inline-block; -webkit-box-shadow: 0px 3px 0px 0px #7fa7b1; -moz-box-shadow: 0px 3px 0px 0px #7fa7b1; box-shadow: 0px 3px 0px 0px #7fa7b1; margin: 60px 0 0; font-weight: bold; }
-.learn-more-btn:hover, .learn-more-btn:focus { background: rgba(148, 195, 206); color: #fff; }
+.learn-more-btn:hover, .learn-more-btn:focus { background: rgba(148, 195, 206,1); color: #fff; }
 
 
 /* ==========================================================================
@@ -663,7 +663,7 @@ poadcasts
     width:80vw;
     margin:0 auto 30px auto ;
     padding: 35px;
-    z-index: 1;
+    z-index: 8;
 
 }
 .program-upto img{
@@ -683,7 +683,7 @@ poadcasts
     margin:0 auto 30px auto ;
     padding: 35px;
     width:80vw;
-    z-index:0;
+    z-index:7;
 }
 
 .program-isbjerg img{
@@ -703,7 +703,7 @@ poadcasts
     margin:0 auto 30px auto ;
     padding: 35px;
     width:80vw;
-    z-index:0;
+    z-index:6;
 }
 
 .program-kultur img{
@@ -715,6 +715,83 @@ poadcasts
     margin-left: 50px;
     float: left;
     width: 35vw;
+    color: mintcream;
+}
+
+.program-samfund{
+    background-color: #444957;
+    position: absolute;
+    width:80vw;
+    margin:0 auto 30px auto ;
+    padding: 35px;
+    z-index: 5;
+
+}
+.program-samfund img{
+    width: 40%;
+    float: left;
+}
+.samfundText{
+    margin-left: 50px;
+    float: left;
+    width:35vw;
+    color: mintcream;
+}
+.program-apropos{
+    background-color: #444957;
+    position: absolute;
+    width:80vw;
+    margin:0 auto 30px auto ;
+    padding: 35px;
+    z-index: 4;
+
+}
+.program-apropos img{
+    width: 40%;
+    float: left;
+}
+.aproposText{
+    margin-left: 50px;
+    float: left;
+    width:35vw;
+    color: mintcream;
+}
+.program-aktivister{
+    background-color: #444957;
+    position: absolute;
+    width:80vw;
+    margin:0 auto 30px auto ;
+    padding: 35px;
+    z-index: 3;
+
+}
+.program-aktivister img{
+    width: 40%;
+    float: left;
+}
+.aktivisterText{
+    margin-left: 50px;
+    float: left;
+    width:35vw;
+    color: mintcream;
+}
+.program-familie{
+    background-color: #444957;
+    position: absolute;
+    width:80vw;
+    margin:0 auto 30px auto ;
+    padding: 35px;
+    z-index: 2;
+
+}
+.program-familie img{
+    width: 40%;
+    float: left;
+}
+.familieText{
+    margin-left: 50px;
+    float: left;
+    width:35vw;
     color: mintcream;
 }
 
@@ -746,10 +823,10 @@ poadcasts
     background: url("../img/samfund.jpg");
 }
 .apropos{
-    background: url("../img/test.jpeg");
+    background: url("../img/apropos.jpg");
 }
 .aktivister{
-    background: url("../img/Aktivister.jpg");
+    background: url("../img/aktivister.jpg");
 }
 .familie{
     background: url("../img/familie.jpg");

@@ -14,6 +14,7 @@ var ishaa;
 var nottrue=false;
 var checkTimeLoopMobil;
 
+
 $(document).on('click','.salahButton',function () {
     loop();
     $(".fajrMobil").toggleClass("fajrMobilActive");

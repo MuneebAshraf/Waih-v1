@@ -1,3 +1,4 @@
+
 js_audioPlayer(11, "audio/05:02-2017.mp3","Vært: Haisam Talat<br>Emne: Familien i et sociologisk perspektiv<br>Gæst: Sociolog, Ahmad Durani");
 js_audioPlayer(10,"audio/19:02-2017.mp3", "Værter: Haisam Talat & Bamba Diop<br>Emne: Den alternative familie fra gaden<br>Gæst: Abdel- Jaleel Lundberg Darku");
 js_audioPlayer(9,"audio/26:02-2017.mp3",  "Vært: Haisam Talat<br>Emne: En sjov familieting<br>Gæst: Abdullah Gh.");

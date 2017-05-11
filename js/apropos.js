@@ -3,7 +3,7 @@
 
 apropos()
 function apropos() {
-    
+
 addPodcasts("03:02-2017.mp3","Vært: Zainab Nasrati<br>Emne: Empati<br>Gæst: Ali Nicolaisen");
 addPodcasts("10:02-2017.mp3", "Vært: Lubna Ahmed<br>Emne: Tonen i den offentlige debat<br>Gæst: Digter og debattør, Özcan Ajrulovski");
 addPodcasts("17:02-2017.mp3",  "Vært:Zainab Nasrati<br>Emne: Mindfulnessog den muslimske bøn <br>Gæst: Sprogpsykolog og mentor Hamida Naji");
@@ -18,7 +18,6 @@ addPodcasts("21-04-2017.mp3",  "Vært: Elias Rama<br>Emne: fitnesskultur & dens 
 addPodcasts("28-04-2017.mp3",  "Vært: Zainab Nasrati<br>Emne: Somalisk sundhedsforbund<br>Gæster:  Hafsa Halane & Adar Mohamed Hassan");
 addPodcasts("05-05-2017.mp3",  "Vært: Zainab Nasrati<br>Emne: En kulturrig brudestylist<br>Gæster:  Iman Rose");
 }
-=======
 js_audioPlayer(13,"audio/03:02-2017.mp3","Vært: Zainab Nasrati<br>Emne: Empati<br>Gæst: Ali Nicolaisen");
 js_audioPlayer(12,"audio/10:02-2017.mp3", "Vært: Lubna Ahmed<br>Emne: Tonen i den offentlige debat<br>Gæst: Digter og debattør, Özcan Ajrulovski");
 js_audioPlayer(11,"audio/17:02-2017.mp3",  "Vært:Zainab Nasrati<br>Emne: Mindfulnessog den muslimske bøn <br>Gæst: Sprogpsykolog og mentor Hamida Naji");
@@ -32,7 +31,6 @@ js_audioPlayer(4,"audio/14-04-2017.mp3",  "Vært: Aysha Farooqui<br>Emne: Medier
 js_audioPlayer(3,"audio/21-04-2017.mp3",  "Vært: Elias Rama<br>Emne: fitnesskultur & dens sociale følger <br>Gæster:  Zaid Nasrati ");
 js_audioPlayer(2,"audio/28-04-2017.mp3",  "Vært: Zainab Nasrati<br>Emne: Somalisk sundhedsforbund<br>Gæster:  Hafsa Halane & Adar Mohamed Hassan");
 js_audioPlayer(1,"audio/05-05-2017.mp3",  "Vært: Zainab Nasrati<br>Emne: En kulturrig brudestylist<br>Gæster:  Iman Rose");
->>>>>>> Stashed changes
 
 
 
