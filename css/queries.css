@@ -271,9 +271,11 @@
     }
     
     .lyt{
+        display: block;
         font-size: 200%;   
     }
     .via{
+        display: block;
         font-size: 150%;
     }
     
