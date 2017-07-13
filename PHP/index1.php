@@ -10,7 +10,7 @@
         <input type="submit" value="Upload file">
     </form>
     <p>
-        <a href="list_files.php">See all files</a>
+        <a href="download.php">See all files</a>
     </p>
 </body>
 </html>
