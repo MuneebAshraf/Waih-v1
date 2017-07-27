@@ -9,12 +9,12 @@
  */
 
 
-    $dbLink = new mysqli('waih.dk.mysql', 'waih_dk_podcasts', 'waihpodcasts', 'waih_dk_podcasts');
+    $dbLink = new mysqli('mysql21.unoeuro.com', 'waih_dk', 'W0rkhardforjannah', 'waih_dk_db');
     if(mysqli_connect_errno()) {
         die("MySQL connection failed: ". mysqli_connect_error());
     }
 
-    $query = "SELECT * FROM myTable";
+    $query = "SELECT * FROM Podcast";
 
 
     $result = $dbLink->query($query);

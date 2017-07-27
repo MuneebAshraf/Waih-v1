@@ -4,7 +4,7 @@ if(isset($_FILES['uploaded_file'])) {
     // Make sure the file was sent without errors
     if($_FILES['uploaded_file']['error'] == 0) {
         // Connect to the database
-        $dbLink = new mysqli('waih.dk.mysql', 'waih_dk_podcasts', 'waihpodcasts', 'waih_dk_podcasts');
+        $dbLink = new mysqli('mysql21.unoeuro.com', 'waih_dk', 'W0rkhardforjannah', 'waih_dk_db');
         if(mysqli_connect_errno()) {
             die("MySQL connection failed: ". mysqli_connect_error());
         }
@@ -17,7 +17,7 @@ if(isset($_FILES['uploaded_file'])) {
  
         // Create the SQL query
         $query = "
-            INSERT INTO `myTable` (
+            INSERT INTO `Podcast` (
                 `name`, `mime`, `size`, `data`, `created`
             )
             VALUES (

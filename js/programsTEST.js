@@ -176,11 +176,3 @@ $(".podcastsPlayer").append(
         "</div>"
 
 )}
-
-
-
-
-
-
- 
- 
