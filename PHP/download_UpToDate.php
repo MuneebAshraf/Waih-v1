@@ -28,8 +28,9 @@ if($result) {
         while($row = $result->fetch_assoc()) {
 
             $name = $i++ . "podcast.mp3";
-            $podcast = tmpfile();
-            $podcast = fopen($name, "w");
+
+            $tmppodcast = tempnam(sys_get_temp_dir(), $name);
+            $podcast = fopen($tmppodcast, "w");
             fwrite($podcast,$row['data']);
             fclose($podcast);
 
