@@ -1,5 +1,6 @@
 <?php
 // Check if a file has been uploaded
+
 if(isset($_FILES['uploaded_file'])) {
     // Make sure the file was sent without errors
     if($_FILES['uploaded_file']['error'] == 0) {
@@ -13,15 +14,18 @@ if(isset($_FILES['uploaded_file'])) {
         $name = $dbLink->real_escape_string($_FILES['uploaded_file']['name']);
         $mime = $dbLink->real_escape_string($_FILES['uploaded_file']['type']);
         $data = $dbLink->real_escape_string(file_get_contents($_FILES  ['uploaded_file']['tmp_name']));
-        $size = intval($_FILES['uploaded_file']['size']);
- 
+        $description = $_POST['decription'];
+        $show_name = $_POST['show_name'];
+        $show_host = $_POST['show_host'];
+        $show_guest = $_POST['show_guest'];
+
         // Create the SQL query
         $query = "
-            INSERT INTO `Podcast` (
-                `name`, `mime`, `size`, `data`, `created`
+            INSERT INTO `Podcasts` (
+                `name`, `mime`, `data`, `description`, `show_name`, `show_host`, `show_guest`
             )
             VALUES (
-                '{$name}', '{$mime}', {$size}, '{$data}', NOW()
+                '{$name}', '{$mime}', '{$data}', {$description},{$show_name},{$show_host}, {$show_guest}
             )";
  
         // Execute the query

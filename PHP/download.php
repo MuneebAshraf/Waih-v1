@@ -32,7 +32,6 @@ if($result) {
                 <tr>
                     <td><b>Name</b></td>
                     <td><b>Mime</b></td>
-                    <td><b>Size (bytes)</b></td>
                     <td><b>Created</b></td>
                     <td><b>&nbsp;</b></td>
                 </tr>';
@@ -50,7 +49,6 @@ if($result) {
                 <tr>
                     <td>{$row['name']}</td>
                     <td>{$row['mime']}</td>
-                    <td>{$row['size']}</td>
                     <td>{$row['created']}</td>
                     <td>
                     <div class='playerContainer'>
@@ -67,8 +65,6 @@ if($result) {
         // Close table
         echo '</table>';
     }
-
-
 
 
     // Free the result
