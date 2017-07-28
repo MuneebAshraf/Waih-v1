@@ -10,7 +10,7 @@
 
 include 'connect.php';
 
-    $query = "SELECT * FROM Podcasts WHERE show_name = upToDate";
+    $query = "SELECT * FROM Podcasts WHERE show_name = 'upToDate'";
 
 
     $result = $dbLink->query($query);
