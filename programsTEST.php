@@ -27,7 +27,7 @@
     <meta name="msapplication-config" content="/favicons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
     <?php
-    include 'php/connect.php'; ?>
+    include 'connect.php'; ?>
 
 
 </head>
