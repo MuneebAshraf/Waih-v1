@@ -26,14 +26,14 @@ if($result) {
         // Print the top of a table
         $i = 1;
         while($row = $result->fetch_assoc()) {
-
+          /*
             $name = $i++ . "podcast.mp3";
 
             $tmppodcast = tempnam(sys_get_temp_dir(), $name);
             $podcast = fopen($tmppodcast, "w");
             fwrite($podcast,$row['data']);
             fclose($podcast);
-
+            */
             echo "
        
                     <p>{$row['name']}</p><br>
@@ -43,7 +43,7 @@ if($result) {
                     <div class='playerContainer'>
                         <p>{$row['name']}</p> 
                         <audio controls class='js-player'> 
-                        <source src=$name type='audio/mp3'> 
+                        <source src={$row['mime']};base54,{$row['data']} type='audio/mp3'> 
                         </audio>
                     </div>
                     <p>{$row['description']}</p>
