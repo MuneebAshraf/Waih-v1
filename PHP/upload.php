@@ -13,7 +13,7 @@ if(isset($_FILES['uploaded_file'])) {
         // Gather all required data
         $name = $dbLink->real_escape_string($_FILES['uploaded_file']['name']);
         $mime = $dbLink->real_escape_string($_FILES['uploaded_file']['type']);
-        $data = $dbLink->real_escape_string(file_get_contents($_FILES  ['uploaded_file']['tmp_name']));
+        $data = base64_encode($dbLink->real_escape_string(file_get_contents($_FILES  ['uploaded_file']['tmp_name'])));
         $description = $_POST['description'];
         $show_name = $_POST['show_name'];
         $show_host = $_POST['show_host'];
