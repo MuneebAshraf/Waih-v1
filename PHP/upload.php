@@ -25,7 +25,7 @@ if(isset($_FILES['uploaded_file'])) {
                 `name`, `mime`, `data`, `description`, `show_name`, `show_host`, `show_guest`
             )
             VALUES (
-                '{$name}', '{$mime}', '{$data}', {$description},{$show_name},{$show_host}, {$show_guest}
+                '{$name}', '{$mime}', '{$data}', '{$description}','{$show_name}','{$show_host}', '{$show_guest}'
             )";
  
         // Execute the query
