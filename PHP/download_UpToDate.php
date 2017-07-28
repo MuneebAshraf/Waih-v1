@@ -34,6 +34,9 @@ if($result) {
             fwrite($podcast,$row['data']);
             fclose($podcast);
             */
+
+            $data = base64_encode($row['data']);
+
             echo "
        
                     <p>{$row['name']}</p><br>
@@ -43,7 +46,7 @@ if($result) {
                     <div class='playerContainer'>
                         <p>{$row['name']}</p> 
                         <audio controls class='js-player'> 
-                        <source src={$row['mime']};base54,{$row['data']} type='audio/mp3'> 
+                        <source src=data:{$row['mime']};base64,{$data} type='audio/mp3'> 
                         </audio>
                     </div>
                     <p>{$row['description']}</p>
