@@ -6,8 +6,9 @@
 </head>
 <body>
     <form action="upload.php" method="post" enctype="multipart/form-data">
-        <input type="file" multiple="multiple" name="uploaded_file"><br>
+        <input type="file" multiple="multiple" name="uploaded_file" required><br>
         <select name="show_name" id="show_name">
+            <option value="">-</option>
             <option value="upToDate">Up to date</option>
             <option value="toppenAfIsbjerget">Toppen af isbjerget</option>
             <option value="turMedKultur">En  tur med Kultur</option>
@@ -17,6 +18,7 @@
             <option value="enFamilieTing">En familie ting</option>
         </select>
         <select name="show_host" id="show_name">
+            <option value="">-</option>
             <option value="Johannes">Johannes</option>
             <option value="Abu Karim">Abu Karim</option>
             <option value="Elias">Elias</option>
@@ -24,7 +26,7 @@
             <option value="Haisam">Haisam</option>
             <option value="Aisha">Aisha</option>
         </select>
-        <input type="text" name="show_guest" id="show_guest" placeholder="Gæstens navn"/>
+        <input type="text" name="show_guest" id="show_guest" placeholder="Gæstens navn" required>
         <textarea name="description" id="description" placeholder="Kort beskrivelse"> </textarea>
 
         <input type="submit" value="Upload file">
