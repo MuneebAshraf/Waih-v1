@@ -14,7 +14,7 @@
         die("MySQL connection failed: ". mysqli_connect_error());
     }
 
-    $query = "SELECT * FROM Podcast";
+    $query = "SELECT * FROM Podcasts";
 
 
     $result = $dbLink->query($query);
@@ -49,7 +49,9 @@ if($result) {
                 <tr>
                     <td>{$row['name']}</td>
                     <td>{$row['mime']}</td>
-                    <td>{$row['created']}</td>
+                    <td>{$row['show_name']}</td>
+                    <td>{$row['show_host']}</td>
+                    <td>{$row['show_guest']}</td>
                     <td>
                     <div class='playerContainer'>
                         <p>{$row['name']}</p> 
@@ -58,6 +60,7 @@ if($result) {
                         </audio>
                     </div>
                     </td>
+                    <td>{$row['description']}</td>
                 </tr>";
 
         }
