@@ -32,7 +32,7 @@
         <input type="submit" value="Upload file">
     </form>
     <p>
-        <a href="uploadAll.php">See all files</a>
+        <a href="connect.php">See all files</a>
     </p>
 </body>
 </html>

@@ -26,7 +26,10 @@
     <link rel="shortcut icon" href="/favicons/favicon.ico">
     <meta name="msapplication-config" content="/favicons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
-    
+    <?php
+    include 'php/connect.php'; ?>
+
+
 </head>
 <body id="top">
         <header id="home" class="cd-header">
@@ -35,7 +38,7 @@
                     <img class="logo col-md-1 col-md-offset-1" src="img/logo.png">
                     <ul class="main-nav cd-secondary-nav js--main-nav ">
                         <li><a href="index.html">Hør radio</a></li>
-                        <li><a href="programsTEST.html">Programmer</a></li>
+                        <li><a href="programsTEST.php">Programmer</a></li>
                         <li><a href="om.html">Om os</a></li>
                         <!--<li><a href="v%C3%A6rter.html">Værter</a></li>-->
                         <li><a href="sendeplan.html">Sendeplan</a></li>
@@ -60,7 +63,7 @@
         <nav>
 		<ul class="cd-primary-nav">
 			            <li><a href="index.html">Hør radio</a></li>
-                        <li><a href="programsTEST.html">Programmer</a></li>
+                        <li><a href="programsTEST.php">Programmer</a></li>
                         <li><a href="om.html">Om os</a></li>
                         <!--<li><a href="v%C3%A6rter.html">Værter</a></li>-->
                         <li><a href="sendeplan.html">Sendeplan</a></li>
@@ -76,7 +79,7 @@
         <nav>
 		<ul class="cd-primary-nav">
 			            <li><a href="index.html">Hør radio</a></li>
-                        <li><a href="programsTEST.html">Programmer</a></li>
+                        <li><a href="programsTEST.php">Programmer</a></li>
                         <li><a href="om.html">Om os</a></li>
                         <!--<li><a href="v%C3%A6rter.html">Værter</a></li>-->
                         <li><a href="sendeplan.html">Sendeplan</a></li>
@@ -124,8 +127,11 @@
                         <img src="img/myter.jpg">
                         <div class="upToText">Hashtag mig her, hashtag mig der. Up To Date er programmet, hvor vi vil snakke om de emner som er oppe på de sociale medier. Vi vil interagere med jer via dem, få jeres vinkel med og åbne op for en spændende debat.<br><br> Følg med hver mandag kl 17.00 på www.waih.dk, app eller når som helst via podcast. Programmet genudsendes mandag kl 20.00 og tirsdag kl 07.30.</div>
                         <div class="seperator"></div>
-                        <div class="podcastsPlayer"></div>
-                    </div>
+                        <div class="podcastsPlayer">
+                        <?php include 'php/download_UpToDate.php'?>
+                        </div>
+
+                  <!--  </div>
                     <div class="program-isbjerg">
                         <img src="img/toppen.JPG">
                         <div class="isbjergText">Normalt kender vi kun meget lidt til mange af de fremtrædende muslimske personligheder, der findes i det danske samfund, på globalt plan, eller nogle af de historiske, mindre omtalte muslimske personligheder. I programmet ”Toppen af isbjerget” dykker værten Abu Karim ned under overfladen, og giver os et dybere indblik i disse personligheders liv og historier.<br> <br> Følg med hver tirsdag kl 17.00 på www.waih.dk, app eller når som helst via podcast. Programmet genudsendes tirsdag kl 20.00 og onsdag kl 07.30.</div>
@@ -162,7 +168,7 @@
                         <div class="seperator"></div>
                         <div class="podcastsPlayer"></div>
                     </div>
-
+-->
             </div>
 
         </div>
