@@ -5,16 +5,127 @@
 //Sætter en flexibel højde på program diven
 var biggestHeight = 0;
 function height() {
-$(".programmer *").each(function () {
+    $(".programmer > *").each(function () {
     if($(this).height() > biggestHeight){
-        biggestHeight = $(this).height()
-    }});$(".programmer").height(biggestHeight);}
-var loop = setTimeout(height,100);
+        biggestHeight = $(this).height();
+    }else if($(show_today.div).height() < biggestHeight) {
+        biggestHeight = $(this).height();
+    }});
+    $(".programmer").height(biggestHeight);
+}
+
+var loop = setInterval( height , 500 );
 
 var stateObj = { programmer: "programmer" };
 
+
+upToDate={show_name: "upToDate", div: ".program-upto", header: 'Up to date'};
+toppenAfIsbjerget={show_name: "toppenAfIsbjerget", div: ".program-isbjerg", header: 'Isbjerget'};
+turMedKultur={show_name: "turMedKultur", div: ".program-turKultur", header: 'Tur med kultur'};
+samfundsdebatten={show_name: "samfundsdebatten", div: ".program-samfund", header: 'Samfund'};
+apropos={show_name: "apropos", div: ".program-apropos", header: 'Apropos'};
+aktivister={show_name: "aktivister", div: ".program-aktivister", header: 'Aktivister'};
+enFamilieTing={show_name: "enFamilieTing", div: ".program-familie", header: 'Familie'};
+
+var show_today;
+
+switch (new Date().getDay()){
+    case 1: show_today =upToDate;
+            $(".programsMini > ul li:eq(0) > div").addClass('active');
+        break;
+    case 2: show_today =toppenAfIsbjerget;
+            $(".programsMini > ul li:eq(1) > div").addClass('active');
+        break;
+    case 3: show_today =turMedKultur;
+            $(".programsMini > ul li:eq(2) > div").addClass('active');
+        break;
+    case 4: show_today =samfundsdebatten;
+            $(".programsMini > ul li:eq(3) > div").addClass('active');
+        break;
+    case 5: show_today =apropos;
+            $(".programsMini > ul li:eq(4) > div").addClass('active');
+        break;
+    case 6: show_today =aktivister;
+            $(".programsMini > ul li:eq(5) > div").addClass('active');
+        break;
+    case 0: show_today =enFamilieTing;
+            $(".programsMini > ul li:eq(6) > div").addClass('active');
+        break;
+}
+visibleShow();
+console.log($(".programsMini > ul li:eq(4) > div").addClass('active'));
+
+$(document).on('click','.programsMini li',function () {
+    if(!$(this).find('div').hasClass('active')){
+    switch($(this).index()){
+        case 0:hideShow();show_today=upToDate;visibleShow();$(this).find('div').addClass('active');
+            break;
+        case 1:hideShow();show_today=toppenAfIsbjerget;visibleShow();$(this).find('div').addClass('active');
+            break;
+        case 2:hideShow();show_today=turMedKultur;visibleShow();$(this).find('div').addClass('active');
+            break;
+        case 3:hideShow();show_today=samfundsdebatten;visibleShow();$(this).find('div').addClass('active');
+            break;
+        case 4:hideShow();show_today=apropos;visibleShow();$(this).find('div').addClass('active');
+            break;
+        case 5:hideShow();show_today=aktivister;visibleShow();$(this).find('div').addClass('active');
+            break;
+        case 6:hideShow();show_today=enFamilieTing;visibleShow();$(this).find('div').addClass('active');
+            break;
+    }
+    }
+});
+function hideShow() {
+    $(show_today.div).addClass('is_hidden');
+    $(".programmer > .is_hidden ").css('display','inline-block');
+    $(show_today.div).removeClass('is_visible');
+    setTimeout(function(){ $(".programmer > .is_hidden ").css('display','none');$(".programmer > div").removeClass('is_hidden'); }, 1000);
+
+    if (matchMedia('only screen and (max-width: 44.1875em)').matches){
+        $('html, body').animate({
+            scrollTop: 625
+        }, 800);
+    }
+}
+
+function visibleShow() {
+    $(".programHeadline").fadeOut(function() {
+        $(this).text(show_today.header).fadeIn();
+    });
+    $(show_today.div).addClass('is_visible');
+    $(".programsMini li").find('div').removeClass('active');
+    addPodcasts();
+}
+
+
+function addPodcasts(){
+    $(".podcastsPlayer").empty();
+    $.get('../download_podcasts.php?show_name=' + show_today.show_name,
+        function (div) {
+            $(show_today.div + ' .podcastsPlayer').append(div);
+
+            plyr.setup();
+        }
+    )
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 window.onpopstate = function(event) {
 };
+addPodcasts("07:02-2017.mp3","Vært: Abu Karim<br>Profil: Nødhjælpsarbejder, skuespiller og meget andet<br>Gæst: Khalid Alsubeihi");
 
 /*
 addPodcasts("https://soundcloud.com/bachir-kurdi/apropos-med-elias-rama","Vært: Johannes<br>Gæster: Omar El-khatib & Abu Yunes<br>Dato: 17/04-2017");
@@ -28,7 +139,7 @@ addPodcasts("https://soundcloud.com/bachir-kurdi/apropos-med-elias-rama","Vært:
 addPodcasts("https://soundcloud.com/bachir-kurdi/apropos-med-elias-rama","Vært: Johannes<br>Gæst:  Tarek Ghanoum<br>Dato: 20/02-2017");
 addPodcasts("https://soundcloud.com/bachir-kurdi/apropos-med-elias-rama","Vært: Johannes<br>Gæst: Abdullahi Hassan<br>Dato: 13/02-2017");
 addPodcasts("https://soundcloud.com/bachir-kurdi/apropos-med-elias-rama","Vært: Elias Rama<br>Gæst: Tarek Ghanoum<br>Dato: 06/02-2017");
-*/
+
 
 function isbjerg() {
     $(".podcastsPlayer").empty();
@@ -128,53 +239,4 @@ function familie(){
     stateObj = { programmer: "programmer" };
     history.pushState(stateObj, "page 6", "#Familie");
 }
-
-
-$(document).on('click','.programsMini li',function () {
-    console.log($(this).find('div').addClass('active'))
-    var $headline = $(".programHeadline");
-    switch($(this).index()){
-        case 0:$headline.text('Up to date');
-                $(".programsMini").find('div').removeClass('active');
-               $(this).find('div').addClass('active');
-            break;
-        case 1:$headline.text('Isbjerget');
-                $(".programsMini").find('div').removeClass('active');
-               $(this).find('div').addClass('active');
-            break;
-        case 2:$headline.text('Tur med kultur');
-                $(".programsMini").find('div').removeClass('active');
-               $(this).find('div').addClass('active');
-            break;
-        case 3:$headline.text('Samfund');
-                $(".programsMini").find('div').removeClass('active');
-               $(this).find('div').addClass('active');
-            break;
-        case 4:$headline.text('Apropos');
-                $(".programsMini").find('div').removeClass('active');
-               $(this).find('div').addClass('active');
-            break;
-        case 5:$headline.text('Aktivister');
-                $(".programsMini").find('div').removeClass('active');
-               $(this).find('div').addClass('active');
-            break;
-        case 6:$headline.text('Familie');
-                $(".programsMini").find('div').removeClass('active');
-               $(this).find('div').addClass('active');
-            break;
-    }
-
-    });
-
-
-function addPodcasts(audioPath,title){
-
-$(".podcastsPlayer").append(
-        "<div class='playerContainer'>"+
-        "<p>"+title+"</p>" +
-        "<audio controls class='js-player' >" +
-        "<source src='audio/"+audioPath+".mp3' type='audio/mp3'>" +
-        "</audio>"+
-        "</div>"
-
-)}
+ */

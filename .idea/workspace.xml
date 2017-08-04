@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b6aeb07-2a01-4a66-9fdb-45a187aa112c" name="Default" comment="">
+    <list default="true" id="900cd7e3-0b7a-4de7-8ca1-f01ff67e98d3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/connect.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PHP/audio/21-04-2017.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PHP/audioFile/14-03-2017.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PHP/connect.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/audio/13-03-2017.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/audio/14-03-2017.mp3" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PHP/download_UpToDate.php" afterPath="$PROJECT_DIR$/download_podcasts.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PHP/index1.php" afterPath="$PROJECT_DIR$/index1.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PHP/upload.php" afterPath="$PROJECT_DIR$/upload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Waih-v1.iml" afterPath="$PROJECT_DIR$/.idea/Waih-v1.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-<<<<<<< Updated upstream
-=======
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/queries.css" afterPath="$PROJECT_DIR$/css/queries.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/animate.css" afterPath="$PROJECT_DIR$/css/animate.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style-sTEST.css" afterPath="$PROJECT_DIR$/css/style-sTEST.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/programsTEST.html" afterPath="$PROJECT_DIR$/programsTEST.html" />
->>>>>>> Stashed changes
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/isbjerget.js" afterPath="$PROJECT_DIR$/js/isbjerget.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/programsTEST.js" afterPath="$PROJECT_DIR$/js/programsTEST.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/programsTEST.php" afterPath="$PROJECT_DIR$/programsTEST.php" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,21 +29,25 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-<<<<<<< Updated upstream
-      <file leaf-file-name="programsTEST.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/programsTEST.html">
+      <file leaf-file-name="programsTEST.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/programsTEST.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="127" column="26" lean-forward="false" selection-start-line="127" selection-start-column="26" selection-end-line="127" selection-end-column="26" />
-              <folding>
-                <element signature="n#style#0;n#h1#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="84">
+              <caret line="62" column="105" lean-forward="false" selection-start-line="62" selection-start-column="105" selection-end-line="62" selection-end-column="105" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="programsTEST.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/programsTEST.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="123" column="45" lean-forward="true" selection-start-line="123" selection-start-column="45" selection-end-line="123" selection-end-column="45" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -44,111 +55,31 @@
       <file leaf-file-name="style-sTEST.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style-sTEST.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8760">
-              <caret line="584" column="79" lean-forward="false" selection-start-line="584" selection-start-column="79" selection-end-line="584" selection-end-column="79" />
-=======
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-884">
-              <caret line="707" column="39" lean-forward="false" selection-start-line="707" selection-start-column="39" selection-end-line="707" selection-end-column="39" />
->>>>>>> Stashed changes
+            <state relative-caret-position="179">
+              <caret line="853" column="36" lean-forward="false" selection-start-line="853" selection-start-column="36" selection-end-line="853" selection-end-column="36" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="apropos.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/apropos.js">
-          <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-            <state relative-caret-position="2325">
-              <caret line="155" column="45" lean-forward="false" selection-start-line="155" selection-start-column="45" selection-end-line="155" selection-end-column="45" />
-              <folding />
-=======
-            <state relative-caret-position="180">
-              <caret line="12" column="49" lean-forward="false" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
-              <folding>
-                <marker date="1494438392000" expanded="true" signature="5127:5133" ph=" " />
-                <marker date="1494438392000" expanded="true" signature="5219:5225" ph=" " />
-              </folding>
->>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-        <option value="JavaScript File" />
-        <option value="CSS File" />
-      </list>
-    </option>
-  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>onClick='document.getElementById('audio_play').pause(); return false;</find>
-      <find>&lt;=</find>
-      <find>late</find>
-      <find>pod</find>
-      <find>programBo</find>
-      <find>program</find>
-      <find>sca</find>
-      <find>object</find>
-      <find>3</find>
-      <find>upt</find>
-      <find>5%</find>
-      <find>100px</find>
-      <find>&quot;</find>
-      <find>podva</find>
-      <find>3498db</find>
-      <find>.mp3</find>
-      <find>preload</find>
-      <find>darkover</find>
-      <find>.program-upto</find>
-      <find>pointer</find>
-      <find>1s</find>
-      <find>toppen</find>
-      <find>flip</find>
-      <find>programmer</find>
-      <find>container</find>
-      <find>#toppen</find>
-      <find>left</find>
-      <find>Følg</find>
-      <find>js_audioPlayer</find>
-      <find>$(&quot;.programHeadline&quot;)</find>
+      <find>headline</find>
+      <find>media</find>
+      <find>img</find>
+      <find>is_</find>
+      <find>$(this).find('div').addClass('swing')} else{</find>
+      <find>sepe</find>
+      <find>display: inline-block;</find>
+      <find>$(&quot;.programsMini &gt; li:eq(6) &gt; div&quot;);</find>
     </findStrings>
     <replaceStrings>
-      <replace>addClass(&quot;currentPrayerMobileActive&quot;)</replace>
-      <replace>currentPrayerMobileActive</replace>
-      <replace>toggleClass</replace>
-      <replace>currentPrayerMobile</replace>
-      <replace>addClass</replace>
-      <replace>mobil</replace>
-      <replace>Mobil</replace>
-      <replace>i</replace>
-      <replace>&quot;</replace>
-      <replace>date</replace>
-      <replace>firsthalf.</replace>
-      <replace>firsthalf</replace>
-      <replace>secondhalf</replace>
-      <replace>$(&quot;.latestPodcasts2&quot;)</replace>
-      <replace>onclick=&quot;$</replace>
-      <replace>&gt;&quot; +&quot;&lt;a href='#' onclick=&quot;+&quot;MM</replace>
-      <replace>)&quot;+&quot; class</replace>
-      <replace>onclick=&quot;+&quot;MM</replace>
-      <replace>onclick=&quot;+&quot;</replace>
-      <replace>mm</replace>
-      <replace>&gt;=</replace>
-      <replace>'</replace>
-      <replace>4ad8f5</replace>
-      <replace>0.5s</replace>
-      <replace>&lt;br&gt; Følg</replace>
-      <replace>addPodcasts</replace>
-      <replace>$headline</replace>
+      <replace>display: none;</replace>
+      <replace>$(&quot;.programsMini &gt; ul li:eq(0) &gt; div&quot;).addClass('active');</replace>
+      <replace>$(&quot;.programsMini &gt; ul li:eq(5) &gt; div&quot;).addClass('active');</replace>
+      <replace>$(&quot;.programsMini &gt; ul li:eq(6) &gt; div&quot;).addClass('active');</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -157,36 +88,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/scripts.js" />
-        <option value="$PROJECT_DIR$/css/styles.css" />
-        <option value="$PROJECT_DIR$/js/Jplayer.js" />
-        <option value="$PROJECT_DIR$/UpToDate.html" />
-        <option value="$PROJECT_DIR$/css/style-p.css" />
-        <option value="$PROJECT_DIR$/newPLayer.html" />
-        <option value="$PROJECT_DIR$/style.css" />
-        <option value="$PROJECT_DIR$/newPlayer.js" />
-        <option value="$PROJECT_DIR$/test.html" />
-        <option value="$PROJECT_DIR$/test.js" />
-        <option value="$PROJECT_DIR$/js/prayertimes.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/latestPodcast.js" />
-        <option value="$USER_HOME$/lyd-style.css" />
-        <option value="$PROJECT_DIR$/player/player.html" />
-        <option value="$PROJECT_DIR$/css/plyr.css" />
-        <option value="$PROJECT_DIR$/css/Effects.css" />
-        <option value="$PROJECT_DIR$/css/style-s.css" />
-        <option value="$PROJECT_DIR$/js/religiøse.js" />
-        <option value="$PROJECT_DIR$/js/UpToDate.js" />
-        <option value="$PROJECT_DIR$/js/tur-kultur.js" />
-        <option value="$PROJECT_DIR$/js/tabu.js" />
-        <option value="$PROJECT_DIR$/js/samfund.js" />
-        <option value="$PROJECT_DIR$/js/isbjerget.js" />
-        <option value="$PROJECT_DIR$/apropos.html" />
-        <option value="$PROJECT_DIR$/programs.html" />
-        <option value="$PROJECT_DIR$/js/programs.js" />
-        <option value="$PROJECT_DIR$/programsTEST.html" />
-        <option value="$PROJECT_DIR$/js/familie.js" />
-        <option value="$PROJECT_DIR$/js/apropos.js" />
+        <option value="$PROJECT_DIR$/programsTEST.php" />
         <option value="$PROJECT_DIR$/css/style-sTEST.css" />
         <option value="$PROJECT_DIR$/js/programsTEST.js" />
       </list>
@@ -198,13 +100,18 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP">
+    <include_path>
+      <path value="/Applications/MAMP/conf/php7.1.1" />
+    </include_path>
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="4" />
     <option name="y" value="22" />
     <option name="width" value="1436" />
     <option name="height" value="878" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -220,7 +127,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -243,35 +149,33 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PHP" />
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Waih-v1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Waih-v1" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="jsx.switch.disabled" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/audio" />
-      <recent name="$PROJECT_DIR$/css" />
-      <recent name="$PROJECT_DIR$/js" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/js" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -359,139 +263,41 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3b6aeb07-2a01-4a66-9fdb-45a187aa112c" name="Default" comment="" />
-      <created>1492511546582</created>
+      <changelist id="900cd7e3-0b7a-4de7-8ca1-f01ff67e98d3" name="Default" comment="" />
+      <created>1501796388210</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1492511546582</updated>
-      <workItem from="1492511548752" duration="5000" />
-      <workItem from="1492513831100" duration="1281000" />
-      <workItem from="1492514179663" duration="1090000" />
-      <workItem from="1492514246809" duration="596000" />
-      <workItem from="1492514125886" duration="2308000" />
-      <workItem from="1492513926995" duration="1417000" />
-      <workItem from="1492680933252" duration="20113000" />
-      <workItem from="1492806642367" duration="13616000" />
-      <workItem from="1493224533792" duration="17000" />
-      <workItem from="1493239235665" duration="6950000" />
-      <workItem from="1492987318251" duration="455000" />
-      <workItem from="1492901383591" duration="222000" />
-      <workItem from="1492815216049" duration="896000" />
-      <workItem from="1492729762178" duration="454000" />
-      <workItem from="1492384632380" duration="1570000" />
-      <workItem from="1493224267651" duration="227000" />
-      <workItem from="1493223662738" duration="311000" />
-      <workItem from="1493251256892" duration="13000" />
-      <workItem from="1493251281725" duration="400000" />
-      <workItem from="1493307035974" duration="1514000" />
-      <workItem from="1493323049688" duration="6496000" />
-      <workItem from="1493513903322" duration="384000" />
-      <workItem from="1493633918546" duration="106000" />
-      <workItem from="1493651792240" duration="17110000" />
-      <workItem from="1493746480295" duration="109000" />
-      <workItem from="1493913040456" duration="308000" />
-      <workItem from="1494002964421" duration="13160000" />
-<<<<<<< Updated upstream
-      <workItem from="1494437949722" duration="425000" />
-      <workItem from="1498902662483" duration="37000" />
-=======
-      <workItem from="1494437949722" duration="552000" />
-      <workItem from="1494607319036" duration="220000" />
->>>>>>> Stashed changes
+      <updated>1501796388210</updated>
+      <workItem from="1501796390050" duration="70000" />
+      <workItem from="1501796461006" duration="2762000" />
+      <workItem from="1501838157671" duration="5040000" />
     </task>
-    <task id="LOCAL-00001" summary="Salahtider på mobil WIP">
-      <created>1492513042431</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1492513042431</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Salahtider på mobil WIP">
-      <created>1492513421163</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1492513421163</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Salahtider på mobil WIP">
-      <created>1492513879048</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1492513879049</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Salahtider på mobil:&#10;tid opdateres live hvis en ny tid går ind mens den er åben.&#10;Border forsvinder når tiderne minimeres og kommer igen når man trykker igen">
-      <created>1492514009890</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1492514009890</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Programside:&#10;Har tilføjet funktion og effekt når man klikker på shows(pt kun uptodate og isbjerget) og funktion der loader titel og programintrotekst når der klikkes på forskellige og tilføjet funktion der henter players fra de respektive sider. tilføjet funktion der kører det shows javascript så den kan indsætte podcasts svarende til hvor mange podcasts der findes på den respektive side.&#10; desuden kan man trykke escape for at fjerne popuppen :P">
-      <created>1492741579728</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1492741579728</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Miniorogrammerne passer er i gang med at lave indholdsboksen der skal være under titlen">
-      <created>1493633986318</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1493633986318</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Miniorogrammerne passer er i gang med at lave indholdsboksen der skal være under titlen">
-      <created>1493658366183</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1493658366183</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Up to date WIP">
-      <created>1493662932029</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1493662932029</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Up to date WIP">
-      <created>1493674112446</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1493674112446</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< Updated upstream
-    <option name="totallyTimeSpent" value="106901000" />
-=======
-    <option name="totallyTimeSpent" value="99455000" />
->>>>>>> Stashed changes
+    <option name="totallyTimeSpent" value="7872000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="22" width="1436" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1775766" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914925" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32853025" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24980843" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32587412" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -501,379 +307,74 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Salahtider på mobil WIP" />
-    <MESSAGE value="Salahtider på mobil:&#10;tid opdateres live hvis en ny tid går ind mens den er åben.&#10;Border forsvinder når tiderne minimeres og kommer igen når man trykker igen" />
-    <MESSAGE value="Programside:&#10;Har tilføjet funktion og effekt når man klikker på shows(pt kun uptodate og isbjerget) og funktion der loader titel og programintrotekst når der klikkes på forskellige og tilføjet funktion der henter players fra de respektive sider. tilføjet funktion der kører det shows javascript så den kan indsætte podcasts svarende til hvor mange podcasts der findes på den respektive side.&#10; desuden kan man trykke escape for at fjerne popuppen :P" />
-    <MESSAGE value="Miniorogrammerne passer er i gang med at lave indholdsboksen der skal være under titlen" />
-    <MESSAGE value="Up to date WIP" />
-    <option name="LAST_COMMIT_MESSAGE" value="Up to date WIP" />
-  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/js/UpToDate.js</url>
-          <line>110</line>
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="1" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mailer.php" />
-    <entry file="file://$PROJECT_DIR$/tur-kultur-lyd.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apropos-lyd.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="47" lean-forward="true" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/familie.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-864">
-          <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/isbjerget.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="92" column="16" lean-forward="true" selection-start-line="92" selection-start-column="16" selection-end-line="92" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/isbjerget-lyd.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/om.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="91" column="221" lean-forward="false" selection-start-line="91" selection-start-column="19" selection-end-line="91" selection-end-column="221" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/samfund.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="100" column="160" lean-forward="false" selection-start-line="100" selection-start-column="160" selection-end-line="100" selection-end-column="160" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/samfund-lyd.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sendeplan.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tabu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="25" column="10" lean-forward="false" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tabu-lyd.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="23" lean-forward="false" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tur-kultur.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/værter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2115">
-          <caret line="141" column="8" lean-forward="true" selection-start-line="141" selection-start-column="8" selection-end-line="141" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/Jplayer.js" />
-    <entry file="file://$PROJECT_DIR$/font-awesome-4.7.0/css/font-awesome.css" />
-    <entry file="file://$PROJECT_DIR$/style.css" />
-    <entry file="file://$PROJECT_DIR$/newPLayer.html" />
-    <entry file="file://$PROJECT_DIR$/newPlayer.js" />
-    <entry file="file://$PROJECT_DIR$/js/jplayer/jquery.jplayer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="502" column="28" lean-forward="true" selection-start-line="502" selection-start-column="28" selection-end-line="502" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.js" />
-    <entry file="file://$PROJECT_DIR$/test.html" />
-    <entry file="file://$PROJECT_DIR$/UpToDate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="84" lean-forward="false" selection-start-line="9" selection-start-column="84" selection-end-line="9" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/lyd-style.css" />
-    <entry file="file://$PROJECT_DIR$/css/style-p.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="551" column="7" lean-forward="false" selection-start-line="551" selection-start-column="7" selection-end-line="551" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/player/js/jplayer/jquery.jplayer.js" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="104" column="6" lean-forward="false" selection-start-line="104" selection-start-column="6" selection-end-line="104" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/player/js/rangetouch.js">
+    <entry file="file://$PROJECT_DIR$/js/programsTEST.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/player/player.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="20" column="49" lean-forward="false" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/plyr.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="776">
-          <caret line="0" column="10378" lean-forward="false" selection-start-line="0" selection-start-column="10378" selection-end-line="0" selection-end-column="10378" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/plyr.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UpToDate-lyd.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/latestPodcast.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1731">
-          <caret line="154" column="200" lean-forward="false" selection-start-line="154" selection-start-column="200" selection-end-line="154" selection-end-column="200" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/prayertimes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/player/js/jplayer/jquery.jplayer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/Effects.css" />
-    <entry file="file://$PROJECT_DIR$/css/animate.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1423">
-          <caret line="1764" column="0" lean-forward="true" selection-start-line="1764" selection-start-column="0" selection-end-line="1764" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/religiøse.js" />
-    <entry file="file://$PROJECT_DIR$/js/isbjerget.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/tabu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/tur-kultur.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/UpToDate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apropos.html">
+    <entry file="file://$PROJECT_DIR$/programsTEST.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="91" column="32" lean-forward="false" selection-start-line="91" selection-start-column="32" selection-end-line="91" selection-end-column="32" />
+        <state relative-caret-position="1830">
+          <caret line="122" column="34" lean-forward="true" selection-start-line="122" selection-start-column="34" selection-end-line="122" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style-sTEST.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9165">
+          <caret line="611" column="36" lean-forward="true" selection-start-line="611" selection-start-column="27" selection-end-line="611" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/waypoints.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/scripts.js">
-<<<<<<< Updated upstream
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="35" lean-forward="false" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/samfund.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/apropos.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="36" column="34" lean-forward="true" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/familie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="11" selection-end-column="135" />
-=======
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="35" lean-forward="false" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programsTEST.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2085">
-          <caret line="139" column="55" lean-forward="false" selection-start-line="139" selection-start-column="55" selection-end-line="139" selection-end-column="55" />
-          <folding>
-            <marker date="1494598374000" expanded="true" signature="8560:9798" ph="..." />
-            <marker date="1494598374000" expanded="true" signature="8594:9780" ph="..." />
-            <marker date="1494598374000" expanded="true" signature="8624:9651" ph="..." />
-            <marker date="1494598374000" expanded="true" signature="8683:8901" ph="..." />
-            <marker date="1494598374000" expanded="true" signature="8966:9134" ph="..." />
-            <marker date="1494598374000" expanded="true" signature="9195:9632" ph="..." />
-            <marker date="1494598374000" expanded="true" signature="9686:9763" ph="..." />
-            <marker date="1494598374000" expanded="false" signature="9717:9723" ph="©" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style-sTEST.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10620">
-          <caret line="708" column="9" lean-forward="false" selection-start-line="708" selection-start-column="9" selection-end-line="708" selection-end-column="9" />
-          <folding />
->>>>>>> Stashed changes
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style-sTEST.css">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-        <state relative-caret-position="8760">
-          <caret line="584" column="79" lean-forward="false" selection-start-line="584" selection-start-column="79" selection-end-line="584" selection-end-column="79" />
-=======
-        <state relative-caret-position="15">
-          <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
->>>>>>> Stashed changes
+        <state relative-caret-position="179">
+          <caret line="853" column="36" lean-forward="false" selection-start-line="853" selection-start-column="36" selection-end-line="853" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
+    <entry file="file://$PROJECT_DIR$/programsTEST.php">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-        <state relative-caret-position="15">
-          <caret line="127" column="26" lean-forward="false" selection-start-line="127" selection-start-column="26" selection-end-line="127" selection-end-column="26" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="300">
+          <caret line="123" column="45" lean-forward="true" selection-start-line="123" selection-start-column="45" selection-end-line="123" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/programsTEST.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2325">
-          <caret line="155" column="45" lean-forward="false" selection-start-line="155" selection-start-column="45" selection-end-line="155" selection-end-column="45" />
-          <folding />
-=======
-        <state relative-caret-position="-884">
-          <caret line="707" column="39" lean-forward="false" selection-start-line="707" selection-start-column="39" selection-end-line="707" selection-end-column="39" />
+        <state relative-caret-position="84">
+          <caret line="62" column="105" lean-forward="false" selection-start-line="62" selection-start-column="105" selection-end-line="62" selection-end-column="105" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/apropos.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="49" lean-forward="false" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
-          <folding>
-            <marker date="1494438392000" expanded="true" signature="5127:5133" ph=" " />
-            <marker date="1494438392000" expanded="true" signature="5219:5225" ph=" " />
-          </folding>
->>>>>>> Stashed changes
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

@@ -26,8 +26,6 @@
     <link rel="shortcut icon" href="/favicons/favicon.ico">
     <meta name="msapplication-config" content="/favicons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
-    <?php
-    include 'connect.php'; ?>
 
 
 </head>
@@ -127,11 +125,8 @@
                         <img src="img/myter.jpg">
                         <div class="upToText">Hashtag mig her, hashtag mig der. Up To Date er programmet, hvor vi vil snakke om de emner som er oppe på de sociale medier. Vi vil interagere med jer via dem, få jeres vinkel med og åbne op for en spændende debat.<br><br> Følg med hver mandag kl 17.00 på www.waih.dk, app eller når som helst via podcast. Programmet genudsendes mandag kl 20.00 og tirsdag kl 07.30.</div>
                         <div class="seperator"></div>
-                        <div class="podcastsPlayer">
-                        <?php include 'download_UpToDate.php'?>
-                        </div>
-
-                  <!--  </div>
+                        <div class="podcastsPlayer"></div>
+                    </div>
                     <div class="program-isbjerg">
                         <img src="img/toppen.JPG">
                         <div class="isbjergText">Normalt kender vi kun meget lidt til mange af de fremtrædende muslimske personligheder, der findes i det danske samfund, på globalt plan, eller nogle af de historiske, mindre omtalte muslimske personligheder. I programmet ”Toppen af isbjerget” dykker værten Abu Karim ned under overfladen, og giver os et dybere indblik i disse personligheders liv og historier.<br> <br> Følg med hver tirsdag kl 17.00 på www.waih.dk, app eller når som helst via podcast. Programmet genudsendes tirsdag kl 20.00 og onsdag kl 07.30.</div>
@@ -146,7 +141,7 @@
                     </div>
                     <div class="program-samfund">
                         <img src="img/samfund.jpg">
-                        <div class="kulturText">Det vi alle snakker om! Ugens emner vil blive taget op i Samfundsdebatten, med vores egne journalister Elias Rama eller Lamies Nasri, sammen med deres spændende udvalg af gæster. <br><br> Følg med hver torsdag kl 17.00 på www.waih.dk, app eller når som helst via podcast. Programmet genudsendes fredage kl 22.00 lørdage kl 08.00 og kl 12.00.</div>
+                        <div class="samfundText">Det vi alle snakker om! Ugens emner vil blive taget op i Samfundsdebatten, med vores egne journalister Elias Rama eller Lamies Nasri, sammen med deres spændende udvalg af gæster. <br><br> Følg med hver torsdag kl 17.00 på www.waih.dk, app eller når som helst via podcast. Programmet genudsendes fredage kl 22.00 lørdage kl 08.00 og kl 12.00.</div>
                         <div class="seperator"></div>
                         <div class="podcastsPlayer"></div>
                     </div>
@@ -168,7 +163,7 @@
                         <div class="seperator"></div>
                         <div class="podcastsPlayer"></div>
                     </div>
--->
+
             </div>
 
         </div>
@@ -238,7 +233,6 @@
     <script src="js/modernizr.js"></script>
     <script src="js/scripts.js"></script>
     <script src="js/programsTEST.js"></script>
-    <script> plyr.setup();</script>
 
     <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

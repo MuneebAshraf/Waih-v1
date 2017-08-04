@@ -602,6 +602,24 @@ Overskrift
     text-transform: uppercase;
 }
 
+@media all and (max-width: 27em) {
+    .headline h1 {
+        font-size: 350%;
+    }
+}
+
+
+@media all and (max-width: 44.1875em) {
+    .programmer img ~ div{
+        margin-left: 0;
+        width: auto;
+        text-align: justify;
+    }
+    .programmer > div > img {
+        width: 99%;
+        margin-bottom: 20px;
+    }
+}
 /* ==========================================================================
 poadcasts
 ========================================================================== */
@@ -620,11 +638,20 @@ poadcasts
     text-align: center;
     list-style-type: none;
 }
+.programsMini li div:hover{
+    -webkit-transform: scale(1.05,1.05);
+    -moz-transform: scale(1.05,1.05);
+    -ms-transform: scale(1.05,1.05);
+    -o-transform: scale(1.05,1.05);
+    transform: scale(1.05,1.05);
+}
+
 .programsMini li{
     cursor: pointer;
     margin: 1px 3%;
     list-style: none;
     display: inline-block;
+    animation-duration: 1.5s;
 }
 .programsMini p {
     margin-top:0;
@@ -634,6 +661,7 @@ poadcasts
 .active{
     border:2px solid #4ad8f5!important;
 }
+
 .programsMini div{
     width:100px;
     height:100px;
@@ -650,6 +678,7 @@ poadcasts
     transition: all 0.5s ease;
 }
 
+
 .programmer{
     display: block;
     height:auto;
@@ -658,6 +687,7 @@ poadcasts
     margin: 0 10%;
 }
 .program-upto{
+    display: none;
     background-color: #444957;
     position: absolute;
     width:80vw;
@@ -678,6 +708,7 @@ poadcasts
 }
 
 .program-isbjerg{
+    display: none;
     background-color: #444957;
     position: absolute;
     margin:0 auto 30px auto ;
@@ -698,6 +729,7 @@ poadcasts
     color: mintcream;
 }
 .program-turKultur{
+    display: none;
     background-color: #444957;
     position: absolute;
     margin:0 auto 30px auto ;
@@ -706,7 +738,7 @@ poadcasts
     z-index:6;
 }
 
-.program-kultur img{
+.program-turKultur img{
     width: 40%;
     float: left;
 }
@@ -719,6 +751,7 @@ poadcasts
 }
 
 .program-samfund{
+    display: none;
     background-color: #444957;
     position: absolute;
     width:80vw;
@@ -738,6 +771,7 @@ poadcasts
     color: mintcream;
 }
 .program-apropos{
+    display: none;
     background-color: #444957;
     position: absolute;
     width:80vw;
@@ -757,6 +791,7 @@ poadcasts
     color: mintcream;
 }
 .program-aktivister{
+    display: none;
     background-color: #444957;
     position: absolute;
     width:80vw;
@@ -776,6 +811,7 @@ poadcasts
     color: mintcream;
 }
 .program-familie{
+    display: none;
     background-color: #444957;
     position: absolute;
     width:80vw;
@@ -807,6 +843,81 @@ poadcasts
     margin-right: 35px;
 
 }
+.programmer > div {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.is_visible{
+    display: inline-block!important;
+    -webkit-animation-name: slideInLeft;
+    animation-name: slideInLeft;
+
+}
+@-webkit-keyframes slideInLeft {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-2000px);
+        transform: translateX(-2000px);
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInLeft {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-2000px);
+        -ms-transform: translateX(-2000px);
+        transform: translateX(-2000px);
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+.programmer > .is_hidden{
+    -webkit-animation-name: slideOutRight;
+    animation-name: slideOutRight;
+}
+
+@-webkit-keyframes slideOutRight {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translateX(2000px);
+        transform: translateX(2000px);
+    }
+}
+
+@keyframes slideOutRight {
+    0% {
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translateX(2000px);
+        -ms-transform: translateX(2000px);
+        transform: translateX(2000px);
+    }
+}
+
+
+
 .playerContainer p{
     color: mintcream;
 }
@@ -830,7 +941,6 @@ poadcasts
 }
 .familie{
     background: url("../img/familie.jpg");
-
 }
 
 .plyr--audio .plyr__controls {
