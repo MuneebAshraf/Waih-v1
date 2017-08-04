@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="900cd7e3-0b7a-4de7-8ca1-f01ff67e98d3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style-sTEST.css" afterPath="$PROJECT_DIR$/css/style-sTEST.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/download_podcasts.php" afterPath="$PROJECT_DIR$/download_podcasts.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/programsTEST.js" afterPath="$PROJECT_DIR$/js/programsTEST.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -276,7 +273,7 @@
       <updated>1501796388210</updated>
       <workItem from="1501796390050" duration="70000" />
       <workItem from="1501796461006" duration="2762000" />
-      <workItem from="1501838157671" duration="6260000" />
+      <workItem from="1501838157671" duration="6357000" />
     </task>
     <task id="LOCAL-00001" summary="Mobil side virker, skærm bliver ikke større og den scroller ned når man på mobil men ikke på computer. det rigtige programs miniudgave (cirklerne) får den blå ring om sig afhængig af hvilken dag og jeg har fikset tekts og billede osv sådan så det ser fint ud på mobil. Det eneste der mangler er at fikse størrelse på player og teksten der kommer med playerne fra databasen">
       <created>1501871703082</created>
@@ -285,11 +282,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501871703082</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Mobil side virker, har fikset størrelse på players og fået teksten til at se fin ud.">
+      <created>1501882440782</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1501882440782</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9092000" />
+    <option name="totallyTimeSpent" value="9189000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="22" width="1436" height="878" extended-state="6" />
@@ -323,7 +327,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Mobil side virker, skærm bliver ikke større og den scroller ned når man på mobil men ikke på computer. det rigtige programs miniudgave (cirklerne) får den blå ring om sig afhængig af hvilken dag og jeg har fikset tekts og billede osv sådan så det ser fint ud på mobil. Det eneste der mangler er at fikse størrelse på player og teksten der kommer med playerne fra databasen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mobil side virker, skærm bliver ikke større og den scroller ned når man på mobil men ikke på computer. det rigtige programs miniudgave (cirklerne) får den blå ring om sig afhængig af hvilken dag og jeg har fikset tekts og billede osv sådan så det ser fint ud på mobil. Det eneste der mangler er at fikse størrelse på player og teksten der kommer med playerne fra databasen" />
+    <MESSAGE value="Mobil side virker, har fikset størrelse på players og fået teksten til at se fin ud." />
+    <option name="LAST_COMMIT_MESSAGE" value="Mobil side virker, har fikset størrelse på players og fået teksten til at se fin ud." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
