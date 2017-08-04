@@ -620,6 +620,8 @@ Overskrift
         margin-bottom: 20px;
     }
 }
+
+
 /* ==========================================================================
 poadcasts
 ========================================================================== */
@@ -841,7 +843,12 @@ poadcasts
     width:45%;
     display: inline-block;
     margin-right: 35px;
+}
 
+@media all and (max-width: 63em) {
+    .playerContainer{
+        width: 100%;
+    }
 }
 .programmer > div {
     -webkit-animation-duration: 1s;

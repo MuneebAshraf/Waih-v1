@@ -31,11 +31,11 @@ if($result) {
         while($row = $result->fetch_assoc()) {
 
             echo "
-                    <p>{$row['name']}</p><br>
-                    <p>{$row['show_host']}</p> <br>
+                    <div class='playerContainer'>
+                    <p>{$row['name']}</p>
+                    <p>{$row['show_host']}</p>
                     <p>Gæst: {$row['show_guest']}</p>
                     <p>{$row['description']}</p>
-                    <div class='playerContainer'>
                         <audio controls> 
                         <source src= {$row['path']} type={$row['mime']}> 
                         </audio>

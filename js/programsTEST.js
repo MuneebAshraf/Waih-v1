@@ -53,7 +53,6 @@ switch (new Date().getDay()){
         break;
 }
 visibleShow();
-console.log($(".programsMini > ul li:eq(4) > div").addClass('active'));
 
 $(document).on('click','.programsMini li',function () {
     if(!$(this).find('div').hasClass('active')){

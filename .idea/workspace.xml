@@ -2,22 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="900cd7e3-0b7a-4de7-8ca1-f01ff67e98d3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/connect.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PHP/audio/21-04-2017.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PHP/audioFile/14-03-2017.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PHP/connect.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/audio/13-03-2017.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/audio/14-03-2017.mp3" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PHP/download_UpToDate.php" afterPath="$PROJECT_DIR$/download_podcasts.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PHP/index1.php" afterPath="$PROJECT_DIR$/index1.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PHP/upload.php" afterPath="$PROJECT_DIR$/upload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Waih-v1.iml" afterPath="$PROJECT_DIR$/.idea/Waih-v1.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/animate.css" afterPath="$PROJECT_DIR$/css/animate.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style-sTEST.css" afterPath="$PROJECT_DIR$/css/style-sTEST.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/isbjerget.js" afterPath="$PROJECT_DIR$/js/isbjerget.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/download_podcasts.php" afterPath="$PROJECT_DIR$/download_podcasts.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/programsTEST.js" afterPath="$PROJECT_DIR$/js/programsTEST.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/programsTEST.php" afterPath="$PROJECT_DIR$/programsTEST.php" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,11 +20,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="programsTEST.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="programsTEST.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/programsTEST.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="62" column="105" lean-forward="false" selection-start-line="62" selection-start-column="105" selection-end-line="62" selection-end-column="105" />
+            <state relative-caret-position="1265">
+              <caret line="129" column="34" lean-forward="false" selection-start-line="129" selection-start-column="34" selection-end-line="129" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -45,18 +33,32 @@
       <file leaf-file-name="programsTEST.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/programsTEST.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="123" column="45" lean-forward="true" selection-start-line="123" selection-start-column="45" selection-end-line="123" selection-end-column="45" />
+            <state relative-caret-position="75">
+              <caret line="108" column="28" lean-forward="true" selection-start-line="108" selection-start-column="28" selection-end-line="108" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style-sTEST.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="download_podcasts.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/download_podcasts.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="503">
+              <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+              <folding>
+                <marker date="1501881492000" expanded="true" signature="296:351" ph="SELECT * FRO... Podcasts" />
+                <marker date="1501881492000" expanded="true" signature="750:1118" ph="..." />
+                <marker date="1501881492000" expanded="true" signature="983:1091" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style-sTEST.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style-sTEST.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="853" column="36" lean-forward="false" selection-start-line="853" selection-start-column="36" selection-end-line="853" selection-end-column="36" />
+            <state relative-caret-position="379">
+              <caret line="850" column="5" lean-forward="true" selection-start-line="850" selection-start-column="5" selection-end-line="850" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -74,6 +76,9 @@
       <find>sepe</find>
       <find>display: inline-block;</find>
       <find>$(&quot;.programsMini &gt; li:eq(6) &gt; div&quot;);</find>
+      <find>headl</find>
+      <find>consol</find>
+      <find>playercon</find>
     </findStrings>
     <replaceStrings>
       <replace>display: none;</replace>
@@ -89,8 +94,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/programsTEST.php" />
-        <option value="$PROJECT_DIR$/css/style-sTEST.css" />
+        <option value="$PROJECT_DIR$/download_podcasts.php" />
         <option value="$PROJECT_DIR$/js/programsTEST.js" />
+        <option value="$PROJECT_DIR$/css/style-sTEST.css" />
       </list>
     </option>
   </component>
@@ -270,12 +276,20 @@
       <updated>1501796388210</updated>
       <workItem from="1501796390050" duration="70000" />
       <workItem from="1501796461006" duration="2762000" />
-      <workItem from="1501838157671" duration="5040000" />
+      <workItem from="1501838157671" duration="6260000" />
     </task>
+    <task id="LOCAL-00001" summary="Mobil side virker, skærm bliver ikke større og den scroller ned når man på mobil men ikke på computer. det rigtige programs miniudgave (cirklerne) får den blå ring om sig afhængig af hvilken dag og jeg har fikset tekts og billede osv sådan så det ser fint ud på mobil. Det eneste der mangler er at fikse størrelse på player og teksten der kommer med playerne fra databasen">
+      <created>1501871703082</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1501871703082</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7872000" />
+    <option name="totallyTimeSpent" value="9092000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="22" width="1436" height="878" extended-state="6" />
@@ -306,6 +320,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Mobil side virker, skærm bliver ikke større og den scroller ned når man på mobil men ikke på computer. det rigtige programs miniudgave (cirklerne) får den blå ring om sig afhængig af hvilken dag og jeg har fikset tekts og billede osv sådan så det ser fint ud på mobil. Det eneste der mangler er at fikse størrelse på player og teksten der kommer med playerne fra databasen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mobil side virker, skærm bliver ikke større og den scroller ned når man på mobil men ikke på computer. det rigtige programs miniudgave (cirklerne) får den blå ring om sig afhængig af hvilken dag og jeg har fikset tekts og billede osv sådan så det ser fint ud på mobil. Det eneste der mangler er at fikse størrelse på player og teksten der kommer med playerne fra databasen" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -352,26 +370,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style-sTEST.css">
+    <entry file="file://$PROJECT_DIR$/programsTEST.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="853" column="36" lean-forward="false" selection-start-line="853" selection-start-column="36" selection-end-line="853" selection-end-column="36" />
+        <state relative-caret-position="75">
+          <caret line="108" column="28" lean-forward="true" selection-start-line="108" selection-start-column="28" selection-end-line="108" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/programsTEST.php">
+    <entry file="file://$PROJECT_DIR$/download_podcasts.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="123" column="45" lean-forward="true" selection-start-line="123" selection-start-column="45" selection-end-line="123" selection-end-column="45" />
-          <folding />
+        <state relative-caret-position="503">
+          <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+          <folding>
+            <marker date="1501881492000" expanded="true" signature="296:351" ph="SELECT * FRO... Podcasts" />
+            <marker date="1501881492000" expanded="true" signature="750:1118" ph="..." />
+            <marker date="1501881492000" expanded="true" signature="983:1091" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/programsTEST.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="62" column="105" lean-forward="false" selection-start-line="62" selection-start-column="105" selection-end-line="62" selection-end-column="105" />
+        <state relative-caret-position="1265">
+          <caret line="129" column="34" lean-forward="false" selection-start-line="129" selection-start-column="34" selection-end-line="129" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style-sTEST.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="850" column="5" lean-forward="true" selection-start-line="850" selection-start-column="5" selection-end-line="850" selection-end-column="5" />
           <folding />
         </state>
       </provider>
