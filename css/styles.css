@@ -214,6 +214,29 @@ header{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+@supports (display: grid)
+{
+    #home > nav {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 10px 60px 10px;
+        justify-items: center;
+    }
+
+    .logo{
+        grid-column: 6/8;
+        grid-row: 1/4;
+    }
+
+    .salah{
+        grid-column: 1/4;
+        grid-row: 1/-1;
+    }
+}
+
+
+
 @media only screen and (min-width: 768px) {
   .cd-header {
     height: 80px;
@@ -431,9 +454,10 @@ header h1{
 Navigation
 ========================================================================== */
 .salah{
+    padding:0;
     float: left;
-    margin-top: 0;
-    padding-left:20px;
+    margin: 0 0 0 auto;
+    display: flex;
 }
 
 .salah .isha{
@@ -620,8 +644,7 @@ Hero
     margin-left: 0;
 }
 .logo{
-    width:8%;
-    left:4em;
+    width: 5rem;
 }
 
 

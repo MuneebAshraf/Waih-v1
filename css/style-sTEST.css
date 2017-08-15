@@ -95,7 +95,6 @@ Embedded content
 img { border: 0; /* 1 */
 -ms-interpolation-mode: bicubic; /* 2 */ }
 /* * Corrects overflow displayed oddly in IE 9. */
-svg:not(:root) { overflow: hidden; }
 /* ==========================================================================
 Figures
 ========================================================================== */
@@ -194,6 +193,35 @@ body.overflow-hidden {
   /* when primary navigation is visible, the content in the background won't scroll */
   overflow: hidden;
 }
+body{
+    overflow-x: hidden;
+}
+
+
+.logo{
+    width: 5rem;
+}
+
+@supports (display: grid)
+{
+    #home > nav {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 10px 60px 10px;
+        justify-items: center;
+    }
+
+    .logo{
+        grid-column: 6/8;
+        grid-row: 1/4;
+    }
+
+    .salah{
+        grid-column: 1/4;
+        grid-row: 1/-1;
+    }
+}
+
 
 header{
   position: absolute;
@@ -246,7 +274,7 @@ header{
 }
 
 header h1{
-    font-size: 3000%;
+    font-size: 300%;
 }
 
 .cd-secondary-nav {
@@ -424,12 +452,8 @@ Navigation
 ========================================================================== */
 .salah{
     float: left;
-    margin-top: 0;
-    padding-left:20px;
-}
-
-.salah .isha{
-
+    margin: 0 0 0 auto;
+    display: flex;
 }
 
 .salah li{
@@ -653,7 +677,7 @@ poadcasts
     margin: 1px 3%;
     list-style: none;
     display: inline-block;
-    animation-duration: 1.5s;
+    animation-duration: 1s;
 }
 .programsMini p {
     margin-top:0;
@@ -695,8 +719,6 @@ poadcasts
     width:80vw;
     margin:0 auto 30px auto ;
     padding: 35px;
-    z-index: 8;
-
 }
 .program-upto img{
     width: 40%;
@@ -716,7 +738,6 @@ poadcasts
     margin:0 auto 30px auto ;
     padding: 35px;
     width:80vw;
-    z-index:7;
 }
 
 .program-isbjerg img{
@@ -737,7 +758,6 @@ poadcasts
     margin:0 auto 30px auto ;
     padding: 35px;
     width:80vw;
-    z-index:6;
 }
 
 .program-turKultur img{
@@ -759,7 +779,6 @@ poadcasts
     width:80vw;
     margin:0 auto 30px auto ;
     padding: 35px;
-    z-index: 5;
 
 }
 .program-samfund img{
@@ -779,7 +798,6 @@ poadcasts
     width:80vw;
     margin:0 auto 30px auto ;
     padding: 35px;
-    z-index: 4;
 
 }
 .program-apropos img{
@@ -799,7 +817,6 @@ poadcasts
     width:80vw;
     margin:0 auto 30px auto ;
     padding: 35px;
-    z-index: 3;
 
 }
 .program-aktivister img{
@@ -819,7 +836,6 @@ poadcasts
     width:80vw;
     margin:0 auto 30px auto ;
     padding: 35px;
-    z-index: 2;
 
 }
 .program-familie img{
@@ -986,6 +1002,10 @@ footer {
     padding: 40px 0 30px;
     height: 400px;
 }
+footer > .container {
+    padding: 0 1.5em 0 1.5em;
+}
+
 footer h2{
     color: #fff;
     border-bottom: 0px solid transparent

@@ -6,18 +6,20 @@
 var biggestHeight = 0;
 function height() {
     $(".programmer > *").each(function () {
-    if($(this).height() > biggestHeight){
-        biggestHeight = $(this).height();
-    }else if($(show_today.div).height() < biggestHeight) {
-        biggestHeight = $(this).height();
-    }});
-    $(".programmer").height(biggestHeight);
+        if($(this).height() > biggestHeight){
+            biggestHeight = $(this).height();
+        }else if($(show_today.div).height() < biggestHeight) {
+            biggestHeight = $(this).height();
+        }});
+    $(".programmer").animate({
+        height:biggestHeight
+    },200)
 }
 
-var loop = setInterval( height , 500 );
+var loop = setInterval( height , 200 );
+
 
 var stateObj = { programmer: "programmer" };
-
 
 upToDate={show_name: "upToDate", div: ".program-upto", header: 'Up to date'};
 toppenAfIsbjerget={show_name: "toppenAfIsbjerget", div: ".program-isbjerg", header: 'Isbjerget'};
@@ -27,34 +29,39 @@ apropos={show_name: "apropos", div: ".program-apropos", header: 'Apropos'};
 aktivister={show_name: "aktivister", div: ".program-aktivister", header: 'Aktivister'};
 enFamilieTing={show_name: "enFamilieTing", div: ".program-familie", header: 'Familie'};
 
+
+
+
 var show_today;
 
 switch (new Date().getDay()){
     case 1: show_today =upToDate;
-            $(".programsMini > ul li:eq(0) > div").addClass('active');
+            $(".upto").addClass('active');
         break;
     case 2: show_today =toppenAfIsbjerget;
-            $(".programsMini > ul li:eq(1) > div").addClass('active');
+            $(".isbjerg").addClass('active');
         break;
     case 3: show_today =turMedKultur;
-            $(".programsMini > ul li:eq(2) > div").addClass('active');
+            $(".kultur").addClass('active');
         break;
     case 4: show_today =samfundsdebatten;
-            $(".programsMini > ul li:eq(3) > div").addClass('active');
+            $(".samfund").addClass('active');
         break;
     case 5: show_today =apropos;
-            $(".programsMini > ul li:eq(4) > div").addClass('active');
+            $(".apropos").addClass('active');
         break;
-    case 6: show_today =aktivister;
-            $(".programsMini > ul li:eq(5) > div").addClass('active');
+    case 6: $(".aktivister").addClass('active');
+            show_today =aktivister;
         break;
-    case 0: show_today =enFamilieTing;
-            $(".programsMini > ul li:eq(6) > div").addClass('active');
+    case 0: $(".familie").addClass('active');
+            show_today =enFamilieTing;
         break;
 }
+$(window).ready(function () {
 visibleShow();
 
 $(document).on('click','.programsMini li',function () {
+
     if(!$(this).find('div').hasClass('active')){
     switch($(this).index()){
         case 0:hideShow();show_today=upToDate;visibleShow();$(this).find('div').addClass('active');
@@ -72,27 +79,28 @@ $(document).on('click','.programsMini li',function () {
         case 6:hideShow();show_today=enFamilieTing;visibleShow();$(this).find('div').addClass('active');
             break;
     }
+        return false;
     }
 });
 function hideShow() {
     $(show_today.div).addClass('is_hidden');
     $(".programmer > .is_hidden ").css('display','inline-block');
     $(show_today.div).removeClass('is_visible');
+    $(".programsMini li").find('div').removeClass('active');
     setTimeout(function(){ $(".programmer > .is_hidden ").css('display','none');$(".programmer > div").removeClass('is_hidden'); }, 1000);
 
-    if (matchMedia('only screen and (max-width: 44.1875em)').matches){
+    if (window.matchMedia('(max-width: 44.1875em)').matches) {
         $('html, body').animate({
-            scrollTop: 625
-        }, 800);
-    }
-}
+            scrollTop: $(".programHeadline").offset().top - 20
+        }, 1000);
+    }}
 
 function visibleShow() {
     $(".programHeadline").fadeOut(function() {
         $(this).text(show_today.header).fadeIn();
     });
     $(show_today.div).addClass('is_visible');
-    $(".programsMini li").find('div').removeClass('active');
+
     addPodcasts();
 }
 
@@ -101,21 +109,13 @@ function addPodcasts(){
     $(".podcastsPlayer").empty();
     $.get('../download_podcasts.php?show_name=' + show_today.show_name,
         function (div) {
-            $(show_today.div + ' .podcastsPlayer').append(div);
+            $(show_today.div +' > .podcastsPlayer').append(div);
 
             plyr.setup();
         }
     )
 }
-
-
-
-
-
-
-
-
-
+});
 
 
 
@@ -124,9 +124,9 @@ function addPodcasts(){
 
 window.onpopstate = function(event) {
 };
+/*
 addPodcasts("07:02-2017.mp3","Vært: Abu Karim<br>Profil: Nødhjælpsarbejder, skuespiller og meget andet<br>Gæst: Khalid Alsubeihi");
 
-/*
 addPodcasts("https://soundcloud.com/bachir-kurdi/apropos-med-elias-rama","Vært: Johannes<br>Gæster: Omar El-khatib & Abu Yunes<br>Dato: 17/04-2017");
 addPodcasts("https://soundcloud.com/bachir-kurdi/apropos-med-elias-rama","Vært: Johannes<br>Gæster: Engin Bozkir & Elias Rama<br>Dato: 10/04-2017");
 addPodcasts("https://soundcloud.com/bachir-kurdi/apropos-med-elias-rama","Vært: Johannes<br>Gæster: Elias Rama<br>Dato: 02/04-2017");

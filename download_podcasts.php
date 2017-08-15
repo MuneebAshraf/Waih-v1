@@ -27,7 +27,6 @@ if($result) {
     }
     else {
         // Print the top of a table
-        $i = 1;
         while($row = $result->fetch_assoc()) {
 
             echo "

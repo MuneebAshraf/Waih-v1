@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
    <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
@@ -33,7 +33,7 @@
         <header id="home" class="cd-header">
                 <nav>
                     <ul class="salah"></ul>
-                    <img class="logo col-md-1 col-md-offset-1" src="img/logo.png">
+                    <img class="logo" src="img/logo.png">
                     <ul class="main-nav cd-secondary-nav js--main-nav ">
                         <li><a href="index.html">Hør radio</a></li>
                         <li><a href="programsTEST.php">Programmer</a></li>
@@ -119,7 +119,7 @@
                     <li><p>Søndag</p><div class="familie"></div></li>
                 </ul>
             </div>
-            <h1 style="text-align: center" class="programHeadline">Up to date</h1>
+            <h1 style="text-align: center" class="programHeadline"></h1>
                 <div class="programmer">
                    <div class="program-upto">
                         <img src="img/myter.jpg">
@@ -204,11 +204,11 @@
                 <h2>Om os</h2>
                 <p>Radio WAIH er blevet opstartet af en gruppe danske muslimer, som brænder for at formidle et nuanceret billede af samfundsrelevante spørgsmål.</p>
               </div>
-                <div class="col-md-4 col-sm-6 col-xs-12 yVideo" >
-                    <iframe width="100%" height="169" src="https://www.youtube.com/embed/M0XKYPA3FdU" frameborder="0" allowfullscreen></iframe>
+                <div class="col-md-4 col-sm-6 col-xs-12 yVideo">
+                    <iframe width='100%' height='200' src='https://www.youtube.com/embed/M0XKYPA3FdU' frameborder='0' allowfullscreen></iframe>
                 </div>
               <div class="col-md-4 col-sm-6 col-xs-12 face">
-                <div class="fb-page" data-href="https://www.facebook.com/radiowaih/?fref=ts" data-tabs="timeline" data-height="300" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/radiowaih/?fref=ts" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/radiowaih/?fref=ts">WAIH</a></blockquote></div>
+                  <div class='fb-page' data-href='https://www.facebook.com/radiowaih/?fref=ts' data-tabs='timeline' data-height='300' data-small-header='true' data-adapt-container-width='true' data-hide-cover='false' data-show-facepile='true'><blockquote cite='https://www.facebook.com/radiowaih/?fref=ts' class='fb-xfbml-parse-ignore'><a href='https://www.facebook.com/radiowaih/?fref=ts'>WAIH</a></blockquote></div>
               </div>
             </div>
               <div class="credit">
