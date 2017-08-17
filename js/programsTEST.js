@@ -61,7 +61,6 @@ $(window).ready(function () {
 visibleShow();
 
 $(document).on('click','.programsMini li',function () {
-
     if(!$(this).find('div').hasClass('active')){
     switch($(this).index()){
         case 0:hideShow();show_today=upToDate;visibleShow();$(this).find('div').addClass('active');
@@ -83,6 +82,7 @@ $(document).on('click','.programsMini li',function () {
     }
 });
 function hideShow() {
+    $(show_today.div +' > .podcastsPlayer').empty();
     $(show_today.div).addClass('is_hidden');
     $(".programmer > .is_hidden ").css('display','inline-block');
     $(show_today.div).removeClass('is_visible');
@@ -106,7 +106,6 @@ function visibleShow() {
 
 
 function addPodcasts(){
-    $(".podcastsPlayer").empty();
     $.get('../download_podcasts.php?show_name=' + show_today.show_name,
         function (div) {
             $(show_today.div +' > .podcastsPlayer').append(div);

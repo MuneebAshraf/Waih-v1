@@ -13,7 +13,7 @@ if(mysqli_connect_errno()) {
 
 $show_name = $_GET['show_name'];
 
-    $query = "SELECT * FROM Podcasts WHERE show_name = '{$show_name}'";
+    $query = "SELECT * FROM Podcasts WHERE show_name = '{$show_name}' LIMIT 0, 6";
 
 
     $result = $dbLink->query($query);

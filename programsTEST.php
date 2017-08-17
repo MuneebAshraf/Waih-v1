@@ -226,7 +226,7 @@
           fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));</script> 
     <script src="js/jquery-2.1.1.js"></script>
-    <script type="text/javascript" src="js/plyr.js"></script>
+    <script type="text/javascript" src="js/plywr.js"></script>
     <script type="text/javascript" src="js/rangetouch.js"></script>
     <script src="js/waypoints.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
