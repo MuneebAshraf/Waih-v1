@@ -17,7 +17,8 @@ function height() {
 }
 
 var loop = setInterval( height , 200 );
-
+var limit = 0;
+var players;
 
 var stateObj = { programmer: "programmer" };
 
@@ -61,6 +62,7 @@ $(window).ready(function () {
 visibleShow();
 
 $(document).on('click','.programsMini li',function () {
+    limit = 0;
     if(!$(this).find('div').hasClass('active')){
     switch($(this).index()){
         case 0:hideShow();show_today=upToDate;visibleShow();$(this).find('div').addClass('active');
@@ -81,8 +83,15 @@ $(document).on('click','.programsMini li',function () {
         return false;
     }
 });
+
+$(document).on('click','#vis',function () {
+    limit += 6;
+    players = plyr.get(show_today.div +' > .podcastsPlayer');
+    addPodcasts();
+});
+
 function hideShow() {
-    $(show_today.div +' > .podcastsPlayer').empty();
+    $(show_today.div +' > .podcastsPlayer').detach();
     $(show_today.div).addClass('is_hidden');
     $(".programmer > .is_hidden ").css('display','inline-block');
     $(show_today.div).removeClass('is_visible');
@@ -104,19 +113,16 @@ function visibleShow() {
     addPodcasts();
 }
 
-
 function addPodcasts(){
-    $.get('../download_podcasts.php?show_name=' + show_today.show_name,
-        function (div) {
-            $(show_today.div +' > .podcastsPlayer').append(div);
-
+    $.get('../download_podcasts.php?show_name=' + show_today.show_name + "&limit=" + limit,
+        function (response) {
+        console.log(response.valueOf());
+            $(show_today.div +' > .podcastsPlayer').append(response);
             plyr.setup();
         }
     )
 }
 });
-
-
 
 
 

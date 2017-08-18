@@ -12,8 +12,9 @@ if(mysqli_connect_errno()) {
 
 
 $show_name = $_GET['show_name'];
+$limit = $_GET['limit'];
 
-    $query = "SELECT * FROM Podcasts WHERE show_name = '{$show_name}' LIMIT 0, 6";
+    $query = "SELECT * FROM Podcasts WHERE show_name = '{$show_name}' LIMIT {$limit}, 6";
 
 
     $result = $dbLink->query($query);
@@ -23,7 +24,7 @@ if($result) {
 
     // Make sure there are some files in there
     if($result->num_rows == 0) {
-        echo '<script>console.log("ingen podcasts registreret")</script>';
+        return '<script>console.log("ingen podcasts registreret")</script>';
     }
     else {
         // Print the top of a table
