@@ -10,15 +10,16 @@ function height() {
             biggestHeight = $(this).height();
         }else if($(show_today.div).height() < biggestHeight) {
             biggestHeight = $(this).height();
+
         }});
     $(".programmer").animate({
         height:biggestHeight
     },200)
+    console.log(biggestHeight)
 }
 
 var loop = setInterval( height , 200 );
 var limit = 0;
-var players;
 
 var stateObj = { programmer: "programmer" };
 
@@ -58,12 +59,12 @@ switch (new Date().getDay()){
             show_today =enFamilieTing;
         break;
 }
-$(window).ready(function () {
+
 visibleShow();
 
 $(document).on('click','.programsMini li',function () {
-    limit = 0;
     if(!$(this).find('div').hasClass('active')){
+    limit = 0;
     switch($(this).index()){
         case 0:hideShow();show_today=upToDate;visibleShow();$(this).find('div').addClass('active');
             break;
@@ -83,15 +84,17 @@ $(document).on('click','.programsMini li',function () {
         return false;
     }
 });
-
+// click på vis mere
 $(document).on('click','#vis',function () {
+    //parameter der sendes til php der får limit til at stige
     limit += 6;
-    players = plyr.get(show_today.div +' > .podcastsPlayer');
+
+    //hent nye podcasts
     addPodcasts();
 });
 
 function hideShow() {
-    $(show_today.div +' > .podcastsPlayer').detach();
+    $(show_today.div +' > .podcastsPlayer').empty();
     $(show_today.div).addClass('is_hidden');
     $(".programmer > .is_hidden ").css('display','inline-block');
     $(show_today.div).removeClass('is_visible');
@@ -116,13 +119,21 @@ function visibleShow() {
 function addPodcasts(){
     $.get('../download_podcasts.php?show_name=' + show_today.show_name + "&limit=" + limit,
         function (response) {
-        console.log(response.valueOf());
             $(show_today.div +' > .podcastsPlayer').append(response);
-            plyr.setup();
+
+            //limit stiger med 1 efter den er kaldt første gang
+            limit++;
+
+            //kører setup på både det barn af podcastPlayer der er nummer "limit"(altså 0 til at
+            // starte med og så 6 når der klikkes på vis mere sov) og alle børn derefter.
+            plyr.setup('.is_visible > div.podcastsPlayer > div:nth-child(n+'+ limit +')');
+
+            //trækker en fra limit igen, der ændres kun før og efter linjen
+            // foroven, så den stadig sender det rigtige tal med i get request til php
+            --limit
         }
     )
 }
-});
 
 
 

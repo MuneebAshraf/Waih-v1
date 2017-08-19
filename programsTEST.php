@@ -126,9 +126,10 @@
                         <div class="upToText">Hashtag mig her, hashtag mig der. Up To Date er programmet, hvor vi vil snakke om de emner som er oppe på de sociale medier. Vi vil interagere med jer via dem, få jeres vinkel med og åbne op for en spændende debat.<br><br> Følg med hver mandag kl 17.00 på www.waih.dk, app eller når som helst via podcast. Programmet genudsendes mandag kl 20.00 og tirsdag kl 07.30.</div>
                         <div class="seperator"></div>
                         <div class="podcastsPlayer">
-                            <div class="showMore">
-                                <button type="button" id="vis" style="z-index: 10;">Vis mere</button>
-                            </div></div>
+                        </div>
+                       <div class="showMore">
+                           <button type="button" id="vis">Vis mere</button>
+                       </div>
                     </div>
                     <div class="program-isbjerg">
                         <img src="img/toppen.JPG">
