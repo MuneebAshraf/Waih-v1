@@ -14,11 +14,10 @@ function height() {
         }});
     $(".programmer").animate({
         height:biggestHeight
-    },200)
-    console.log(biggestHeight)
+    },400)
 }
 
-var loop = setInterval( height , 200 );
+var loop = setInterval( height , 1000 );
 var limit = 0;
 
 var stateObj = { programmer: "programmer" };
@@ -86,11 +85,20 @@ $(document).on('click','.programsMini li',function () {
 });
 // click på vis mere
 $(document).on('click','#vis',function () {
+    // set højde og animere footeren til at rykke sig
+    biggestHeight += 550;
+    $(".programmer").animate({
+        height:biggestHeight
+    },500)
+
     //parameter der sendes til php der får limit til at stige
     limit += 6;
 
     //hent nye podcasts
     addPodcasts();
+
+    //se om der er flere podcasts ellers fjern knappen
+    showMore()
 });
 
 function hideShow() {
@@ -112,7 +120,7 @@ function visibleShow() {
         $(this).text(show_today.header).fadeIn();
     });
     $(show_today.div).addClass('is_visible');
-
+    showMore()
     addPodcasts();
 }
 
@@ -130,11 +138,28 @@ function addPodcasts(){
 
             //trækker en fra limit igen, der ændres kun før og efter linjen
             // foroven, så den stadig sender det rigtige tal med i get request til php
-            --limit
+            --limit;
         }
     )
 }
 
+//sender en request der returnere enten 0 eller antallet af linjer der bliver hente fra databasen
+function showMore() {
+    $.get('../showMore.php?show_name=' + show_today.show_name + "&limit=" + limit,
+        function (response) {
+
+        //hvis mindre end 6 bliver returneret er det logisk at der ikke er flere podcasts og knappen skjules
+            if (response < 6){
+                $(".is_visible > .showMore").hide();
+            } else {
+                //vis knappen igen når der skiftes mellem shows
+                $(".is_visible > .showMore").show();
+            }
+
+        }
+    )
+
+}
 
 
 

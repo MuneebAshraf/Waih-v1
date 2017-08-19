@@ -856,9 +856,20 @@ poadcasts
 }
 
 .playerContainer{
-    width:45%;
+    width:48%;
     display: inline-block;
-    margin-right: 35px;
+}
+div.podcastsPlayer > div:nth-child(2n){
+    float: right;
+}
+
+.showMore > button {
+    display: block;
+    margin: 35px auto -5px auto;
+    background-color: #1c232c;
+    border: 1px solid #4ad8f5;
+    color: white;
+    padding: 5px 15px;
 }
 
 @media all and (max-width: 63em) {
