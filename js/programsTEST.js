@@ -18,7 +18,7 @@ function height() {
 }
 
 var loop = setInterval( height , 1000 );
-var limit = 0;
+var offset = 0;
 
 var stateObj = { programmer: "programmer" };
 
@@ -63,7 +63,7 @@ visibleShow();
 
 $(document).on('click','.programsMini li',function () {
     if(!$(this).find('div').hasClass('active')){
-    limit = 0;
+    offset = 0;
     switch($(this).index()){
         case 0:hideShow();show_today=upToDate;visibleShow();$(this).find('div').addClass('active');
             break;
@@ -89,10 +89,10 @@ $(document).on('click','#vis',function () {
     biggestHeight += 550;
     $(".programmer").animate({
         height:biggestHeight
-    },500)
+    },800)
 
-    //parameter der sendes til php der får limit til at stige
-    limit += 6;
+    //parameter der sendes til php der får offset til at stige
+    offset += 6;
 
     //hent nye podcasts
     addPodcasts();
@@ -125,27 +125,28 @@ function visibleShow() {
 }
 
 function addPodcasts(){
-    $.get('../download_podcasts.php?show_name=' + show_today.show_name + "&limit=" + limit,
+    $.get('../download_podcasts.php?show_name=' + show_today.show_name + "&offset=" + offset + "&limit=6",
         function (response) {
-            $(show_today.div +' > .podcastsPlayer').append(response);
+            //tilføjer podcastne med en fadeIn effect
+            $(response).hide().appendTo(show_today.div +' > .podcastsPlayer').fadeIn(1000);
 
-            //limit stiger med 1 efter den er kaldt første gang
-            limit++;
+            //offset stiger med 1 efter den er kaldt første gang
+            offset++;
 
-            //kører setup på både det barn af podcastPlayer der er nummer "limit"(altså 0 til at
+            //kører setup på både det barn af podcastPlayer der er nummer "offset"(altså 0 til at
             // starte med og så 6 når der klikkes på vis mere sov) og alle børn derefter.
-            plyr.setup('.is_visible > div.podcastsPlayer > div:nth-child(n+'+ limit +')');
+            plyr.setup('.is_visible > div.podcastsPlayer > div:nth-child(n+'+ offset +')');
 
-            //trækker en fra limit igen, der ændres kun før og efter linjen
+            //trækker en fra offset igen, der ændres kun før og efter linjen
             // foroven, så den stadig sender det rigtige tal med i get request til php
-            --limit;
+            --offset;
         }
     )
 }
 
 //sender en request der returnere enten 0 eller antallet af linjer der bliver hente fra databasen
 function showMore() {
-    $.get('../showMore.php?show_name=' + show_today.show_name + "&limit=" + limit,
+    $.get('../showMore.php?show_name=' + show_today.show_name + "&offset=" + offset + "&limit=6",
         function (response) {
 
         //hvis mindre end 6 bliver returneret er det logisk at der ikke er flere podcasts og knappen skjules

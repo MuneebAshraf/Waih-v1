@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="css/ionicons.min.css">
     <link href="css/flexslider.css" rel="stylesheet" >
     <link rel="stylesheet" type="text/css" href="css/plyr.css">
-    <link href="css/style-sTEST.css" rel="stylesheet">
+    <link href="css/style-s.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
@@ -36,7 +36,7 @@
                     <img class="logo" src="img/logo.png">
                     <ul class="main-nav cd-secondary-nav js--main-nav ">
                         <li><a href="index.html">Hør radio</a></li>
-                        <li><a href="programsTEST.php">Programmer</a></li>
+                        <li><a href="programs.php">Programmer</a></li>
                         <li><a href="om.html">Om os</a></li>
                         <!--<li><a href="v%C3%A6rter.html">Værter</a></li>-->
                         <li><a href="sendeplan.html">Sendeplan</a></li>
@@ -61,7 +61,7 @@
         <nav>
 		<ul class="cd-primary-nav">
 			            <li><a href="index.html">Hør radio</a></li>
-                        <li><a href="programsTEST.php">Programmer</a></li>
+                        <li><a href="programs.php">Programmer</a></li>
                         <li><a href="om.html">Om os</a></li>
                         <!--<li><a href="v%C3%A6rter.html">Værter</a></li>-->
                         <li><a href="sendeplan.html">Sendeplan</a></li>
@@ -77,7 +77,7 @@
         <nav>
 		<ul class="cd-primary-nav">
 			            <li><a href="index.html">Hør radio</a></li>
-                        <li><a href="programsTEST.php">Programmer</a></li>
+                        <li><a href="programs.php">Programmer</a></li>
                         <li><a href="om.html">Om os</a></li>
                         <!--<li><a href="v%C3%A6rter.html">Værter</a></li>-->
                         <li><a href="sendeplan.html">Sendeplan</a></li>
