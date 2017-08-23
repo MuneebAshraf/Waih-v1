@@ -661,11 +661,18 @@ Hero
     letter-spacing: 2px;
 }
 
-.hørt{
+.hørt {
     font-size: 135%;
     color: #4ad8f5;
+    display: inline-block;
+    -webkit-animation-delay: 1.5s;
+    -moz-animation-delay: 1.5s;
+    -o-animation-delay: 1.5s;
+    animation-delay: 1.5s;
 }
-
+.hørt:hover{
+    animation-iteration-count: infinite;
+}
 .lille{display: none;}
 
 .salahButton{
@@ -763,7 +770,7 @@ podcast
     background-repeat: no-repeat;
     background-size: cover;
     background-origin: border-box;
-    padding: 12vh 0 3.8vh 0;
+    padding: 4vh 0 3.8vh 0;
     background-position-x: 50%;
 }
 
@@ -787,8 +794,9 @@ podcast
     color: mintcream;
     line-height: 13px;
 }
-.playerContainer{
+.playerContainer > div.plyr{
     visibility: hidden;
+    z-index: 9999;
 }
 
 .flipInX {
@@ -880,7 +888,7 @@ podcast
 }
 
 .overlay i{
-    z-index: 999;
+    z-index: 9999;
     font-size: 250%;
     color: #4ad8f5;
 }

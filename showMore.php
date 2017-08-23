@@ -14,9 +14,11 @@ if(mysqli_connect_errno()) {
 
 
 $show_name = $_GET['show_name'];
+$offset = $_GET['offset'];
 $limit = $_GET['limit'];
 
-$query = "SELECT * FROM Podcasts WHERE show_name = '{$show_name}' LIMIT {$limit}, 6";
+
+$query = "SELECT * FROM Podcasts WHERE show_name = '{$show_name}' LIMIT {$offset}, {$limit}";
 
 
 $result = $dbLink->query($query);

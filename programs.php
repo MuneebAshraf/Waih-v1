@@ -108,15 +108,25 @@
 
     <section class="screen">
         <div class="row">
+            <div class="allShows">
+                <div class="oldShowsTab">Tidligere Shows</div>
+                <div class="currentShowsTab">Nuværende Shows</div>
+            </div>
             <div class="programsMini">
-                <ul>
+                <ul class="currentPrograms animated">
                     <li><p>Mandag</p><div class="upto"></div></li>
-                    <li><p>Tirsdag</p><div class="isbjerg"></div></li>
+                    <li><p>Tirsdag</p><div class="apropos"></div></li>
+                    <li><p>Onsdag</p><div class="aktivister"></div></li>
+                    <li><p>Torsdag</p><div class="aktivister"></div></li>
+                    <li><p>Fredag</p><div class="aktivister"></div></li>
+                </ul>
+                <ul class="oldPrograms">
                     <li><p>Onsdag</p><div class="kultur"></div></li>
                     <li><p>Torsdag</p><div class="samfund"></div></li>
-                    <li><p>Fredag</p><div class="apropos"></div></li>
-                    <li><p>Lørdag</p><div class="aktivister"></div></li>
+                    <li><p>Tirsdag</p><div class="isbjerg"></div></li>
                     <li><p>Søndag</p><div class="familie"></div></li>
+                    <li><p>Søndag</p><div class="tabu"></div></li>
+
                 </ul>
             </div>
             <h1 style="text-align: center" class="programHeadline"></h1>
@@ -254,7 +264,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/modernizr.js"></script>
     <script src="js/scripts.js"></script>
-    <script src="js/programsTEST.js"></script>
+    <script src="js/programs.js"></script>
 
     <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

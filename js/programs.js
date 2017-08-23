@@ -83,6 +83,37 @@ $(document).on('click','.programsMini li',function () {
         return false;
     }
 });
+
+//klik på hvilken som helst af de to faner
+$(document).on('click','.oldShowsTab, .currentShowsTab',function () {
+
+    //check hvis IKKE "tidligere shows" har klassen activeShowTab(activeShowTab ændrer fanen der aktiv fra tidligere til nuværende)
+    if(!$(".oldShowsTab").hasClass('activeShowTab'))
+    {
+
+        //Hvis ikke den har, så tilføj klassen activeShowTab
+        $(".oldShowsTab").addClass('activeShowTab');
+
+        //Vis tidligere shows over 3 trin
+        // 1. check hvis den allerede har klassen slideOutRight og fjerne hvis den har
+        // 2. tilføj klassen slideInRight til "tidligere shows og animated
+        // (den har i forvejen en visibilty:hidden og animated sætter visibility:visible)
+        // 3. tilføje slideOutLeft klassen til nuværende shows
+            $(".oldPrograms").removeClass('slideOutRight');
+            $(".oldPrograms").addClass('animated slideInRight');
+            $(".currentPrograms").addClass('slideOutLeft');
+    } else {
+
+        //hvis allerede har activeShowTab så gør den sådan set bare det omvendte af de ovenstående 3 trin.
+        $(".oldShowsTab").removeClass('activeShowTab')
+            $(".currentPrograms").removeClass('slideOutLeft');
+            $(".currentPrograms").addClass('slideInLeft');
+            $(".oldPrograms").addClass('slideOutRight');
+    }
+
+})
+
+
 // click på vis mere
 $(document).on('click','#vis',function () {
     // set højde og animere footeren til at rykke sig
@@ -148,7 +179,7 @@ function addPodcasts(){
 function showMore() {
     $.get('../showMore.php?show_name=' + show_today.show_name + "&offset=" + offset + "&limit=6",
         function (response) {
-
+        console.log(response)
         //hvis mindre end 6 bliver returneret er det logisk at der ikke er flere podcasts og knappen skjules
             if (response < 6){
                 $(".is_visible > .showMore").hide();

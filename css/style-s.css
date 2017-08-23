@@ -660,6 +660,49 @@ poadcasts
     margin: 0;
 }
 
+.allShows{
+    display: flex;
+    justify-content: center;
+}
+
+.oldShowsTab, .currentShowsTab{
+    width: 50%;
+    text-align: center;
+    color: #1c232c;
+    padding: 0.5em 0;
+    transition:all 1s ease;
+    border-top:1px solid #4ad8f5;
+}
+
+.oldShowsTab{
+    color: #4ad8f5;
+    background: linear-gradient(to right, #1c232c  50%, #4ad8f5 50%);
+    background-size: 200% 100%;
+    background-position:left bottom;
+}
+
+.currentShowsTab{
+    background: linear-gradient(to right, #4ad8f5 50%, #1c232c 50%);
+    background-size: 200% 100%;
+    background-position:left bottom;
+}
+.activeShowTab + .currentShowsTab {  background-position:right bottom; color:#4ad8f5; }
+.activeShowTab{background-position:right bottom!important;  color:#1c232c!important;}
+
+.currentPrograms{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.oldPrograms{
+    display: flex;
+    justify-content: center;
+    visibility: hidden;
+}
+
 .programsMini {
     width:100%;
     border-top:2px solid #95989a;
@@ -691,6 +734,7 @@ poadcasts
     margin-bottom:5px;
     font-size: 115%;
 }
+
 .active{
     border:2px solid #4ad8f5!important;
 }
