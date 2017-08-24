@@ -2,20 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="900cd7e3-0b7a-4de7-8ca1-f01ff67e98d3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apropos.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/grid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/lyd-style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/familie.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/isbjerget.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/programsTEST.js" afterPath="$PROJECT_DIR$/js/programs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Waih-v1.iml" afterPath="$PROJECT_DIR$/.idea/Waih-v1.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/animate.css" afterPath="$PROJECT_DIR$/css/animate.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style-s.css" afterPath="$PROJECT_DIR$/css/style-s.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery-2.1.1.js" afterPath="$PROJECT_DIR$/js/jquery-2.1.1.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/latestPodcast.js" afterPath="$PROJECT_DIR$/js/latestPodcast.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/programs.js" afterPath="$PROJECT_DIR$/js/programs.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/programs.php" afterPath="$PROJECT_DIR$/programs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/showMore.php" afterPath="$PROJECT_DIR$/showMore.php" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -59,8 +53,8 @@
       <file leaf-file-name="programs.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/programs.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="122" column="38" lean-forward="false" selection-start-line="122" selection-start-column="38" selection-end-line="122" selection-end-column="38" />
+            <state relative-caret-position="329">
+              <caret line="124" column="66" lean-forward="false" selection-start-line="124" selection-start-column="66" selection-end-line="124" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -69,8 +63,8 @@
       <file leaf-file-name="style-s.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style-s.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="702" column="23" lean-forward="true" selection-start-line="702" selection-start-column="23" selection-end-line="702" selection-end-column="23" />
+            <state relative-caret-position="237">
+              <caret line="738" column="30" lean-forward="true" selection-start-line="738" selection-start-column="30" selection-end-line="738" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -79,8 +73,8 @@
       <file leaf-file-name="programs.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/programs.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="106" column="106" lean-forward="false" selection-start-line="106" selection-start-column="106" selection-end-line="106" selection-end-column="106" />
+            <state relative-caret-position="183">
+              <caret line="42" column="22" lean-forward="false" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -90,42 +84,38 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>slideInLeft</find>
-      <find>animate</find>
-      <find>hidden</find>
-      <find>flipInX</find>
-      <find>isbjerg</find>
-      <find>turKultur</find>
-      <find>samfund</find>
-      <find>tabu</find>
-      <find>familie</find>
-      <find>playerCo</find>
-      <find>p</find>
-      <find>animated</find>
-      <find>bounceOutRight</find>
-      <find>12vh</find>
-      <find>media</find>
-      <find>hør</find>
-      <find>hørt</find>
-      <find>9999</find>
-      <find>999</find>
-      <find>row</find>
-      <find>border</find>
-      <find>.upto</find>
-      <find>currentShow</find>
-      <find>old</find>
-      <find>styles</find>
-      <find>oldShow</find>
       <find>oldShows</find>
       <find>.programs</find>
       <find>newPr</find>
       <find>programs</find>
+      <find>turkultur</find>
+      <find>$</find>
+      <find>flex</find>
+      <find>current</find>
+      <find>slide</find>
+      <find>scale</find>
+      <find>slideni</find>
+      <find>scale(0.5,0.5);</find>
+      <find>scale(1,1);</find>
+      <find>(0.5,0.5)</find>
+      <find>oldpr</find>
+      <find>.upto</find>
+      <find>console</find>
+      <find>.kultur</find>
+      <find>show_name</find>
+      <find>i</find>
+      <find>kultur</find>
+      <find>rotateZ</find>
+      <find>children</find>
+      <find>0.5,0.5</find>
+      <find>slideInR</find>
+      <find>is_hidde</find>
+      <find>is_hidden</find>
+      <find>.is_hidden</find>
+      <find>active</find>
+      <find>.active</find>
     </findStrings>
     <replaceStrings>
-      <replace>display: none;</replace>
-      <replace>$(&quot;.programsMini &gt; ul li:eq(0) &gt; div&quot;).addClass('active');</replace>
-      <replace>$(&quot;.programsMini &gt; ul li:eq(5) &gt; div&quot;).addClass('active');</replace>
-      <replace>$(&quot;.programsMini &gt; ul li:eq(6) &gt; div&quot;).addClass('active');</replace>
       <replace>'</replace>
       <replace>grid-column: 1/4$</replace>
       <replace>grid</replace>
@@ -149,6 +139,13 @@
       <replace>enFamilieTing</replace>
       <replace>500</replace>
       <replace>hinge</replace>
+      <replace>scale(1,1);</replace>
+      <replace>scale(0.5,0.5);</replace>
+      <replace>turMedKultur</replace>
+      <replace>(0.2,0.2)</replace>
+      <replace>rotateY</replace>
+      <replace>0.1,0.1</replace>
+      <replace>children()</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -168,15 +165,16 @@
         <option value="$PROJECT_DIR$/js/apropos.js" />
         <option value="$PROJECT_DIR$/css/style-sTEST.css" />
         <option value="$PROJECT_DIR$/download_podcasts.php" />
-        <option value="$PROJECT_DIR$/css/animate.css" />
-        <option value="$PROJECT_DIR$/js/latestPodcast.js" />
         <option value="$PROJECT_DIR$/js/programsTEST.js" />
         <option value="$PROJECT_DIR$/showMore.php" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/styles.css" />
-        <option value="$PROJECT_DIR$/css/style-s.css" />
+        <option value="$PROJECT_DIR$/js/latestPodcast.js" />
+        <option value="$PROJECT_DIR$/js/jquery-2.1.1.js" />
+        <option value="$PROJECT_DIR$/css/animate.css" />
         <option value="$PROJECT_DIR$/programs.php" />
         <option value="$PROJECT_DIR$/js/programs.js" />
+        <option value="$PROJECT_DIR$/css/style-s.css" />
       </list>
     </option>
   </component>
@@ -354,7 +352,7 @@
       <workItem from="1502804252245" duration="4340000" />
       <workItem from="1502985898156" duration="60781000" />
       <workItem from="1503337565112" duration="437000" />
-      <workItem from="1503504001548" duration="8862000" />
+      <workItem from="1503504001548" duration="21606000" />
     </task>
     <task id="LOCAL-00001" summary="Mobil side virker, skærm bliver ikke større og den scroller ned når man på mobil men ikke på computer. det rigtige programs miniudgave (cirklerne) får den blå ring om sig afhængig af hvilken dag og jeg har fikset tekts og billede osv sådan så det ser fint ud på mobil. Det eneste der mangler er at fikse størrelse på player og teksten der kommer med playerne fra databasen">
       <created>1501871703082</created>
@@ -419,11 +417,18 @@
       <option name="project" value="LOCAL" />
       <updated>1503316112078</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="programside faner WIP">
+      <created>1503529440948</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1503529440948</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108757000" />
+    <option name="totallyTimeSpent" value="121501000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="22" width="1436" height="878" extended-state="0" />
@@ -470,20 +475,14 @@
     <MESSAGE value="sådan" />
     <MESSAGE value="Vis mere virker &#10;&#10;Mangler:&#10;fjern vis mere når der ikke er flere podcasts at hente" />
     <MESSAGE value="Forside done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Forside done" />
+    <MESSAGE value="programside faner WIP" />
+    <option name="LAST_COMMIT_MESSAGE" value="programside faner WIP" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/style-s.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2940">
-          <caret line="196" column="13" lean-forward="true" selection-start-line="196" selection-start-column="13" selection-end-line="196" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="885">
@@ -775,13 +774,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/animate.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/grid.css" />
     <entry file="file://$PROJECT_DIR$/familie.html" />
     <entry file="file://$PROJECT_DIR$/showMore.php">
@@ -823,14 +815,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/latestPodcast.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="214" column="68" lean-forward="false" selection-start-line="214" selection-start-column="68" selection-end-line="214" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -839,26 +823,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/programs.php">
+    <entry file="file://$PROJECT_DIR$/js/latestPodcast.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="122" column="38" lean-forward="false" selection-start-line="122" selection-start-column="38" selection-end-line="122" selection-end-column="38" />
+        <state relative-caret-position="15">
+          <caret line="153" column="47" lean-forward="false" selection-start-line="153" selection-start-column="47" selection-end-line="153" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery-2.1.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="654">
+          <caret line="9192" column="0" lean-forward="true" selection-start-line="9192" selection-start-column="0" selection-end-line="9192" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/animate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="2481" column="54" lean-forward="true" selection-start-line="2481" selection-start-column="54" selection-end-line="2481" selection-end-column="54" />
+          <caret line="2482" column="50" lean-forward="true" selection-start-line="2482" selection-start-column="50" selection-end-line="2482" selection-end-column="50" />
+          <caret line="2483" column="46" lean-forward="true" selection-start-line="2483" selection-start-column="46" selection-end-line="2483" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style-s.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="702" column="23" lean-forward="true" selection-start-line="702" selection-start-column="23" selection-end-line="702" selection-end-column="23" />
+        <state relative-caret-position="237">
+          <caret line="738" column="30" lean-forward="true" selection-start-line="738" selection-start-column="30" selection-end-line="738" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="124" column="66" lean-forward="false" selection-start-line="124" selection-start-column="66" selection-end-line="124" selection-end-column="66" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/programs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="106" column="106" lean-forward="false" selection-start-line="106" selection-start-column="106" selection-end-line="106" selection-end-column="106" />
+        <state relative-caret-position="183">
+          <caret line="42" column="22" lean-forward="false" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
           <folding />
         </state>
       </provider>

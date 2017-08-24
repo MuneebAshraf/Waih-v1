@@ -11,8 +11,8 @@
     <link rel="stylesheet" type="text/css" href="css/ionicons.min.css">
     <link href="css/flexslider.css" rel="stylesheet" >
     <link rel="stylesheet" type="text/css" href="css/plyr.css">
-    <link href="css/style-s.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
+    <link href="css/style-s.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
 
@@ -121,12 +121,10 @@
                     <li><p>Fredag</p><div class="aktivister"></div></li>
                 </ul>
                 <ul class="oldPrograms">
-                    <li><p>Onsdag</p><div class="kultur"></div></li>
-                    <li><p>Torsdag</p><div class="samfund"></div></li>
-                    <li><p>Tirsdag</p><div class="isbjerg"></div></li>
-                    <li><p>Søndag</p><div class="familie"></div></li>
-                    <li><p>Søndag</p><div class="tabu"></div></li>
-
+                    <li><p>En tur med kultur</p><div class="turKultur"></div></li>
+                    <li><p>Samdundsdebatten</p><div class="samfund"></div></li>
+                    <li><p>Isbjerget</p><div class="isbjerg"></div></li>
+                    <li><p>En familie ting</p><div class="familie"></div></li>
                 </ul>
             </div>
             <h1 style="text-align: center" class="programHeadline"></h1>

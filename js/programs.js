@@ -22,6 +22,8 @@ var offset = 0;
 
 var stateObj = { programmer: "programmer" };
 
+
+
 upToDate={show_name: "upToDate", div: ".program-upto", header: 'Up to date'};
 toppenAfIsbjerget={show_name: "toppenAfIsbjerget", div: ".program-isbjerg", header: 'Isbjerget'};
 turMedKultur={show_name: "turMedKultur", div: ".program-turKultur", header: 'Tur med kultur'};
@@ -29,11 +31,12 @@ samfundsdebatten={show_name: "samfundsdebatten", div: ".program-samfund", header
 apropos={show_name: "apropos", div: ".program-apropos", header: 'Apropos'};
 aktivister={show_name: "aktivister", div: ".program-aktivister", header: 'Aktivister'};
 enFamilieTing={show_name: "enFamilieTing", div: ".program-familie", header: 'Familie'};
-
-
-
-
+var shows = [upToDate,toppenAfIsbjerget,turMedKultur,samfundsdebatten,apropos,aktivister,enFamilieTing];
 var show_today;
+
+
+
+
 
 switch (new Date().getDay()){
     case 1: show_today =upToDate;
@@ -43,7 +46,7 @@ switch (new Date().getDay()){
             $(".isbjerg").addClass('active');
         break;
     case 3: show_today =turMedKultur;
-            $(".kultur").addClass('active');
+            $(".turKultur").addClass('active');
         break;
     case 4: show_today =samfundsdebatten;
             $(".samfund").addClass('active');
@@ -62,24 +65,18 @@ switch (new Date().getDay()){
 visibleShow();
 
 $(document).on('click','.programsMini li',function () {
-    if(!$(this).find('div').hasClass('active')){
+    if(!$(this).find('div').parent().hasClass('active')){
     offset = 0;
-    switch($(this).index()){
-        case 0:hideShow();show_today=upToDate;visibleShow();$(this).find('div').addClass('active');
-            break;
-        case 1:hideShow();show_today=toppenAfIsbjerget;visibleShow();$(this).find('div').addClass('active');
-            break;
-        case 2:hideShow();show_today=turMedKultur;visibleShow();$(this).find('div').addClass('active');
-            break;
-        case 3:hideShow();show_today=samfundsdebatten;visibleShow();$(this).find('div').addClass('active');
-            break;
-        case 4:hideShow();show_today=apropos;visibleShow();$(this).find('div').addClass('active');
-            break;
-        case 5:hideShow();show_today=aktivister;visibleShow();$(this).find('div').addClass('active');
-            break;
-        case 6:hideShow();show_today=enFamilieTing;visibleShow();$(this).find('div').addClass('active');
-            break;
+
+    hideShow();
+    var clickedShow = ".program-" + $(this).find('div').attr("class");
+    for (var i = 0 ; i < shows.length ; i++){
+        if (shows[i].div === (clickedShow)){
+            show_today= shows[i]
+        }
     }
+    visibleShow()
+    $(this).find('div').parent().addClass('active');
         return false;
     }
 });
@@ -90,7 +87,6 @@ $(document).on('click','.oldShowsTab, .currentShowsTab',function () {
     //check hvis IKKE "tidligere shows" har klassen activeShowTab(activeShowTab ændrer fanen der aktiv fra tidligere til nuværende)
     if(!$(".oldShowsTab").hasClass('activeShowTab'))
     {
-
         //Hvis ikke den har, så tilføj klassen activeShowTab
         $(".oldShowsTab").addClass('activeShowTab');
 
@@ -99,19 +95,20 @@ $(document).on('click','.oldShowsTab, .currentShowsTab',function () {
         // 2. tilføj klassen slideInRight til "tidligere shows og animated
         // (den har i forvejen en visibilty:hidden og animated sætter visibility:visible)
         // 3. tilføje slideOutLeft klassen til nuværende shows
-            $(".oldPrograms").removeClass('slideOutRight');
-            $(".oldPrograms").addClass('animated slideInRight');
-            $(".currentPrograms").addClass('slideOutLeft');
+            $(".oldPrograms").removeClass('slideOutLeft');
+            $(".oldPrograms").addClass('animated slideInLeft');
+            $(".currentPrograms").addClass('slideOutRight');
+            setTimeout(function(){$(".currentPrograms").hide()}, 1000);
     } else {
 
         //hvis allerede har activeShowTab så gør den sådan set bare det omvendte af de ovenstående 3 trin.
         $(".oldShowsTab").removeClass('activeShowTab')
-            $(".currentPrograms").removeClass('slideOutLeft');
-            $(".currentPrograms").addClass('slideInLeft');
-            $(".oldPrograms").addClass('slideOutRight');
+            $(".currentPrograms").removeClass('slideOutRight');
+            $(".currentPrograms").show().addClass('slideInRight');
+            $(".oldPrograms").addClass('slideOutLeft');
     }
 
-})
+});
 
 
 // click på vis mere
@@ -135,15 +132,15 @@ $(document).on('click','#vis',function () {
 function hideShow() {
     $(show_today.div +' > .podcastsPlayer').empty();
     $(show_today.div).addClass('is_hidden');
-    $(".programmer > .is_hidden ").css('display','inline-block');
+    $(".programmer > .is_hidden ").show();
     $(show_today.div).removeClass('is_visible');
-    $(".programsMini li").find('div').removeClass('active');
-    setTimeout(function(){ $(".programmer > .is_hidden ").css('display','none');$(".programmer > div").removeClass('is_hidden'); }, 1000);
+    $(".programsMini li").removeClass('active');
+    setTimeout(function(){ $(".programmer > .is_hidden ").hide();$(".programmer > div").removeClass('is_hidden'); }, 1000);
 
     if (window.matchMedia('(max-width: 44.1875em)').matches) {
         $('html, body').animate({
             scrollTop: $(".programHeadline").offset().top - 20
-        }, 1000);
+        }, 1500);
     }}
 
 function visibleShow() {
@@ -179,7 +176,6 @@ function addPodcasts(){
 function showMore() {
     $.get('../showMore.php?show_name=' + show_today.show_name + "&offset=" + offset + "&limit=6",
         function (response) {
-        console.log(response)
         //hvis mindre end 6 bliver returneret er det logisk at der ikke er flere podcasts og knappen skjules
             if (response < 6){
                 $(".is_visible > .showMore").hide();

@@ -663,6 +663,7 @@ poadcasts
 .allShows{
     display: flex;
     justify-content: center;
+    cursor: pointer;
 }
 
 .oldShowsTab, .currentShowsTab{
@@ -697,10 +698,11 @@ poadcasts
     flex-wrap: wrap;
 }
 
-.oldPrograms{
+div.row > div.programsMini >ul.oldPrograms{
     display: flex;
     justify-content: center;
     visibility: hidden;
+    flex-wrap: wrap;
 }
 
 .programsMini {
@@ -733,11 +735,19 @@ poadcasts
     margin-top:0;
     margin-bottom:5px;
     font-size: 115%;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
 }
 
-.active{
+.active > div {
     border:2px solid #4ad8f5!important;
 }
+ .active > p{
+     color:#4ad8f5;
+ }
 
 .programsMini div{
     width:100px;
@@ -962,60 +972,61 @@ div.podcastsPlayer > div:nth-child(2n){
 @-webkit-keyframes slideInLeft {
     0% {
         opacity: 0;
-        -webkit-transform: translateX(-2000px);
-        transform: translateX(-2000px);
+        -webkit-transform: translateX(-2000px) scale(0.1,0.1);
+        transform: translateX(-2000px) scale(0.1,0.1);
     }
 
     100% {
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
+        -webkit-transform: translateX(0) scale(1,1);
+        transform: translateX(0) scale(1,1);
     }
 }
 
 @keyframes slideInLeft {
     0% {
         opacity: 0;
-        -webkit-transform: translateX(-2000px);
-        -ms-transform: translateX(-2000px);
-        transform: translateX(-2000px);
+        -webkit-transform: translateX(-2000px) scale(0.1,0.1);
+        -ms-transform: translateX(-2000px) scale(0.1,0.1);
+        transform: translateX(-2000px)  scale(0.1,0.1);
     }
 
     100% {
-        -webkit-transform: translateX(0);
-        -ms-transform: translateX(0);
-        transform: translateX(0);
+        -webkit-transform: translateX(0) scale(1,1);
+        -ms-transform: translateX(0) scale(1,1);
+        transform: translateX(0) scale(1,1);
     }
 }
 .programmer > .is_hidden{
+    display: inline-block;
     -webkit-animation-name: slideOutRight;
     animation-name: slideOutRight;
 }
 
 @-webkit-keyframes slideOutRight {
     0% {
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
+        -webkit-transform: translateX(0) scale(1,1);
+        transform: translateX(0) scale(1,1);
     }
 
     100% {
         opacity: 0;
-        -webkit-transform: translateX(2000px);
-        transform: translateX(2000px);
+        -webkit-transform: translateX(2000px) scale(0.1,0.1);
+        transform: translateX(2000px) scale(0.1,0.1);
     }
 }
 
 @keyframes slideOutRight {
     0% {
-        -webkit-transform: translateX(0);
-        -ms-transform: translateX(0);
-        transform: translateX(0);
+        -webkit-transform: translateX(0) scale(1,1);
+        -ms-transform: translateX(0) scale(1,1);
+        transform: translateX(0)  scale(1,1);
     }
 
     100% {
         opacity: 0;
-        -webkit-transform: translateX(2000px);
-        -ms-transform: translateX(2000px);
-        transform: translateX(2000px);
+        -webkit-transform: translateX(2000px)scale(0.1,0.1);
+        -ms-transform: translateX(2000px)scale(0.1,0.1);
+        transform: translateX(2000px)scale(0.1,0.1);
     }
 }
 
@@ -1030,7 +1041,7 @@ div.podcastsPlayer > div:nth-child(2n){
 .isbjerg{
     background: url("../img/toppen.JPG");
 }
-.kultur{
+.turKultur{
     background: url("../img/kultur.jpg");
 }
 .samfund{

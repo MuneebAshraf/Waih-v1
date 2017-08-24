@@ -107,7 +107,7 @@ function latestPodcasts() {
     function wednesday() {
         $(".latestPodcasts1").empty();
         $(".latestPodcasts1").append(
-           turkultur.div + toppenAfIsbjerget.div
+           turMedKultur.div + toppenAfIsbjerget.div
 
         );
         $(".latestPodcasts2").empty();
@@ -120,7 +120,7 @@ function latestPodcasts() {
     function thursday() {
         $(".latestPodcasts1").empty();
         $(".latestPodcasts1").append(
-            samfundsdebatten.div + turkultur.div
+            samfundsdebatten.div + turMedKultur.div
 
         );
         $(".latestPodcasts2").empty();
@@ -138,7 +138,7 @@ function latestPodcasts() {
         );
         $(".latestPodcasts2").empty();
         $(".latestPodcasts2").append(
-            turkultur.div + toppenAfIsbjerget.div
+            turMedKultur.div + toppenAfIsbjerget.div
         );
         getText(apropos,samfundsdebatten,turMedKultur,toppenAfIsbjerget);
     }
@@ -151,7 +151,7 @@ function latestPodcasts() {
         );
         $(".latestPodcasts2").empty();
         $(".latestPodcasts2").append(
-            samfundsdebatten.div + turkultur.div
+            samfundsdebatten.div + turMedKultur.div
         );
         getText(aktivister,apropos,samfundsdebatten,turMedKultur);
     }

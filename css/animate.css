@@ -12,6 +12,7 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 */
+/* Small Devices, Tablets */
 
 .animated {
   visibility: visible!important;
@@ -2383,28 +2384,28 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 @-webkit-keyframes slideInRight {
   0% {
     opacity: 0;
-    -webkit-transform: translateX(2000px);
-    transform: translateX(2000px);
+    -webkit-transform: translateX(2000px) scale(0.1,0.1);
+    transform: translateX(2000px) scale(0.1,0.1);
   }
 
   100% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
+    -webkit-transform: translateX(0) scale(1,1);
+    transform: translateX(0) scale(1,1);
   }
 }
 
 @keyframes slideInRight {
   0% {
     opacity: 0;
-    -webkit-transform: translateX(2000px);
-    -ms-transform: translateX(2000px);
-    transform: translateX(2000px);
+    -webkit-transform: translateX(2000px)scale(0.1,0.1);
+    -ms-transform: translateX(2000px)scale(0.1,0.1);
+    transform: translateX(2000px)scale(0.1,0.1);
   }
 
   100% {
-    -webkit-transform: translateX(0);
-    -ms-transform: translateX(0);
-    transform: translateX(0);
+    -webkit-transform: translateX(0)scale(1,1);
+    -ms-transform: translateX(0)scale(1,1);
+    transform: translateX(0)scale(1,1);
   }
 }
 
@@ -2415,29 +2416,29 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 @-webkit-keyframes slideOutLeft {
   0% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
+    -webkit-transform: translateX(0) scale(1,1);
+    transform: translateX(0) scale(1,1);
   }
 
   100% {
     opacity: 0;
-    -webkit-transform: translateX(-2000px);
-    transform: translateX(-2000px);
+    -webkit-transform: translateX(-2000px) scale(0.1,0.1);;
+    transform: translateX(-2000px) scale(0.1,0.1);;
   }
 }
 
 @keyframes slideOutLeft {
   0% {
-    -webkit-transform: translateX(0);
-    -ms-transform: translateX(0);
-    transform: translateX(0);
+    -webkit-transform: translateX(0) scale(1,1);
+    -ms-transform: translateX(0) scale(1,1);
+    transform: translateX(0) scale(1,1);
   }
 
   100% {
     opacity: 0;
-    -webkit-transform: translateX(-2000px);
-    -ms-transform: translateX(-2000px);
-    transform: translateX(-2000px);
+    -webkit-transform: translateX(-2000px) scale(0.1,0.1);;
+    -ms-transform: translateX(-2000px) scale(0.1,0.1);;
+    transform: translateX(-2000px) scale(0.1,0.1);;
   }
 }
 
@@ -2448,29 +2449,29 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 @-webkit-keyframes slideOutRight {
   0% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
+    -webkit-transform: translateX(0) scale(1,1);
+    transform: translateX(0) scale(1,1);
   }
 
   100% {
     opacity: 0;
-    -webkit-transform: translateX(2000px);
-    transform: translateX(2000px);
+    -webkit-transform: translateX(2000px) scale(0.1,0.1);
+    transform: translateX(2000px) scale(0.1,0.1);
   }
 }
 
 @keyframes slideOutRight {
   0% {
-    -webkit-transform: translateX(0);
-    -ms-transform: translateX(0);
-    transform: translateX(0);
+    -webkit-transform: translateX(0)scale(1,1);
+    -ms-transform: translateX(0)scale(1,1);
+    transform: translateX(0)scale(1,1);
   }
 
   100% {
     opacity: 0;
-    -webkit-transform: translateX(2000px);
-    -ms-transform: translateX(2000px);
-    transform: translateX(2000px);
+    -webkit-transform: translateX(2000px)scale(0.1,0.1);
+    -ms-transform: translateX(2000px)scale(0.1,0.1);
+    transform: translateX(2000px)scale(0.1,0.1);
   }
 }
 
